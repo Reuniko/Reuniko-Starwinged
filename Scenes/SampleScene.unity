@@ -1645,6 +1645,32 @@ MonoBehaviour:
   showGizmos: 1
   boneOpacity: 0.5
   limitOpacity: 0.5
+--- !u!1 &408374948 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3489497601361014436, guid: 7724aed34b09e934ea2da5dbbbe78922,
+    type: 3}
+  m_PrefabInstance: {fileID: 1947115992}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &408374950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 408374948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1631200402, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rootTransform: {fileID: 1947115998}
+  shapeType: 1
+  insideBounds: 0
+  radius: 0.09
+  height: 0.3
+  position: {x: 0, y: 0.7, z: 0.015}
+  rotation: {x: 0.06488069, y: 0, z: 0, w: -0.99789304}
+  bonesAsSpheres: 0
 --- !u!1 &417769592 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3166347832485275161, guid: 7724aed34b09e934ea2da5dbbbe78922,
@@ -4969,7 +4995,8 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  colliders: []
+  colliders:
+  - {fileID: 408374950}
   limitType: 1
   maxAngleX: 15
   maxAngleXCurve:
@@ -6363,6 +6390,12 @@ MonoBehaviour:
     height: 0
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
+--- !u!4 &1947115998 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7724aed34b09e934ea2da5dbbbe78922,
+    type: 3}
+  m_PrefabInstance: {fileID: 1947115992}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1967168875 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3704800889545596100, guid: 7724aed34b09e934ea2da5dbbbe78922,
