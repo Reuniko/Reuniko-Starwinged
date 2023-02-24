@@ -1,0 +1,4082 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 11
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_UseShadowmask: 1
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1001 &458181536
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5935069667864179738, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5935069667864179738, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5935069667864179738, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4926697873900762563, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9986295
+      objectReference: {fileID: 0}
+    - target: {fileID: -4926697873900762563, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.05233596
+      objectReference: {fileID: 0}
+    - target: {fileID: -4926697873900762563, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4926697873900762563, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_Name
+      value: GoAvatrCoat
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1002624830632417832, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1002624830632417832, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1002624830632417832, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1066413047209539593, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1066413047209539593, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1066413047209539593, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1630794972795428178, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_ProbeAnchor
+      value: 
+      objectReference: {fileID: 458181542}
+    - target: {fileID: 1630794972795428178, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_AABB.m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1630794972795428178, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_AABB.m_Center.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1630794972795428178, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_AABB.m_Center.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1630794972795428178, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.x
+      value: 1.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 1630794972795428178, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.y
+      value: 1.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 1630794972795428178, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.z
+      value: 1.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 1630794972795428178, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d3695d7b3cdb1054fa68d828f01604e4, type: 2}
+    - target: {fileID: 1630794972795428178, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: d904b2ab1a65c2949906b87b1a9aa83f, type: 2}
+    - target: {fileID: 1630794972795428178, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.size
+      value: 71
+      objectReference: {fileID: 0}
+    - target: {fileID: 1630794972795428178, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[53]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1630794972795428178, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[54]
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5682925767811366917, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9986295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5682925767811366917, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.05233596
+      objectReference: {fileID: 0}
+    - target: {fileID: 5682925767811366917, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5682925767811366917, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9139599023955902398, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9139599023955902398, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9139599023955902398, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2e86234f85749c1469c3a122e2d7e338, type: 3}
+--- !u!1 &458181537 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 2e86234f85749c1469c3a122e2d7e338,
+    type: 3}
+  m_PrefabInstance: {fileID: 458181536}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &458181538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 458181537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1427037861, guid: 4ecd63eff847044b68db9453ce219299, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  launchedFromSDKPipeline: 0
+  completedSDKPipeline: 0
+  blueprintId: 
+  contentType: 0
+  assetBundleUnityVersion: 
+  fallbackStatus: 3
+--- !u!114 &458181539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 458181537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 542108242, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  ViewPosition: {x: 0, y: 1.351438, z: 0.079798386}
+  Animations: 0
+  ScaleIPD: 1
+  lipSync: 3
+  lipSyncJawBone: {fileID: 0}
+  lipSyncJawClosed: {x: 0, y: 0, z: 0, w: 1}
+  lipSyncJawOpen: {x: 0, y: 0, z: 0, w: 1}
+  VisemeSkinnedMesh: {fileID: 458181545}
+  MouthOpenBlendShapeName: Facial_Blends.Jaw_Down
+  VisemeBlendShapes:
+  - vrc.v_sil
+  - vrc.v_pp
+  - vrc.v_ff
+  - vrc.v_th
+  - vrc.v_dd
+  - vrc.v_kk
+  - vrc.v_ch
+  - vrc.v_ss
+  - vrc.v_nn
+  - vrc.v_rr
+  - vrc.v_aa
+  - vrc.v_e
+  - vrc.v_ih
+  - vrc.v_oh
+  - vrc.v_ou
+  unityVersion: 2019.4.31f1
+  portraitCameraPositionOffset: {x: 0, y: 0, z: 0}
+  portraitCameraRotationOffset: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+  customExpressions: 1
+  expressionsMenu: {fileID: 11400000, guid: 246bd59ebb2aca94fbe31619c0bad91a, type: 2}
+  expressionParameters: {fileID: 11400000, guid: 1320e51753e1e8b4595fd3b810d01836,
+    type: 2}
+  enableEyeLook: 1
+  customEyeLookSettings:
+    eyeMovement:
+      confidence: 0.5
+      excitement: 0.5
+    leftEye: {fileID: 458181547}
+    rightEye: {fileID: 458181546}
+    eyesLookingStraight:
+      linked: 1
+      left: {x: 0, y: 0, z: 0, w: 1}
+      right: {x: 0, y: 0, z: 0, w: 1}
+    eyesLookingUp:
+      linked: 1
+      left: {x: -0.05233596, y: 0, z: 0, w: 0.9986295}
+      right: {x: -0.05233596, y: 0, z: 0, w: 0.9986295}
+    eyesLookingDown:
+      linked: 1
+      left: {x: 0.05233596, y: 0, z: 0, w: 0.9986295}
+      right: {x: 0.05233596, y: 0, z: 0, w: 0.9986295}
+    eyesLookingLeft:
+      linked: 1
+      left: {x: 0, y: -0.05233596, z: 0, w: 0.9986295}
+      right: {x: 0, y: -0.05233596, z: 0, w: 0.9986295}
+    eyesLookingRight:
+      linked: 1
+      left: {x: 0, y: 0.05233596, z: 0, w: 0.9986295}
+      right: {x: 0, y: 0.05233596, z: 0, w: 0.9986295}
+    eyelidType: 2
+    upperLeftEyelid: {fileID: 0}
+    upperRightEyelid: {fileID: 0}
+    lowerLeftEyelid: {fileID: 0}
+    lowerRightEyelid: {fileID: 0}
+    eyelidsDefault:
+      upper:
+        linked: 1
+        left: {x: 0, y: 0, z: 0, w: 0}
+        right: {x: 0, y: 0, z: 0, w: 0}
+      lower:
+        linked: 1
+        left: {x: 0, y: 0, z: 0, w: 0}
+        right: {x: 0, y: 0, z: 0, w: 0}
+    eyelidsClosed:
+      upper:
+        linked: 1
+        left: {x: 0, y: 0, z: 0, w: 0}
+        right: {x: 0, y: 0, z: 0, w: 0}
+      lower:
+        linked: 1
+        left: {x: 0, y: 0, z: 0, w: 0}
+        right: {x: 0, y: 0, z: 0, w: 0}
+    eyelidsLookingUp:
+      upper:
+        linked: 1
+        left: {x: 0, y: 0, z: 0, w: 0}
+        right: {x: 0, y: 0, z: 0, w: 0}
+      lower:
+        linked: 1
+        left: {x: 0, y: 0, z: 0, w: 0}
+        right: {x: 0, y: 0, z: 0, w: 0}
+    eyelidsLookingDown:
+      upper:
+        linked: 1
+        left: {x: 0, y: 0, z: 0, w: 0}
+        right: {x: 0, y: 0, z: 0, w: 0}
+      lower:
+        linked: 1
+        left: {x: 0, y: 0, z: 0, w: 0}
+        right: {x: 0, y: 0, z: 0, w: 0}
+    eyelidsSkinnedMesh: {fileID: 458181545}
+    eyelidsBlendshapes: 3500000036000000ffffffff
+  customizeAnimationLayers: 1
+  baseAnimationLayers:
+  - isEnabled: 0
+    type: 0
+    animatorController: {fileID: 9100000, guid: f0eb4443b18594c43813f6ffeb2dbe8a,
+      type: 2}
+    mask: {fileID: 0}
+    isDefault: 0
+  - isEnabled: 0
+    type: 2
+    animatorController: {fileID: 9100000, guid: f2bdad5be52fce045b07e09ed6bc847e,
+      type: 2}
+    mask: {fileID: 0}
+    isDefault: 0
+  - isEnabled: 0
+    type: 3
+    animatorController: {fileID: 9100000, guid: 053f861701fe8564eb060da651087f11,
+      type: 2}
+    mask: {fileID: 31900000, guid: b2b8bad9583e56a46a3e21795e96ad92, type: 2}
+    isDefault: 0
+  - isEnabled: 0
+    type: 4
+    animatorController: {fileID: 9100000, guid: 1863ae6c944b73343abbbefe18125e0f,
+      type: 2}
+    mask: {fileID: 0}
+    isDefault: 0
+  - isEnabled: 0
+    type: 5
+    animatorController: {fileID: 9100000, guid: 3f09f0a240144e848bdf82fbda035d65,
+      type: 2}
+    mask: {fileID: 0}
+    isDefault: 0
+  specialAnimationLayers:
+  - isEnabled: 0
+    type: 6
+    animatorController: {fileID: 9100000, guid: d75f14b0507340640b969cd6c4c51359,
+      type: 2}
+    mask: {fileID: 0}
+    isDefault: 0
+  - isEnabled: 0
+    type: 7
+    animatorController: {fileID: 9100000, guid: 2e96ef8dd5c6a2c478db2c296acd8e16,
+      type: 2}
+    mask: {fileID: 0}
+    isDefault: 0
+  - isEnabled: 0
+    type: 8
+    animatorController: {fileID: 0}
+    mask: {fileID: 0}
+    isDefault: 1
+  AnimationPreset: {fileID: 0}
+  animationHashSet:
+  - hash: 864058859
+    name: Avatar 3D Thumbnail
+  - hash: 608360368
+    name: Desktop.Super VR Ball Desktop.SVRB Standing
+  - hash: -1937512338
+    name: Desktop.Super VR Ball Desktop.SVRB Crouching/Proning
+  - hash: 568070672
+    name: Desktop.Super VR Ball Desktop.SVRB Stand Motion Desktop
+  - hash: 1172525715
+    name: Desktop.Super VR Ball Desktop.SVRB Crouch Motion Desktop
+  - hash: -1962203327
+    name: Desktop.Super VR Ball Desktop.SVRB Proning Motion Desktop
+  - hash: -338251605
+    name: Desktop.Super VR Ball Desktop.SmallHop
+  - hash: 458321901
+    name: Desktop.Fly Desktop.Fly Desktop On
+  - hash: 1621782082
+    name: Desktop.Fly Desktop.Fly Desktop Off
+  - hash: 262510369
+    name: Desktop.Fly Desktop.Fly Desktop ?
+  - hash: -1321680175
+    name: Desktop.Fly Desktop.Fly Desktop Init
+  - hash: -533950883
+    name: Desktop.Scaling Desktop.Scale Crouch Motion Desktop
+  - hash: -457853129
+    name: Desktop.Scaling Desktop.Scale Stand Motion Desktop
+  - hash: -143522006
+    name: Desktop.Scaling Desktop.Scale Proning Motion Desktop
+  - hash: -603793872
+    name: Desktop.Scaling Desktop.Scale F Proning Motion Desktop
+  - hash: 242726350
+    name: Desktop.Scaling Desktop.Scale F Stand Motion Desktop
+  - hash: 614926055
+    name: Desktop.Scaling Desktop.Scale F Crouch Motion Desktop
+  - hash: 1874686280
+    name: Desktop.Scaling Desktop.Scale Jump & Fall Desktop.Jump Desktop
+  - hash: -2087675977
+    name: Desktop.Scaling Desktop.Scale Jump & Fall Desktop.Jump Desktop Mirror
+  - hash: -807179267
+    name: Desktop.Scaling Desktop.Scale Jump & Fall Desktop.Fall
+  - hash: 1202477360
+    name: Desktop.Jump & Fall Desktop.Jump Desktop
+  - hash: -1880180925
+    name: Desktop.Jump & Fall Desktop.Jump Desktop Mirror
+  - hash: 357309967
+    name: Desktop.Jump & Fall Desktop.Fall
+  - hash: 315108046
+    name: Desktop.Prone Desktop.Proning Motion Desktop
+  - hash: 1869567758
+    name: Desktop.Prone Desktop.Proning Idle Desktop
+  - hash: 682960413
+    name: Desktop.Crouch Desktop.Crouch Motion Desktop
+  - hash: -450644420
+    name: Desktop.Crouch Desktop.Crouch Idle Desktop
+  - hash: -1967535374
+    name: Desktop.Stand Desktop.Stand Motion Desktop
+  - hash: 334455148
+    name: Desktop.Stand Desktop.Stand Idle Desktop
+  - hash: 386530188
+    name: Desktop.Play Space.PP
+  - hash: -1649227038
+    name: Desktop.Play Space.Horizon True Desktop
+  - hash: -1072342657
+    name: Desktop.Play Space.Horizon Reset
+  - hash: 1701472881
+    name: Desktop.Play Space.Horizon False Desktop
+  - hash: -389955305
+    name: Desktop.JSR Festival Desktop.JSRF Standing Desktop
+  - hash: -1291474278
+    name: Desktop.JSR Festival Desktop.Jump
+  - hash: -503569088
+    name: Desktop.JSR Festival Desktop.Grinding Mirror
+  - hash: -917293859
+    name: Desktop.JSR Festival Desktop.JRSF Crouch Motion Desktop
+  - hash: 1484115241
+    name: Desktop.JSR Festival Desktop.JSRF Proning Motion Desktop
+  - hash: 287549392
+    name: Desktop.JSR Festival Desktop.Double Jump
+  - hash: -918523238
+    name: Desktop.JSR Festival Desktop.Grinding
+  - hash: 2114330112
+    name: Desktop.JSR Festival Desktop.Double Jump Mirror
+  - hash: -1962922813
+    name: Desktop.JSR Festival Desktop.Jump Mirror
+  - hash: 1109941943
+    name: Desktop.Bullet Time Agent Desktop.BTA Standing Desktop
+  - hash: -1060548724
+    name: Desktop.Bullet Time Agent Desktop.Jump
+  - hash: -1977478948
+    name: Desktop.Bullet Time Agent Desktop.BTA Crouch Motion Desktop
+  - hash: 1839708674
+    name: Desktop.Bullet Time Agent Desktop.BTA Proning Motion Desktop
+  - hash: 114003645
+    name: Desktop.Bullet Time Agent Desktop.Double Jump
+  - hash: 1638827235
+    name: Desktop.Bullet Time Agent Desktop.Double Jump Mirror
+  - hash: -1662515794
+    name: Desktop.Bullet Time Agent Desktop.Jump Mirror
+  - hash: -573364436
+    name: FBT ( 6+ pt ).FBT Still
+  - hash: -344668412
+    name: FBT ( 6+ pt ).FBT Motion
+  - hash: 1679441986
+    name: FBT ( 6+ pt ).FBT InStation/AFK
+  - hash: 1451526701
+    name: FBT ( 6+ pt ).Jump & Fall FBT.Jump Desktop
+  - hash: 72970483
+    name: FBT ( 6+ pt ).Jump & Fall FBT.Jump Desktop Mirror
+  - hash: 62365280
+    name: FBT ( 6+ pt ).Jump & Fall FBT.Fall
+  - hash: 2132847706
+    name: VR ( 3-4 pt ).Super VR Ball VR.SVRB Standing
+  - hash: -1463694555
+    name: VR ( 3-4 pt ).Super VR Ball VR.SVRB Crouching/Proning
+  - hash: 707979401
+    name: VR ( 3-4 pt ).Super VR Ball VR.SVRB Stand Motion VR
+  - hash: -1936285606
+    name: VR ( 3-4 pt ).Super VR Ball VR.SVRB Crouch Motion VR
+  - hash: -1876870626
+    name: VR ( 3-4 pt ).Super VR Ball VR.SVRB Proning Motion VR
+  - hash: 1087181177
+    name: VR ( 3-4 pt ).Super VR Ball VR.SmallHop
+  - hash: -1842197501
+    name: VR ( 3-4 pt ).Fly VR.Fly VR On
+  - hash: 1927935948
+    name: VR ( 3-4 pt ).Fly VR.FlyVR Off
+  - hash: -1079141960
+    name: VR ( 3-4 pt ).Fly VR.Fly VR ?
+  - hash: -1306851204
+    name: VR ( 3-4 pt ).Fly VR.Fly VR On Init
+  - hash: -79015100
+    name: VR ( 3-4 pt ).Scaling VR.Scale Stand Motion VR
+  - hash: -685816487
+    name: VR ( 3-4 pt ).Jump & Fall VR.Jump VR
+  - hash: 267644917
+    name: VR ( 3-4 pt ).Jump & Fall VR.Jump VR Mirror
+  - hash: 827636785
+    name: VR ( 3-4 pt ).Jump & Fall VR.Fall
+  - hash: -680657902
+    name: VR ( 3-4 pt ).Prone VR.Proning Motion VR
+  - hash: -1391602277
+    name: VR ( 3-4 pt ).Prone VR.Proning Idle VR
+  - hash: 1356171812
+    name: VR ( 3-4 pt ).Crouch VR.Crouch Motion VR
+  - hash: -1468963103
+    name: VR ( 3-4 pt ).Crouch VR.Crouch Idle VR
+  - hash: -329519995
+    name: VR ( 3-4 pt ).Stand VR.Stand Motion VR
+  - hash: -182524762
+    name: VR ( 3-4 pt ).Stand VR.Stand Idle VR
+  - hash: -935363370
+    name: VR ( 3-4 pt ).Play Space VR.PP
+  - hash: 1093418023
+    name: VR ( 3-4 pt ).Play Space VR.Horizon False VR
+  - hash: -590671025
+    name: VR ( 3-4 pt ).Play Space VR.Horizon Reset
+  - hash: 1123312383
+    name: VR ( 3-4 pt ).Play Space VR.Horizon True VR
+  - hash: -549949574
+    name: VR ( 3-4 pt ).Sleep VR.Sleep VR Tracking
+  - hash: 1035639043
+    name: VR ( 3-4 pt ).Sleep VR.Sleep VR Positive
+  - hash: 1489825304
+    name: VR ( 3-4 pt ).Sleep VR.Sleep VR Negative
+  - hash: -1042625752
+    name: VR ( 3-4 pt ).JSR Festival VR.JSRF Standing VR
+  - hash: -1692134115
+    name: VR ( 3-4 pt ).JSR Festival VR.Jump
+  - hash: 2143435499
+    name: VR ( 3-4 pt ).JSR Festival VR.Grinding Mirror
+  - hash: 774460265
+    name: VR ( 3-4 pt ).JSR Festival VR.Double Jump
+  - hash: -823723988
+    name: VR ( 3-4 pt ).JSR Festival VR.Grinding
+  - hash: -1492074710
+    name: VR ( 3-4 pt ).JSR Festival VR.Double Jump Mirror
+  - hash: -1274357638
+    name: VR ( 3-4 pt ).JSR Festival VR.Jump Mirror
+  - hash: -504280105
+    name: VR ( 3-4 pt ).JSR Festival VR.JSRF Proning Motion VR
+  - hash: -312287202
+    name: VR ( 3-4 pt ).JSR Festival VR.JSRF Crouch Motion VR
+  - hash: 1484405414
+    name: VR ( 3-4 pt ).Bullet Time Agent VR.BTA Standing VR
+  - hash: 590221418
+    name: VR ( 3-4 pt ).Bullet Time Agent VR.Jump
+  - hash: -983739733
+    name: VR ( 3-4 pt ).Bullet Time Agent VR.Double Jump
+  - hash: 987914779
+    name: VR ( 3-4 pt ).Bullet Time Agent VR.Double Jump Mirror
+  - hash: 1602148792
+    name: VR ( 3-4 pt ).Bullet Time Agent VR.Jump Mirror
+  - hash: 263642600
+    name: VR ( 3-4 pt ).Bullet Time Agent VR.BTA Proning Motion VR
+  - hash: -1533676772
+    name: VR ( 3-4 pt ).Bullet Time Agent VR.BTA Crouch Motion VR
+  - hash: -607144581
+    name: Wait For a Pose
+  - hash: -1519839177
+    name: Float + 0,65
+  - hash: 1932589866
+    name: Float - 0,65
+  - hash: -312909631
+    name: Emotes
+  - hash: 2015414607
+    name: InStation
+  - hash: 263531741
+    name: Scaling
+  - hash: 2088384199
+    name: Emotes Scaling
+  - hash: -1141892420
+    name: Emotes Scaling PP
+  - hash: -731240417
+    name: Poses.253.Left
+  - hash: 2047188036
+    name: Poses.253.Right
+  - hash: 1740866848
+    name: Poses.253.Left Init
+  - hash: -920666291
+    name: Poses.253.Right Init
+  - hash: 523697082
+    name: Poses.252.Left
+  - hash: -596469776
+    name: Poses.252.Right
+  - hash: -1504879904
+    name: Poses.252.Left Init
+  - hash: 1387983650
+    name: Poses.252.Right Init
+  - hash: -1717401324
+    name: Poses.251.Left
+  - hash: -308638355
+    name: Poses.251.Right
+  - hash: 1068448993
+    name: Poses.251.Left Init
+  - hash: 623124946
+    name: Poses.251.Right Init
+  - hash: 1392401073
+    name: Poses.250.Left
+  - hash: 1273857753
+    name: Poses.250.Right
+  - hash: -31333599
+    name: Poses.250.Left Init
+  - hash: -1098814019
+    name: Poses.250.Right Init
+  - hash: 416994152
+    name: Poses.248.Left
+  - hash: -1264007136
+    name: Poses.248.Right
+  - hash: -548975093
+    name: Poses.248.Left Init
+  - hash: 1696318150
+    name: Poses.248.Right Init
+  - hash: -376675907
+    name: Poses.247.Left
+  - hash: 1122023625
+    name: Poses.247.Right
+  - hash: 1287633613
+    name: Poses.247.Left Init
+  - hash: 395271607
+    name: Poses.247.Right Init
+  - hash: -746192691
+    name: Poses.249.Left
+  - hash: 316654484
+    name: Poses.249.Right
+  - hash: 516526539
+    name: Poses.249.Left Init
+  - hash: -21066071
+    name: Poses.249.Right Init
+  - hash: 584102424
+    name: Poses.246.Left
+  - hash: -459820163
+    name: Poses.246.Right
+  - hash: -1926142707
+    name: Poses.246.Left Init
+  - hash: -1943399976
+    name: Poses.246.Right Init
+  - hash: -192327419
+    name: Poses.240.Left
+  - hash: -2025355705
+    name: Poses.240.Right
+  - hash: 1703194446
+    name: Poses.240.Left Init
+  - hash: 1662497848
+    name: Poses.240.Right Init
+  - hash: 1863848723
+    name: Poses.244.Left
+  - hash: 1929945684
+    name: Poses.244.Right
+  - hash: -715268916
+    name: Poses.244.Left Init
+  - hash: 1611763527
+    name: Poses.244.Right Init
+  - hash: 1914512299
+    name: Poses.243.Left
+  - hash: -1230005030
+    name: Poses.243.Right
+  - hash: -60372657
+    name: Poses.243.Left Init
+  - hash: 344549064
+    name: Poses.243.Right Init
+  - hash: 1070957216
+    name: Poses.241.Left
+  - hash: 556830195
+    name: Poses.241.Right
+  - hash: -1542819698
+    name: Poses.241.Left Init
+  - hash: -122488745
+    name: Poses.241.Right Init
+  - hash: -1538998090
+    name: Poses.245.Left
+  - hash: -713053728
+    name: Poses.245.Right
+  - hash: 349373196
+    name: Poses.245.Left Init
+  - hash: -72039640
+    name: Poses.245.Right Init
+  - hash: -1186861042
+    name: Poses.242.Left
+  - hash: 282629998
+    name: Poses.242.Right
+  - hash: 1038620303
+    name: Poses.242.Left Init
+  - hash: -1892930905
+    name: Poses.242.Right Init
+  - hash: -578949658
+    name: Poses.238.Left
+  - hash: -1100103367
+    name: Poses.238.Right
+  - hash: -1411405948
+    name: Poses.238.Left Init
+  - hash: 409519262
+    name: Poses.238.Right Init
+  - hash: 741039923
+    name: Poses.237.Left
+  - hash: 1210429904
+    name: Poses.237.Right
+  - hash: 942101314
+    name: Poses.237.Left Init
+  - hash: 1794923503
+    name: Poses.237.Right Init
+  - hash: 371277379
+    name: Poses.239.Left
+  - hash: 404408973
+    name: Poses.239.Right
+  - hash: 1783724100
+    name: Poses.239.Left Init
+  - hash: -2083682063
+    name: Poses.239.Right Init
+  - hash: 1642331704
+    name: Poses.235.Left
+  - hash: -541417223
+    name: Poses.235.Right
+  - hash: 1615587971
+    name: Poses.235.Left Init
+  - hash: -2033728144
+    name: Poses.235.Right Init
+  - hash: -411595626
+    name: Poses.236.Left
+  - hash: -296568220
+    name: Poses.236.Right
+  - hash: -106328958
+    name: Poses.236.Left Init
+  - hash: -245819520
+    name: Poses.236.Right Init
+  - hash: -1430311523
+    name: Poses.234.Left
+  - hash: 2043521869
+    name: Poses.234.Right
+  - hash: -1580911293
+    name: Poses.234.Left Init
+  - hash: 492996895
+    name: Poses.234.Right Init
+  - hash: -1336527369
+    name: Poses.229.Left
+  - hash: -726611437
+    name: Poses.229.Right
+  - hash: -235654101
+    name: Poses.229.Left Init
+  - hash: 1583042932
+    name: Poses.229.Right Init
+  - hash: -93144018
+    name: Poses.231.Left
+  - hash: 737510634
+    name: Poses.231.Right
+  - hash: -795698943
+    name: Poses.231.Left Init
+  - hash: -2050884081
+    name: Poses.231.Right Init
+  - hash: 2095500928
+    name: Poses.232.Left
+  - hash: 438148727
+    name: Poses.232.Right
+  - hash: 1232142080
+    name: Poses.232.Left Init
+  - hash: -228643585
+    name: Poses.232.Right Init
+  - hash: -1212539611
+    name: Poses.233.Left
+  - hash: -1133865533
+    name: Poses.233.Right
+  - hash: -1996611392
+    name: Poses.233.Left Init
+  - hash: 1778016400
+    name: Poses.233.Right Init
+  - hash: 825126795
+    name: Poses.230.Left
+  - hash: -1920823458
+    name: Poses.230.Right
+  - hash: 287065793
+    name: Poses.230.Left Init
+  - hash: 509915744
+    name: Poses.230.Right Init
+  - hash: 1090553634
+    name: Poses.226.Left
+  - hash: 586726138
+    name: Poses.226.Right
+  - hash: 1645002989
+    name: Poses.226.Left Init
+  - hash: 751816197
+    name: Poses.226.Right Init
+  - hash: 214443561
+    name: Poses.224.Left
+  - hash: -1251497005
+    name: Poses.224.Right
+  - hash: 979401004
+    name: Poses.224.Left Init
+  - hash: -1057730406
+    name: Poses.224.Right Init
+  - hash: -946539124
+    name: Poses.225.Left
+  - hash: 319856743
+    name: Poses.225.Right
+  - hash: -68245780
+    name: Poses.225.Left Init
+  - hash: 1532042485
+    name: Poses.225.Right Init
+  - hash: 2064311890
+    name: Poses.228.Left
+  - hash: 1925693863
+    name: Poses.228.Right
+  - hash: 813362155
+    name: Poses.228.Left Init
+  - hash: -973202149
+    name: Poses.228.Right Init
+  - hash: -1973660537
+    name: Poses.227.Left
+  - hash: -2070957746
+    name: Poses.227.Right
+  - hash: -1551753427
+    name: Poses.227.Left Init
+  - hash: -1217756566
+    name: Poses.227.Right Init
+  - hash: -2118242454
+    name: Poses.219.Left
+  - hash: 1514130928
+    name: Poses.219.Right
+  - hash: -2039814437
+    name: Poses.219.Left Init
+  - hash: -477020742
+    name: Poses.219.Right Init
+  - hash: -1755749313
+    name: Poses.220.Left
+  - hash: 1093177280
+    name: Poses.220.Right
+  - hash: -1967584594
+    name: Poses.220.Left Init
+  - hash: -1007522843
+    name: Poses.220.Right Init
+  - hash: 298653329
+    name: Poses.223.Left
+  - hash: 1891669341
+    name: Poses.223.Right
+  - hash: 324758703
+    name: Poses.223.Left Init
+  - hash: -1267943147
+    name: Poses.223.Right Init
+  - hash: -627981004
+    name: Poses.222.Left
+  - hash: -692609303
+    name: Poses.222.Right
+  - hash: -757746833
+    name: Poses.222.Left Init
+  - hash: 801764730
+    name: Poses.222.Right Init
+  - hash: 1543878554
+    name: Poses.221.Left
+  - hash: -413170572
+    name: Poses.221.Right
+  - hash: 1261950318
+    name: Poses.221.Left Init
+  - hash: 1482106762
+    name: Poses.221.Right Init
+  - hash: -1239269369
+    name: Smoothing
+  - hash: 514950745
+    name: Wait
+  - hash: -2053905705
+    name: Stand 4 pt
+  - hash: -1016536631
+    name: Prone 4 pt
+  - hash: 935084633
+    name: Action 4 pt
+  - hash: 71514426
+    name: Stand 4 pt InStation
+  - hash: -1289628183
+    name: 'Stand from sit 4 pt '
+  - hash: -1193106470
+    name: Left Finger.Fist
+  - hash: -2004655550
+    name: Left Finger.Point
+  - hash: 937900034
+    name: Left Finger.Open
+  - hash: 909348129
+    name: Left Finger.Peace
+  - hash: 920556750
+    name: Left Finger.RockNRoll
+  - hash: -723517738
+    name: Left Finger.Gun
+  - hash: 1965988672
+    name: Left Finger.Thumbs up
+  - hash: 1337134771
+    name: Left Finger.Idle
+  - hash: 678723683
+    name: Right Finger.Fist
+  - hash: 984547145
+    name: Right Finger.Point
+  - hash: -1485759557
+    name: Right Finger.Open
+  - hash: -2078404566
+    name: Right Finger.Peace
+  - hash: 290566179
+    name: Right Finger.RockNRoll
+  - hash: -35531047
+    name: Right Finger.Gun
+  - hash: 1386332077
+    name: Right Finger.Thumbs up
+  - hash: -551211766
+    name: Right Finger.Idle
+  - hash: -705609103
+    name: WaitForActionOrAFK
+  - hash: 1346771209
+    name: AFK.BlendOut AFK
+  - hash: 1604335447
+    name: AFK.Standing Afk Init
+  - hash: 338338620
+    name: AFK.AFK Manual
+  - hash: -111987608
+    name: AFK.Manual AFK Init
+  - hash: 1733705649
+    name: AFK.Crouching Afk Init
+  - hash: 311092338
+    name: AFK.AFK Crouching Loop
+  - hash: -1152305067
+    name: AFK.Prepare AFK Init
+  - hash: -171292359
+    name: AFK.AFK Proning Loop
+  - hash: 1233355969
+    name: AFK.Proning Afk Init
+  - hash: -2111423597
+    name: AFK.AFK Standing Loop
+  - hash: -1239514282
+    name: AFK.BlendOut AFK Scaling
+  - hash: 1546120267
+    name: AFK.BlendOut AFK Out
+  - hash: 176418602
+    name: AFK.AFK Crouching Stop
+  - hash: -305970591
+    name: AFK.AFK Proning Stop
+  - hash: -1708183349
+    name: AFK.AFK Standing Stop
+  - hash: 2089186718
+    name: Standing Emotes.BlendOut Stand
+  - hash: 326677252
+    name: Standing Emotes.1-8.6_backflip
+  - hash: -143266
+    name: Standing Emotes.1-8.8_die_hold
+  - hash: 494487481
+    name: Standing Emotes.1-8.7_sadkick
+  - hash: -629301451
+    name: Standing Emotes.1-8.5_dance
+  - hash: -482725276
+    name: Standing Emotes.1-8.4_stand_cheer
+  - hash: 659776589
+    name: Standing Emotes.1-8.3_stand_point
+  - hash: -1210701297
+    name: Standing Emotes.1-8.2_stand_clap
+  - hash: 2142620441
+    name: Standing Emotes.1-8.1_stand_wave
+  - hash: 130647943
+    name: Standing Emotes.9-16.12
+  - hash: -1716710876
+    name: Standing Emotes.9-16.15
+  - hash: -372775253
+    name: Standing Emotes.9-16.10
+  - hash: 10765214
+    name: Standing Emotes.9-16.16
+  - hash: 1892595473
+    name: Standing Emotes.9-16.13
+  - hash: -1631529411
+    name: Standing Emotes.9-16.11
+  - hash: -290839886
+    name: Standing Emotes.9-16.14
+  - hash: -1510840798
+    name: Standing Emotes.9-16.9
+  - hash: 1827669217
+    name: Standing Emotes.17-24.19
+  - hash: 963390367
+    name: Standing Emotes.17-24.24
+  - hash: -1492599236
+    name: Standing Emotes.17-24.23
+  - hash: 1040314246
+    name: Standing Emotes.17-24.20
+  - hash: 469185655
+    name: Standing Emotes.17-24.18
+  - hash: -804286806
+    name: Standing Emotes.17-24.22
+  - hash: 1225187088
+    name: Standing Emotes.17-24.21
+  - hash: -1958204954
+    name: Standing Emotes.17-24.17
+  - hash: -1585571197
+    name: Standing Emotes.25-32.27
+  - hash: -938483891
+    name: Standing Emotes.25-32.32
+  - hash: 1359384311
+    name: Standing Emotes.25-32.31
+  - hash: 834733842
+    name: Standing Emotes.25-32.28
+  - hash: -696702443
+    name: Standing Emotes.25-32.26
+  - hash: 637648481
+    name: Standing Emotes.25-32.30
+  - hash: 1187395460
+    name: Standing Emotes.25-32.29
+  - hash: 1332771759
+    name: Standing Emotes.25-32.25
+  - hash: -516396079
+    name: Standing Emotes.33-40.35
+  - hash: -569177703
+    name: Standing Emotes.33-40.40
+  - hash: -393336838
+    name: Standing Emotes.33-40.39
+  - hash: 2016492139
+    name: Standing Emotes.33-40.36
+  - hash: -1774232761
+    name: Standing Emotes.33-40.34
+  - hash: -1618405524
+    name: Standing Emotes.33-40.38
+  - hash: 255199997
+    name: Standing Emotes.33-40.37
+  - hash: 140234468
+    name: Standing Emotes.33-40.33
+  - hash: 536111356
+    name: Standing Emotes.41-48.43
+  - hash: -2010730124
+    name: Standing Emotes.41-48.48
+  - hash: 412724453
+    name: Standing Emotes.41-48.47
+  - hash: -2121204385
+    name: Standing Emotes.41-48.44
+  - hash: 1760778346
+    name: Standing Emotes.41-48.42
+  - hash: 1872665715
+    name: Standing Emotes.41-48.46
+  - hash: -157823543
+    name: Standing Emotes.41-48.45
+  - hash: -235271728
+    name: Standing Emotes.41-48.41
+  - hash: 112273525
+    name: Standing Emotes.49-56.51
+  - hash: -1730822698
+    name: Standing Emotes.49-56.56
+  - hash: 31255660
+    name: Standing Emotes.49-56.55
+  - hash: -1615300145
+    name: Standing Emotes.49-56.52
+  - hash: 1907759331
+    name: Standing Emotes.49-56.50
+  - hash: 1994120442
+    name: Standing Emotes.49-56.54
+  - hash: -390117031
+    name: Standing Emotes.49-56.53
+  - hash: 292655366
+    name: Standing Emotes.49-56.49
+  - hash: 2035706335
+    name: Standing Emotes.57-64.59
+  - hash: 751453857
+    name: Standing Emotes.57-64.64
+  - hash: -1297165566
+    name: Standing Emotes.57-64.63
+  - hash: 732398264
+    name: Standing Emotes.57-64.60
+  - hash: 240212297
+    name: Standing Emotes.57-64.58
+  - hash: -978721900
+    name: Standing Emotes.57-64.62
+  - hash: 1554035246
+    name: Standing Emotes.57-64.61
+  - hash: -1628551976
+    name: Standing Emotes.57-64.57
+  - hash: -122253868
+    name: Restore Tracking.Restore Tracking (Seated)
+  - hash: 436923447
+    name: Restore Tracking.Restore Tracking (Seated) FBT
+  - hash: -2045880022
+    name: Restore Tracking.Restore Tracking (Stand)
+  - hash: -429738135
+    name: Restore Tracking.Restore Tracking (Pose)
+  - hash: -1476076012
+    name: Prepare Standing.Prepare Standing Desktop
+  - hash: 1901608015
+    name: Prepare Standing.Prepare Standing VR
+  - hash: 1545162636
+    name: Go/PP Regulator Wait
+  - hash: -2031146476
+    name: IsUpright
+  - hash: -1079340638
+    name: Temporary Pose Space.PP Up
+  - hash: 1867228981
+    name: Temporary Pose Space.PP Down
+  - hash: 812566579
+    name: Temporary Pose Space.PP Spam
+  - hash: 143995547
+    name: Temporary Pose Space.Scale
+  - hash: -17702100
+    name: Temporary Pose Space.PP Spam Repeat
+  - hash: 895496173
+    name: Temporary Pose Space.PP Up Repeat
+  - hash: -20130791
+    name: Temporary Pose Space.PP Down Repeat
+  - hash: 885519704
+    name: Temporary Pose Space.Scale Repeat
+  - hash: 1726668605
+    name: Temporary Pose Space.Go/PP Regulator Out
+  - hash: 2072519561
+    name: Temporary Pose Space.Pose Bool True
+  - hash: -638619797
+    name: Temporary Pose Space.VRCEmote 0
+  - hash: 772916965
+    name: Temporary Pose Space.FBT InStation Fix
+  - hash: 732649311
+    name: Temporary Pose Space.Pose Float Adjustment.248
+  - hash: -871138728
+    name: Temporary Pose Space.Pose Float Adjustment.246
+  - hash: 1427778530
+    name: Temporary Pose Space.Pose Float Adjustment.245
+  - hash: -1132884265
+    name: Temporary Pose Space.Pose Float Adjustment.243
+  - hash: 1383591931
+    name: Temporary Pose Space.Pose Float Adjustment.241
+  - hash: 628154221
+    name: Temporary Pose Space.Pose Float Adjustment.240
+  - hash: -880886207
+    name: Temporary Pose Space.Pose Float Adjustment.242
+  - hash: 572332916
+    name: Temporary Pose Space.Pose Float Adjustment.244
+  - hash: -1156298034
+    name: Temporary Pose Space.Pose Float Adjustment.247
+  - hash: 1693106584
+    name: Temporary Pose Space.Pose Float Adjustment.238
+  - hash: 183943247
+    name: Temporary Pose Space.Pose Float Adjustment.229
+  - hash: 1781615018
+    name: Temporary Pose Space.Pose Float Adjustment.230
+  - hash: 490109244
+    name: Temporary Pose Space.Pose Float Adjustment.231
+  - hash: -2076235642
+    name: Temporary Pose Space.Pose Float Adjustment.232
+  - hash: -214427632
+    name: Temporary Pose Space.Pose Float Adjustment.233
+  - hash: 334360846
+    name: Temporary Pose Space.Pose Float Adjustment.239
+  - hash: -195699703
+    name: Temporary Pose Space.Pose Float Adjustment.237
+  - hash: 1554802633
+    name: Temporary Pose Space.Pose Float Adjustment.249
+  - hash: 1834782131
+    name: Temporary Pose Space.Pose Float Adjustment.234
+  - hash: -2091717473
+    name: Temporary Pose Space.Pose Float Adjustment.236
+  - hash: -1520255082
+    name: Temporary Pose Space.Pose Float Adjustment.253
+  - hash: -765096192
+    name: Temporary Pose Space.Pose Float Adjustment.252
+  - hash: 1265426106
+    name: Temporary Pose Space.Pose Float Adjustment.251
+  - hash: 1013706284
+    name: Temporary Pose Space.Pose Float Adjustment.250
+  - hash: 442219813
+    name: Temporary Pose Space.Pose Float Adjustment.235
+  - hash: -366794415
+    name: Temporary Pose Space.Pose Float Adjustment.223
+  - hash: -313594552
+    name: Temporary Pose Space.Pose Float Adjustment.227
+  - hash: 568038284
+    name: Temporary Pose Space.Pose Float Adjustment.219
+  - hash: 70076541
+    name: Temporary Pose Space.Pose Float Adjustment.221
+  - hash: 1932163307
+    name: Temporary Pose Space.Pose Float Adjustment.220
+  - hash: 2113007833
+    name: Temporary Pose Space.Pose Float Adjustment.228
+  - hash: -1658578489
+    name: Temporary Pose Space.Pose Float Adjustment.222
+  - hash: -1706435106
+    name: Temporary Pose Space.Pose Float Adjustment.226
+  - hash: 1950858482
+    name: Temporary Pose Space.Pose Float Adjustment.224
+  - hash: 54561892
+    name: Temporary Pose Space.Pose Float Adjustment.225
+  - hash: 972126249
+    name: Velocity Check.Jump Press
+  - hash: 1437261596
+    name: Velocity Check.On Wall
+  - hash: 1254223875
+    name: Velocity Check.On Rail Down
+  - hash: 786688619
+    name: Velocity Check.Jump Hold
+  - hash: -276681105
+    name: Velocity Check.On Rail Up
+  - hash: 549062720
+    name: Velocity Check.Falling
+  - hash: 2019031036
+    name: Velocity Check.Velocity Out
+  - hash: 1749983670
+    name: Locomotion.Locomotion Enable
+  - hash: 1573597209
+    name: Locomotion.Locomotion Enable Reset
+  - hash: -1525947391
+    name: Locomotion.Locomotion Disable
+  - hash: -1213602561
+    name: Grounded Check.JumpAndFall ?
+  - hash: 914131204
+    name: Grounded Check.Allow JumpAndFall
+  - hash: 864850386
+    name: Grounded Check.Jump Wait
+  - hash: 1223111905
+    name: Blocker.Third Person Ejected
+  - hash: 1029764947
+    name: Blocker.Horizon FBT Blocker
+  - hash: 1494419283
+    name: Timer Wait
+  - hash: -522818242
+    name: JSRF.Jump / Rail / Wall ?
+  - hash: 994404011
+    name: JSRF.Velocity Timer
+  - hash: 1512243380
+    name: JSRF.Jump
+  - hash: 1561214232
+    name: JSRF.JSRF Grounded
+  - hash: 1476764592
+    name: SVRB.SVRB Grounded ?
+  - hash: 1470532442
+    name: SVRB.SVRB Grounded
+  - hash: 193576762
+    name: PP & Scaling.Force Reset 6 pt
+  - hash: 1430879593
+    name: PP & Scaling.Timer PP
+  - hash: 1631843250
+    name: PP & Scaling.Scaling 6 pt
+  - hash: 1807261103
+    name: PP & Scaling.Force Close Horizon
+  - hash: 650208761
+    name: PP & Scaling.Force Close
+  - hash: -440273026
+    name: PP & Scaling.Pose Space PP
+  - hash: 1453130624
+    name: PP & Scaling.Scaling 3 pt
+  - hash: -665189202
+    name: Fly Wait
+  - hash: 281351038
+    name: Wait, am not flying ?
+  - hash: 710098064
+    name: Fly Tracking Trigger.Auto Fly Tracking Trigger
+  - hash: -800411438
+    name: Fly Tracking Trigger.Fly Tracking Trigger
+  - hash: 353800213
+    name: Fly Tracking Trigger.Auto Fly Tracking Radial
+  - hash: -1636908189
+    name: Fly Tracking Trigger.Fly Tracking Trigger FBT
+  - hash: -1084011220
+    name: Fly Tracking Radial.Fly Tracking Radial
+  - hash: 1955665206
+    name: Fly Tracking Radial.Auto Fly Tracking Radial
+  - hash: -595549866
+    name: Fly Tracking Radial.Fly Tracking Radial FBT
+  - hash: 1943695152
+    name: Scale
+  - hash: 1666750833
+    name: Save to Float.Scale Fly 3 PT
+  - hash: 965080969
+    name: Save to Float.Scale Reset
+  - hash: -1883109861
+    name: Save to Float.Scale Save To Float
+  - hash: -1655305914
+    name: Save to Float.Scale Fly 3 FBT
+  - hash: 321567669
+    name: Save to Float.Scale Transition
+  - hash: -340760958
+    name: Save to Float.Scale Save To Float Horizon
+  - hash: -1332180633
+    name: Action VR.Scale Action
+  - hash: 2087354442
+    name: Action VR.Scale Action End
+  - hash: 1300157252
+    name: Scaling Remote.Scaling Remote
+  - hash: 181892722
+    name: Scaling Remote.Scale Back
+  - hash: -159386543
+    name: Scaling.Scale Wait
+  - hash: -1414445519
+    name: Scaling.Scale Save Seated
+  - hash: -964748677
+    name: Scaling.Scale Default
+  - hash: 1969611953
+    name: Scaling.Scaling
+  - hash: 863894427
+    name: Scale Head
+  - hash: -154648553
+    name: Desktop Local
+  - hash: 1145060824
+    name: Remote Head
+  - hash: -995452616
+    name: Animate Hands
+  - hash: -1931534284
+    name: Default Head
+  autoFootsteps: 1
+  autoLocomotion: 0
+  collider_head:
+    isMirrored: 1
+    state: 0
+    transform: {fileID: 0}
+    radius: 0
+    height: 0
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  collider_torso:
+    isMirrored: 1
+    state: 0
+    transform: {fileID: 0}
+    radius: 0
+    height: 0
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  collider_footR:
+    isMirrored: 1
+    state: 0
+    transform: {fileID: 0}
+    radius: 0
+    height: 0
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  collider_footL:
+    isMirrored: 1
+    state: 0
+    transform: {fileID: 0}
+    radius: 0
+    height: 0
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  collider_handR:
+    isMirrored: 1
+    state: 0
+    transform: {fileID: 0}
+    radius: 0
+    height: 0
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  collider_handL:
+    isMirrored: 1
+    state: 0
+    transform: {fileID: 0}
+    radius: 0
+    height: 0
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  collider_fingerIndexL:
+    isMirrored: 1
+    state: 0
+    transform: {fileID: 0}
+    radius: 0
+    height: 0
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  collider_fingerMiddleL:
+    isMirrored: 1
+    state: 0
+    transform: {fileID: 0}
+    radius: 0
+    height: 0
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  collider_fingerRingL:
+    isMirrored: 1
+    state: 0
+    transform: {fileID: 0}
+    radius: 0
+    height: 0
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  collider_fingerLittleL:
+    isMirrored: 1
+    state: 0
+    transform: {fileID: 0}
+    radius: 0
+    height: 0
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  collider_fingerIndexR:
+    isMirrored: 1
+    state: 0
+    transform: {fileID: 0}
+    radius: 0
+    height: 0
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  collider_fingerMiddleR:
+    isMirrored: 1
+    state: 0
+    transform: {fileID: 0}
+    radius: 0
+    height: 0
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  collider_fingerRingR:
+    isMirrored: 1
+    state: 0
+    transform: {fileID: 0}
+    radius: 0
+    height: 0
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  collider_fingerLittleR:
+    isMirrored: 1
+    state: 0
+    transform: {fileID: 0}
+    radius: 0
+    height: 0
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+--- !u!4 &458181540 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2e86234f85749c1469c3a122e2d7e338,
+    type: 3}
+  m_PrefabInstance: {fileID: 458181536}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &458181541 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 747969231759637169, guid: 2e86234f85749c1469c3a122e2d7e338,
+    type: 3}
+  m_PrefabInstance: {fileID: 458181536}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &458181542 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -9162484748627739507, guid: 2e86234f85749c1469c3a122e2d7e338,
+    type: 3}
+  m_PrefabInstance: {fileID: 458181536}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &458181543 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -5548412226312336519, guid: 2e86234f85749c1469c3a122e2d7e338,
+    type: 3}
+  m_PrefabInstance: {fileID: 458181536}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1818360610 &458181544
+ScaleConstraint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 458181543}
+  m_Enabled: 0
+  m_Weight: 1
+  m_ScaleAtRest: {x: 1, y: 0.99999994, z: 1}
+  m_ScaleOffset: {x: 1.8446744e+19, y: 1.8446744e+19, z: 1.8446744e+19}
+  m_AffectScalingX: 1
+  m_AffectScalingY: 1
+  m_AffectScalingZ: 1
+  m_IsContraintActive: 1
+  m_IsLocked: 1
+  m_Sources:
+  - sourceTransform: {fileID: 1357200320}
+    weight: 1
+  - sourceTransform: {fileID: 1357200319}
+    weight: 0
+--- !u!137 &458181545 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 1630794972795428178, guid: 2e86234f85749c1469c3a122e2d7e338,
+    type: 3}
+  m_PrefabInstance: {fileID: 458181536}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &458181546 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5682925767811366917, guid: 2e86234f85749c1469c3a122e2d7e338,
+    type: 3}
+  m_PrefabInstance: {fileID: 458181536}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &458181547 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4926697873900762563, guid: 2e86234f85749c1469c3a122e2d7e338,
+    type: 3}
+  m_PrefabInstance: {fileID: 458181536}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &485177529 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 616373069110365890, guid: 2e86234f85749c1469c3a122e2d7e338,
+    type: 3}
+  m_PrefabInstance: {fileID: 458181536}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &485177531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485177529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  integrationType: 0
+  rootTransform: {fileID: 0}
+  ignoreTransforms: []
+  endpointPosition: {x: 0, y: 0.09, z: 0}
+  multiChildType: 0
+  pull: 0.275
+  pullCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spring: 0.825
+  springCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stiffness: 0.2
+  stiffnessCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gravity: 0
+  gravityCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gravityFalloff: 0
+  gravityFalloffCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  immobileType: 1
+  immobile: 0.5
+  immobileCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowCollision: 1
+  radius: 0.1
+  radiusCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.36755157
+      value: 0.5499895
+      inSlope: -0.6023277
+      outSlope: -0.6023277
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0.16904831
+      inSlope: -0.6023277
+      outSlope: -0.6023277
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  colliders: []
+  limitType: 0
+  maxAngleX: 45
+  maxAngleXCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxAngleZ: 45
+  maxAngleZCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotation: {x: 0, y: 0, z: 0}
+  limitRotationXCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotationYCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotationZCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowGrabbing: 1
+  allowPosing: 1
+  grabMovement: 0.5
+  maxStretch: 0
+  maxStretchCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  isAnimated: 1
+  parameter: 
+  showGizmos: 1
+  boneOpacity: 0.5
+  limitOpacity: 0.5
+--- !u!1 &943211169
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 943211172}
+  - component: {fileID: 943211171}
+  - component: {fileID: 943211170}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &943211170
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 943211169}
+  m_Enabled: 1
+--- !u!20 &943211171
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 943211169}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &943211172
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 943211169}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1357200318
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 458181540}
+    m_Modifications:
+    - target: {fileID: 1665193221343275969, guid: 0331f36341a34cb49a05016f7d02ce86,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665193221343275969, guid: 0331f36341a34cb49a05016f7d02ce86,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665193221343275969, guid: 0331f36341a34cb49a05016f7d02ce86,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665193221343275969, guid: 0331f36341a34cb49a05016f7d02ce86,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665193221343275969, guid: 0331f36341a34cb49a05016f7d02ce86,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665193221343275969, guid: 0331f36341a34cb49a05016f7d02ce86,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665193221343275969, guid: 0331f36341a34cb49a05016f7d02ce86,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665193221343275969, guid: 0331f36341a34cb49a05016f7d02ce86,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665193221343275969, guid: 0331f36341a34cb49a05016f7d02ce86,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665193221343275969, guid: 0331f36341a34cb49a05016f7d02ce86,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665193221343275969, guid: 0331f36341a34cb49a05016f7d02ce86,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665193221343275970, guid: 0331f36341a34cb49a05016f7d02ce86,
+        type: 3}
+      propertyPath: m_Name
+      value: Beyond Prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665193221489318819, guid: 0331f36341a34cb49a05016f7d02ce86,
+        type: 3}
+      propertyPath: m_Sources.Array.data[0].sourceTransform
+      value: 
+      objectReference: {fileID: 458181541}
+    - target: {fileID: 1665193221489318820, guid: 0331f36341a34cb49a05016f7d02ce86,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.00000009362675
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665193221489318820, guid: 0331f36341a34cb49a05016f7d02ce86,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665193221489318820, guid: 0331f36341a34cb49a05016f7d02ce86,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0331f36341a34cb49a05016f7d02ce86, type: 3}
+--- !u!4 &1357200319 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2769320763244401922, guid: 0331f36341a34cb49a05016f7d02ce86,
+    type: 3}
+  m_PrefabInstance: {fileID: 1357200318}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1357200320 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4026453547638318608, guid: 0331f36341a34cb49a05016f7d02ce86,
+    type: 3}
+  m_PrefabInstance: {fileID: 1357200318}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1384779951
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1384779953}
+  - component: {fileID: 1384779952}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &1384779952
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1384779951}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &1384779953
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1384779951}
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1001 &1438048991
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1784193971}
+    m_Modifications:
+    - target: {fileID: 1665193221343275969, guid: 0331f36341a34cb49a05016f7d02ce86,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665193221343275969, guid: 0331f36341a34cb49a05016f7d02ce86,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665193221343275969, guid: 0331f36341a34cb49a05016f7d02ce86,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665193221343275969, guid: 0331f36341a34cb49a05016f7d02ce86,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665193221343275969, guid: 0331f36341a34cb49a05016f7d02ce86,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665193221343275969, guid: 0331f36341a34cb49a05016f7d02ce86,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665193221343275969, guid: 0331f36341a34cb49a05016f7d02ce86,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665193221343275969, guid: 0331f36341a34cb49a05016f7d02ce86,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665193221343275969, guid: 0331f36341a34cb49a05016f7d02ce86,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665193221343275969, guid: 0331f36341a34cb49a05016f7d02ce86,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665193221343275969, guid: 0331f36341a34cb49a05016f7d02ce86,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665193221343275970, guid: 0331f36341a34cb49a05016f7d02ce86,
+        type: 3}
+      propertyPath: m_Name
+      value: Beyond Prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665193221489318819, guid: 0331f36341a34cb49a05016f7d02ce86,
+        type: 3}
+      propertyPath: m_Sources.Array.data[0].sourceTransform
+      value: 
+      objectReference: {fileID: 1784193966}
+    m_RemovedComponents:
+    - {fileID: 1665193221489318819, guid: 0331f36341a34cb49a05016f7d02ce86, type: 3}
+    - {fileID: 1665193221489318818, guid: 0331f36341a34cb49a05016f7d02ce86, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 0331f36341a34cb49a05016f7d02ce86, type: 3}
+--- !u!1001 &1784193963
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5935069667864179738, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5935069667864179738, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5935069667864179738, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4926697873900762563, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9986295
+      objectReference: {fileID: 0}
+    - target: {fileID: -4926697873900762563, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.05233596
+      objectReference: {fileID: 0}
+    - target: {fileID: -4926697873900762563, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4926697873900762563, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_Name
+      value: GoAvatrCoat Quest
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1002624830632417832, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1002624830632417832, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1002624830632417832, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1066413047209539593, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1066413047209539593, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1066413047209539593, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1630794972795428178, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_ProbeAnchor
+      value: 
+      objectReference: {fileID: 1784193967}
+    - target: {fileID: 1630794972795428178, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_AABB.m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1630794972795428178, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_AABB.m_Center.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1630794972795428178, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_AABB.m_Center.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1630794972795428178, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.x
+      value: 1.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 1630794972795428178, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.y
+      value: 1.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 1630794972795428178, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.z
+      value: 1.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 1630794972795428178, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7b3a38cbd411b154db4e9f7f7b857a80, type: 2}
+    - target: {fileID: 1630794972795428178, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7b3a38cbd411b154db4e9f7f7b857a80, type: 2}
+    - target: {fileID: 1630794972795428178, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.size
+      value: 71
+      objectReference: {fileID: 0}
+    - target: {fileID: 1630794972795428178, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[53]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1630794972795428178, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[54]
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5682925767811366917, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9986295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5682925767811366917, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.05233596
+      objectReference: {fileID: 0}
+    - target: {fileID: 5682925767811366917, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5682925767811366917, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6823119912881332523, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7349780646928365729, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9139599023955902398, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9139599023955902398, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9139599023955902398, guid: 2e86234f85749c1469c3a122e2d7e338,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2e86234f85749c1469c3a122e2d7e338, type: 3}
+--- !u!1 &1784193964 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 2e86234f85749c1469c3a122e2d7e338,
+    type: 3}
+  m_PrefabInstance: {fileID: 1784193963}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1784193965 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5682925767811366917, guid: 2e86234f85749c1469c3a122e2d7e338,
+    type: 3}
+  m_PrefabInstance: {fileID: 1784193963}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1784193966 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 747969231759637169, guid: 2e86234f85749c1469c3a122e2d7e338,
+    type: 3}
+  m_PrefabInstance: {fileID: 1784193963}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1784193967 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -9162484748627739507, guid: 2e86234f85749c1469c3a122e2d7e338,
+    type: 3}
+  m_PrefabInstance: {fileID: 1784193963}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1784193968 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6686971162815637255, guid: 2e86234f85749c1469c3a122e2d7e338,
+    type: 3}
+  m_PrefabInstance: {fileID: 1784193963}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1784193969 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4926697873900762563, guid: 2e86234f85749c1469c3a122e2d7e338,
+    type: 3}
+  m_PrefabInstance: {fileID: 1784193963}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &1784193970 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 1630794972795428178, guid: 2e86234f85749c1469c3a122e2d7e338,
+    type: 3}
+  m_PrefabInstance: {fileID: 1784193963}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1784193971 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2e86234f85749c1469c3a122e2d7e338,
+    type: 3}
+  m_PrefabInstance: {fileID: 1784193963}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1784193972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1784193964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 542108242, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  ViewPosition: {x: 0, y: 1.351438, z: 0.07979839}
+  Animations: 0
+  ScaleIPD: 1
+  lipSync: 3
+  lipSyncJawBone: {fileID: 0}
+  lipSyncJawClosed: {x: 0, y: 0, z: 0, w: 1}
+  lipSyncJawOpen: {x: 0, y: 0, z: 0, w: 1}
+  VisemeSkinnedMesh: {fileID: 1784193970}
+  MouthOpenBlendShapeName: Facial_Blends.Jaw_Down
+  VisemeBlendShapes:
+  - vrc.v_sil
+  - vrc.v_pp
+  - vrc.v_ff
+  - vrc.v_th
+  - vrc.v_dd
+  - vrc.v_kk
+  - vrc.v_ch
+  - vrc.v_ss
+  - vrc.v_nn
+  - vrc.v_rr
+  - vrc.v_aa
+  - vrc.v_e
+  - vrc.v_ih
+  - vrc.v_oh
+  - vrc.v_ou
+  unityVersion: 2019.4.31f1
+  portraitCameraPositionOffset: {x: 0, y: 0, z: 0}
+  portraitCameraRotationOffset: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+  customExpressions: 1
+  expressionsMenu: {fileID: 11400000, guid: 246bd59ebb2aca94fbe31619c0bad91a, type: 2}
+  expressionParameters: {fileID: 11400000, guid: 1320e51753e1e8b4595fd3b810d01836,
+    type: 2}
+  enableEyeLook: 1
+  customEyeLookSettings:
+    eyeMovement:
+      confidence: 0.5
+      excitement: 0.5
+    leftEye: {fileID: 1784193969}
+    rightEye: {fileID: 1784193965}
+    eyesLookingStraight:
+      linked: 1
+      left: {x: 0, y: 0, z: 0, w: 1}
+      right: {x: 0, y: 0, z: 0, w: 1}
+    eyesLookingUp:
+      linked: 1
+      left: {x: -0.05233596, y: 0, z: 0, w: 0.9986295}
+      right: {x: -0.05233596, y: 0, z: 0, w: 0.9986295}
+    eyesLookingDown:
+      linked: 1
+      left: {x: 0.05233596, y: 0, z: 0, w: 0.9986295}
+      right: {x: 0.05233596, y: 0, z: 0, w: 0.9986295}
+    eyesLookingLeft:
+      linked: 1
+      left: {x: 0, y: -0.05233596, z: 0, w: 0.9986295}
+      right: {x: 0, y: -0.05233596, z: 0, w: 0.9986295}
+    eyesLookingRight:
+      linked: 1
+      left: {x: 0, y: 0.05233596, z: 0, w: 0.9986295}
+      right: {x: 0, y: 0.05233596, z: 0, w: 0.9986295}
+    eyelidType: 2
+    upperLeftEyelid: {fileID: 0}
+    upperRightEyelid: {fileID: 0}
+    lowerLeftEyelid: {fileID: 0}
+    lowerRightEyelid: {fileID: 0}
+    eyelidsDefault:
+      upper:
+        linked: 1
+        left: {x: 0, y: 0, z: 0, w: 0}
+        right: {x: 0, y: 0, z: 0, w: 0}
+      lower:
+        linked: 1
+        left: {x: 0, y: 0, z: 0, w: 0}
+        right: {x: 0, y: 0, z: 0, w: 0}
+    eyelidsClosed:
+      upper:
+        linked: 1
+        left: {x: 0, y: 0, z: 0, w: 0}
+        right: {x: 0, y: 0, z: 0, w: 0}
+      lower:
+        linked: 1
+        left: {x: 0, y: 0, z: 0, w: 0}
+        right: {x: 0, y: 0, z: 0, w: 0}
+    eyelidsLookingUp:
+      upper:
+        linked: 1
+        left: {x: 0, y: 0, z: 0, w: 0}
+        right: {x: 0, y: 0, z: 0, w: 0}
+      lower:
+        linked: 1
+        left: {x: 0, y: 0, z: 0, w: 0}
+        right: {x: 0, y: 0, z: 0, w: 0}
+    eyelidsLookingDown:
+      upper:
+        linked: 1
+        left: {x: 0, y: 0, z: 0, w: 0}
+        right: {x: 0, y: 0, z: 0, w: 0}
+      lower:
+        linked: 1
+        left: {x: 0, y: 0, z: 0, w: 0}
+        right: {x: 0, y: 0, z: 0, w: 0}
+    eyelidsSkinnedMesh: {fileID: 1784193970}
+    eyelidsBlendshapes: 3500000036000000ffffffff
+  customizeAnimationLayers: 1
+  baseAnimationLayers:
+  - isEnabled: 0
+    type: 0
+    animatorController: {fileID: 9100000, guid: f0eb4443b18594c43813f6ffeb2dbe8a,
+      type: 2}
+    mask: {fileID: 0}
+    isDefault: 0
+  - isEnabled: 0
+    type: 2
+    animatorController: {fileID: 9100000, guid: f2bdad5be52fce045b07e09ed6bc847e,
+      type: 2}
+    mask: {fileID: 0}
+    isDefault: 0
+  - isEnabled: 0
+    type: 3
+    animatorController: {fileID: 9100000, guid: 053f861701fe8564eb060da651087f11,
+      type: 2}
+    mask: {fileID: 31900000, guid: b2b8bad9583e56a46a3e21795e96ad92, type: 2}
+    isDefault: 0
+  - isEnabled: 0
+    type: 4
+    animatorController: {fileID: 9100000, guid: 1863ae6c944b73343abbbefe18125e0f,
+      type: 2}
+    mask: {fileID: 0}
+    isDefault: 0
+  - isEnabled: 0
+    type: 5
+    animatorController: {fileID: 9100000, guid: 3f09f0a240144e848bdf82fbda035d65,
+      type: 2}
+    mask: {fileID: 0}
+    isDefault: 0
+  specialAnimationLayers:
+  - isEnabled: 0
+    type: 6
+    animatorController: {fileID: 9100000, guid: d75f14b0507340640b969cd6c4c51359,
+      type: 2}
+    mask: {fileID: 0}
+    isDefault: 0
+  - isEnabled: 0
+    type: 7
+    animatorController: {fileID: 9100000, guid: 2e96ef8dd5c6a2c478db2c296acd8e16,
+      type: 2}
+    mask: {fileID: 0}
+    isDefault: 0
+  - isEnabled: 0
+    type: 8
+    animatorController: {fileID: 0}
+    mask: {fileID: 0}
+    isDefault: 1
+  AnimationPreset: {fileID: 0}
+  animationHashSet:
+  - hash: 864058859
+    name: Avatar 3D Thumbnail
+  - hash: 608360368
+    name: Desktop.Super VR Ball Desktop.SVRB Standing
+  - hash: -1937512338
+    name: Desktop.Super VR Ball Desktop.SVRB Crouching/Proning
+  - hash: 568070672
+    name: Desktop.Super VR Ball Desktop.SVRB Stand Motion Desktop
+  - hash: 1172525715
+    name: Desktop.Super VR Ball Desktop.SVRB Crouch Motion Desktop
+  - hash: -1962203327
+    name: Desktop.Super VR Ball Desktop.SVRB Proning Motion Desktop
+  - hash: -338251605
+    name: Desktop.Super VR Ball Desktop.SmallHop
+  - hash: 458321901
+    name: Desktop.Fly Desktop.Fly Desktop On
+  - hash: 1621782082
+    name: Desktop.Fly Desktop.Fly Desktop Off
+  - hash: 262510369
+    name: Desktop.Fly Desktop.Fly Desktop ?
+  - hash: -1321680175
+    name: Desktop.Fly Desktop.Fly Desktop Init
+  - hash: -533950883
+    name: Desktop.Scaling Desktop.Scale Crouch Motion Desktop
+  - hash: -457853129
+    name: Desktop.Scaling Desktop.Scale Stand Motion Desktop
+  - hash: -143522006
+    name: Desktop.Scaling Desktop.Scale Proning Motion Desktop
+  - hash: -603793872
+    name: Desktop.Scaling Desktop.Scale F Proning Motion Desktop
+  - hash: 242726350
+    name: Desktop.Scaling Desktop.Scale F Stand Motion Desktop
+  - hash: 614926055
+    name: Desktop.Scaling Desktop.Scale F Crouch Motion Desktop
+  - hash: 1874686280
+    name: Desktop.Scaling Desktop.Scale Jump & Fall Desktop.Jump Desktop
+  - hash: -2087675977
+    name: Desktop.Scaling Desktop.Scale Jump & Fall Desktop.Jump Desktop Mirror
+  - hash: -807179267
+    name: Desktop.Scaling Desktop.Scale Jump & Fall Desktop.Fall
+  - hash: 1202477360
+    name: Desktop.Jump & Fall Desktop.Jump Desktop
+  - hash: -1880180925
+    name: Desktop.Jump & Fall Desktop.Jump Desktop Mirror
+  - hash: 357309967
+    name: Desktop.Jump & Fall Desktop.Fall
+  - hash: 315108046
+    name: Desktop.Prone Desktop.Proning Motion Desktop
+  - hash: 1869567758
+    name: Desktop.Prone Desktop.Proning Idle Desktop
+  - hash: 682960413
+    name: Desktop.Crouch Desktop.Crouch Motion Desktop
+  - hash: -450644420
+    name: Desktop.Crouch Desktop.Crouch Idle Desktop
+  - hash: -1967535374
+    name: Desktop.Stand Desktop.Stand Motion Desktop
+  - hash: 334455148
+    name: Desktop.Stand Desktop.Stand Idle Desktop
+  - hash: 386530188
+    name: Desktop.Play Space.PP
+  - hash: -1649227038
+    name: Desktop.Play Space.Horizon True Desktop
+  - hash: -1072342657
+    name: Desktop.Play Space.Horizon Reset
+  - hash: 1701472881
+    name: Desktop.Play Space.Horizon False Desktop
+  - hash: -389955305
+    name: Desktop.JSR Festival Desktop.JSRF Standing Desktop
+  - hash: -1291474278
+    name: Desktop.JSR Festival Desktop.Jump
+  - hash: -503569088
+    name: Desktop.JSR Festival Desktop.Grinding Mirror
+  - hash: -917293859
+    name: Desktop.JSR Festival Desktop.JRSF Crouch Motion Desktop
+  - hash: 1484115241
+    name: Desktop.JSR Festival Desktop.JSRF Proning Motion Desktop
+  - hash: 287549392
+    name: Desktop.JSR Festival Desktop.Double Jump
+  - hash: -918523238
+    name: Desktop.JSR Festival Desktop.Grinding
+  - hash: 2114330112
+    name: Desktop.JSR Festival Desktop.Double Jump Mirror
+  - hash: -1962922813
+    name: Desktop.JSR Festival Desktop.Jump Mirror
+  - hash: 1109941943
+    name: Desktop.Bullet Time Agent Desktop.BTA Standing Desktop
+  - hash: -1060548724
+    name: Desktop.Bullet Time Agent Desktop.Jump
+  - hash: -1977478948
+    name: Desktop.Bullet Time Agent Desktop.BTA Crouch Motion Desktop
+  - hash: 1839708674
+    name: Desktop.Bullet Time Agent Desktop.BTA Proning Motion Desktop
+  - hash: 114003645
+    name: Desktop.Bullet Time Agent Desktop.Double Jump
+  - hash: 1638827235
+    name: Desktop.Bullet Time Agent Desktop.Double Jump Mirror
+  - hash: -1662515794
+    name: Desktop.Bullet Time Agent Desktop.Jump Mirror
+  - hash: -573364436
+    name: FBT ( 6+ pt ).FBT Still
+  - hash: -344668412
+    name: FBT ( 6+ pt ).FBT Motion
+  - hash: 1679441986
+    name: FBT ( 6+ pt ).FBT InStation/AFK
+  - hash: 1451526701
+    name: FBT ( 6+ pt ).Jump & Fall FBT.Jump Desktop
+  - hash: 72970483
+    name: FBT ( 6+ pt ).Jump & Fall FBT.Jump Desktop Mirror
+  - hash: 62365280
+    name: FBT ( 6+ pt ).Jump & Fall FBT.Fall
+  - hash: 2132847706
+    name: VR ( 3-4 pt ).Super VR Ball VR.SVRB Standing
+  - hash: -1463694555
+    name: VR ( 3-4 pt ).Super VR Ball VR.SVRB Crouching/Proning
+  - hash: 707979401
+    name: VR ( 3-4 pt ).Super VR Ball VR.SVRB Stand Motion VR
+  - hash: -1936285606
+    name: VR ( 3-4 pt ).Super VR Ball VR.SVRB Crouch Motion VR
+  - hash: -1876870626
+    name: VR ( 3-4 pt ).Super VR Ball VR.SVRB Proning Motion VR
+  - hash: 1087181177
+    name: VR ( 3-4 pt ).Super VR Ball VR.SmallHop
+  - hash: -1842197501
+    name: VR ( 3-4 pt ).Fly VR.Fly VR On
+  - hash: 1927935948
+    name: VR ( 3-4 pt ).Fly VR.FlyVR Off
+  - hash: -1079141960
+    name: VR ( 3-4 pt ).Fly VR.Fly VR ?
+  - hash: -1306851204
+    name: VR ( 3-4 pt ).Fly VR.Fly VR On Init
+  - hash: -79015100
+    name: VR ( 3-4 pt ).Scaling VR.Scale Stand Motion VR
+  - hash: -685816487
+    name: VR ( 3-4 pt ).Jump & Fall VR.Jump VR
+  - hash: 267644917
+    name: VR ( 3-4 pt ).Jump & Fall VR.Jump VR Mirror
+  - hash: 827636785
+    name: VR ( 3-4 pt ).Jump & Fall VR.Fall
+  - hash: -680657902
+    name: VR ( 3-4 pt ).Prone VR.Proning Motion VR
+  - hash: -1391602277
+    name: VR ( 3-4 pt ).Prone VR.Proning Idle VR
+  - hash: 1356171812
+    name: VR ( 3-4 pt ).Crouch VR.Crouch Motion VR
+  - hash: -1468963103
+    name: VR ( 3-4 pt ).Crouch VR.Crouch Idle VR
+  - hash: -329519995
+    name: VR ( 3-4 pt ).Stand VR.Stand Motion VR
+  - hash: -182524762
+    name: VR ( 3-4 pt ).Stand VR.Stand Idle VR
+  - hash: -935363370
+    name: VR ( 3-4 pt ).Play Space VR.PP
+  - hash: 1093418023
+    name: VR ( 3-4 pt ).Play Space VR.Horizon False VR
+  - hash: -590671025
+    name: VR ( 3-4 pt ).Play Space VR.Horizon Reset
+  - hash: 1123312383
+    name: VR ( 3-4 pt ).Play Space VR.Horizon True VR
+  - hash: -549949574
+    name: VR ( 3-4 pt ).Sleep VR.Sleep VR Tracking
+  - hash: 1035639043
+    name: VR ( 3-4 pt ).Sleep VR.Sleep VR Positive
+  - hash: 1489825304
+    name: VR ( 3-4 pt ).Sleep VR.Sleep VR Negative
+  - hash: -1042625752
+    name: VR ( 3-4 pt ).JSR Festival VR.JSRF Standing VR
+  - hash: -1692134115
+    name: VR ( 3-4 pt ).JSR Festival VR.Jump
+  - hash: 2143435499
+    name: VR ( 3-4 pt ).JSR Festival VR.Grinding Mirror
+  - hash: 774460265
+    name: VR ( 3-4 pt ).JSR Festival VR.Double Jump
+  - hash: -823723988
+    name: VR ( 3-4 pt ).JSR Festival VR.Grinding
+  - hash: -1492074710
+    name: VR ( 3-4 pt ).JSR Festival VR.Double Jump Mirror
+  - hash: -1274357638
+    name: VR ( 3-4 pt ).JSR Festival VR.Jump Mirror
+  - hash: -504280105
+    name: VR ( 3-4 pt ).JSR Festival VR.JSRF Proning Motion VR
+  - hash: -312287202
+    name: VR ( 3-4 pt ).JSR Festival VR.JSRF Crouch Motion VR
+  - hash: 1484405414
+    name: VR ( 3-4 pt ).Bullet Time Agent VR.BTA Standing VR
+  - hash: 590221418
+    name: VR ( 3-4 pt ).Bullet Time Agent VR.Jump
+  - hash: -983739733
+    name: VR ( 3-4 pt ).Bullet Time Agent VR.Double Jump
+  - hash: 987914779
+    name: VR ( 3-4 pt ).Bullet Time Agent VR.Double Jump Mirror
+  - hash: 1602148792
+    name: VR ( 3-4 pt ).Bullet Time Agent VR.Jump Mirror
+  - hash: 263642600
+    name: VR ( 3-4 pt ).Bullet Time Agent VR.BTA Proning Motion VR
+  - hash: -1533676772
+    name: VR ( 3-4 pt ).Bullet Time Agent VR.BTA Crouch Motion VR
+  - hash: -607144581
+    name: Wait For a Pose
+  - hash: -1519839177
+    name: Float + 0,65
+  - hash: 1932589866
+    name: Float - 0,65
+  - hash: -312909631
+    name: Emotes
+  - hash: 2015414607
+    name: InStation
+  - hash: 263531741
+    name: Scaling
+  - hash: 2088384199
+    name: Emotes Scaling
+  - hash: -1141892420
+    name: Emotes Scaling PP
+  - hash: -731240417
+    name: Poses.253.Left
+  - hash: 2047188036
+    name: Poses.253.Right
+  - hash: 1740866848
+    name: Poses.253.Left Init
+  - hash: -920666291
+    name: Poses.253.Right Init
+  - hash: 523697082
+    name: Poses.252.Left
+  - hash: -596469776
+    name: Poses.252.Right
+  - hash: -1504879904
+    name: Poses.252.Left Init
+  - hash: 1387983650
+    name: Poses.252.Right Init
+  - hash: -1717401324
+    name: Poses.251.Left
+  - hash: -308638355
+    name: Poses.251.Right
+  - hash: 1068448993
+    name: Poses.251.Left Init
+  - hash: 623124946
+    name: Poses.251.Right Init
+  - hash: 1392401073
+    name: Poses.250.Left
+  - hash: 1273857753
+    name: Poses.250.Right
+  - hash: -31333599
+    name: Poses.250.Left Init
+  - hash: -1098814019
+    name: Poses.250.Right Init
+  - hash: 416994152
+    name: Poses.248.Left
+  - hash: -1264007136
+    name: Poses.248.Right
+  - hash: -548975093
+    name: Poses.248.Left Init
+  - hash: 1696318150
+    name: Poses.248.Right Init
+  - hash: -376675907
+    name: Poses.247.Left
+  - hash: 1122023625
+    name: Poses.247.Right
+  - hash: 1287633613
+    name: Poses.247.Left Init
+  - hash: 395271607
+    name: Poses.247.Right Init
+  - hash: -746192691
+    name: Poses.249.Left
+  - hash: 316654484
+    name: Poses.249.Right
+  - hash: 516526539
+    name: Poses.249.Left Init
+  - hash: -21066071
+    name: Poses.249.Right Init
+  - hash: 584102424
+    name: Poses.246.Left
+  - hash: -459820163
+    name: Poses.246.Right
+  - hash: -1926142707
+    name: Poses.246.Left Init
+  - hash: -1943399976
+    name: Poses.246.Right Init
+  - hash: -192327419
+    name: Poses.240.Left
+  - hash: -2025355705
+    name: Poses.240.Right
+  - hash: 1703194446
+    name: Poses.240.Left Init
+  - hash: 1662497848
+    name: Poses.240.Right Init
+  - hash: 1863848723
+    name: Poses.244.Left
+  - hash: 1929945684
+    name: Poses.244.Right
+  - hash: -715268916
+    name: Poses.244.Left Init
+  - hash: 1611763527
+    name: Poses.244.Right Init
+  - hash: 1914512299
+    name: Poses.243.Left
+  - hash: -1230005030
+    name: Poses.243.Right
+  - hash: -60372657
+    name: Poses.243.Left Init
+  - hash: 344549064
+    name: Poses.243.Right Init
+  - hash: 1070957216
+    name: Poses.241.Left
+  - hash: 556830195
+    name: Poses.241.Right
+  - hash: -1542819698
+    name: Poses.241.Left Init
+  - hash: -122488745
+    name: Poses.241.Right Init
+  - hash: -1538998090
+    name: Poses.245.Left
+  - hash: -713053728
+    name: Poses.245.Right
+  - hash: 349373196
+    name: Poses.245.Left Init
+  - hash: -72039640
+    name: Poses.245.Right Init
+  - hash: -1186861042
+    name: Poses.242.Left
+  - hash: 282629998
+    name: Poses.242.Right
+  - hash: 1038620303
+    name: Poses.242.Left Init
+  - hash: -1892930905
+    name: Poses.242.Right Init
+  - hash: -578949658
+    name: Poses.238.Left
+  - hash: -1100103367
+    name: Poses.238.Right
+  - hash: -1411405948
+    name: Poses.238.Left Init
+  - hash: 409519262
+    name: Poses.238.Right Init
+  - hash: 741039923
+    name: Poses.237.Left
+  - hash: 1210429904
+    name: Poses.237.Right
+  - hash: 942101314
+    name: Poses.237.Left Init
+  - hash: 1794923503
+    name: Poses.237.Right Init
+  - hash: 371277379
+    name: Poses.239.Left
+  - hash: 404408973
+    name: Poses.239.Right
+  - hash: 1783724100
+    name: Poses.239.Left Init
+  - hash: -2083682063
+    name: Poses.239.Right Init
+  - hash: 1642331704
+    name: Poses.235.Left
+  - hash: -541417223
+    name: Poses.235.Right
+  - hash: 1615587971
+    name: Poses.235.Left Init
+  - hash: -2033728144
+    name: Poses.235.Right Init
+  - hash: -411595626
+    name: Poses.236.Left
+  - hash: -296568220
+    name: Poses.236.Right
+  - hash: -106328958
+    name: Poses.236.Left Init
+  - hash: -245819520
+    name: Poses.236.Right Init
+  - hash: -1430311523
+    name: Poses.234.Left
+  - hash: 2043521869
+    name: Poses.234.Right
+  - hash: -1580911293
+    name: Poses.234.Left Init
+  - hash: 492996895
+    name: Poses.234.Right Init
+  - hash: -1336527369
+    name: Poses.229.Left
+  - hash: -726611437
+    name: Poses.229.Right
+  - hash: -235654101
+    name: Poses.229.Left Init
+  - hash: 1583042932
+    name: Poses.229.Right Init
+  - hash: -93144018
+    name: Poses.231.Left
+  - hash: 737510634
+    name: Poses.231.Right
+  - hash: -795698943
+    name: Poses.231.Left Init
+  - hash: -2050884081
+    name: Poses.231.Right Init
+  - hash: 2095500928
+    name: Poses.232.Left
+  - hash: 438148727
+    name: Poses.232.Right
+  - hash: 1232142080
+    name: Poses.232.Left Init
+  - hash: -228643585
+    name: Poses.232.Right Init
+  - hash: -1212539611
+    name: Poses.233.Left
+  - hash: -1133865533
+    name: Poses.233.Right
+  - hash: -1996611392
+    name: Poses.233.Left Init
+  - hash: 1778016400
+    name: Poses.233.Right Init
+  - hash: 825126795
+    name: Poses.230.Left
+  - hash: -1920823458
+    name: Poses.230.Right
+  - hash: 287065793
+    name: Poses.230.Left Init
+  - hash: 509915744
+    name: Poses.230.Right Init
+  - hash: 1090553634
+    name: Poses.226.Left
+  - hash: 586726138
+    name: Poses.226.Right
+  - hash: 1645002989
+    name: Poses.226.Left Init
+  - hash: 751816197
+    name: Poses.226.Right Init
+  - hash: 214443561
+    name: Poses.224.Left
+  - hash: -1251497005
+    name: Poses.224.Right
+  - hash: 979401004
+    name: Poses.224.Left Init
+  - hash: -1057730406
+    name: Poses.224.Right Init
+  - hash: -946539124
+    name: Poses.225.Left
+  - hash: 319856743
+    name: Poses.225.Right
+  - hash: -68245780
+    name: Poses.225.Left Init
+  - hash: 1532042485
+    name: Poses.225.Right Init
+  - hash: 2064311890
+    name: Poses.228.Left
+  - hash: 1925693863
+    name: Poses.228.Right
+  - hash: 813362155
+    name: Poses.228.Left Init
+  - hash: -973202149
+    name: Poses.228.Right Init
+  - hash: -1973660537
+    name: Poses.227.Left
+  - hash: -2070957746
+    name: Poses.227.Right
+  - hash: -1551753427
+    name: Poses.227.Left Init
+  - hash: -1217756566
+    name: Poses.227.Right Init
+  - hash: -2118242454
+    name: Poses.219.Left
+  - hash: 1514130928
+    name: Poses.219.Right
+  - hash: -2039814437
+    name: Poses.219.Left Init
+  - hash: -477020742
+    name: Poses.219.Right Init
+  - hash: -1755749313
+    name: Poses.220.Left
+  - hash: 1093177280
+    name: Poses.220.Right
+  - hash: -1967584594
+    name: Poses.220.Left Init
+  - hash: -1007522843
+    name: Poses.220.Right Init
+  - hash: 298653329
+    name: Poses.223.Left
+  - hash: 1891669341
+    name: Poses.223.Right
+  - hash: 324758703
+    name: Poses.223.Left Init
+  - hash: -1267943147
+    name: Poses.223.Right Init
+  - hash: -627981004
+    name: Poses.222.Left
+  - hash: -692609303
+    name: Poses.222.Right
+  - hash: -757746833
+    name: Poses.222.Left Init
+  - hash: 801764730
+    name: Poses.222.Right Init
+  - hash: 1543878554
+    name: Poses.221.Left
+  - hash: -413170572
+    name: Poses.221.Right
+  - hash: 1261950318
+    name: Poses.221.Left Init
+  - hash: 1482106762
+    name: Poses.221.Right Init
+  - hash: -1239269369
+    name: Smoothing
+  - hash: 514950745
+    name: Wait
+  - hash: -2053905705
+    name: Stand 4 pt
+  - hash: -1016536631
+    name: Prone 4 pt
+  - hash: 935084633
+    name: Action 4 pt
+  - hash: 71514426
+    name: Stand 4 pt InStation
+  - hash: -1289628183
+    name: 'Stand from sit 4 pt '
+  - hash: -1193106470
+    name: Left Finger.Fist
+  - hash: -2004655550
+    name: Left Finger.Point
+  - hash: 937900034
+    name: Left Finger.Open
+  - hash: 909348129
+    name: Left Finger.Peace
+  - hash: 920556750
+    name: Left Finger.RockNRoll
+  - hash: -723517738
+    name: Left Finger.Gun
+  - hash: 1965988672
+    name: Left Finger.Thumbs up
+  - hash: 1337134771
+    name: Left Finger.Idle
+  - hash: 678723683
+    name: Right Finger.Fist
+  - hash: 984547145
+    name: Right Finger.Point
+  - hash: -1485759557
+    name: Right Finger.Open
+  - hash: -2078404566
+    name: Right Finger.Peace
+  - hash: 290566179
+    name: Right Finger.RockNRoll
+  - hash: -35531047
+    name: Right Finger.Gun
+  - hash: 1386332077
+    name: Right Finger.Thumbs up
+  - hash: -551211766
+    name: Right Finger.Idle
+  - hash: -705609103
+    name: WaitForActionOrAFK
+  - hash: 1346771209
+    name: AFK.BlendOut AFK
+  - hash: 1604335447
+    name: AFK.Standing Afk Init
+  - hash: 338338620
+    name: AFK.AFK Manual
+  - hash: -111987608
+    name: AFK.Manual AFK Init
+  - hash: 1733705649
+    name: AFK.Crouching Afk Init
+  - hash: 311092338
+    name: AFK.AFK Crouching Loop
+  - hash: -1152305067
+    name: AFK.Prepare AFK Init
+  - hash: -171292359
+    name: AFK.AFK Proning Loop
+  - hash: 1233355969
+    name: AFK.Proning Afk Init
+  - hash: -2111423597
+    name: AFK.AFK Standing Loop
+  - hash: -1239514282
+    name: AFK.BlendOut AFK Scaling
+  - hash: 1546120267
+    name: AFK.BlendOut AFK Out
+  - hash: 176418602
+    name: AFK.AFK Crouching Stop
+  - hash: -305970591
+    name: AFK.AFK Proning Stop
+  - hash: -1708183349
+    name: AFK.AFK Standing Stop
+  - hash: 2089186718
+    name: Standing Emotes.BlendOut Stand
+  - hash: 326677252
+    name: Standing Emotes.1-8.6_backflip
+  - hash: -143266
+    name: Standing Emotes.1-8.8_die_hold
+  - hash: 494487481
+    name: Standing Emotes.1-8.7_sadkick
+  - hash: -629301451
+    name: Standing Emotes.1-8.5_dance
+  - hash: -482725276
+    name: Standing Emotes.1-8.4_stand_cheer
+  - hash: 659776589
+    name: Standing Emotes.1-8.3_stand_point
+  - hash: -1210701297
+    name: Standing Emotes.1-8.2_stand_clap
+  - hash: 2142620441
+    name: Standing Emotes.1-8.1_stand_wave
+  - hash: 130647943
+    name: Standing Emotes.9-16.12
+  - hash: -1716710876
+    name: Standing Emotes.9-16.15
+  - hash: -372775253
+    name: Standing Emotes.9-16.10
+  - hash: 10765214
+    name: Standing Emotes.9-16.16
+  - hash: 1892595473
+    name: Standing Emotes.9-16.13
+  - hash: -1631529411
+    name: Standing Emotes.9-16.11
+  - hash: -290839886
+    name: Standing Emotes.9-16.14
+  - hash: -1510840798
+    name: Standing Emotes.9-16.9
+  - hash: 1827669217
+    name: Standing Emotes.17-24.19
+  - hash: 963390367
+    name: Standing Emotes.17-24.24
+  - hash: -1492599236
+    name: Standing Emotes.17-24.23
+  - hash: 1040314246
+    name: Standing Emotes.17-24.20
+  - hash: 469185655
+    name: Standing Emotes.17-24.18
+  - hash: -804286806
+    name: Standing Emotes.17-24.22
+  - hash: 1225187088
+    name: Standing Emotes.17-24.21
+  - hash: -1958204954
+    name: Standing Emotes.17-24.17
+  - hash: -1585571197
+    name: Standing Emotes.25-32.27
+  - hash: -938483891
+    name: Standing Emotes.25-32.32
+  - hash: 1359384311
+    name: Standing Emotes.25-32.31
+  - hash: 834733842
+    name: Standing Emotes.25-32.28
+  - hash: -696702443
+    name: Standing Emotes.25-32.26
+  - hash: 637648481
+    name: Standing Emotes.25-32.30
+  - hash: 1187395460
+    name: Standing Emotes.25-32.29
+  - hash: 1332771759
+    name: Standing Emotes.25-32.25
+  - hash: -516396079
+    name: Standing Emotes.33-40.35
+  - hash: -569177703
+    name: Standing Emotes.33-40.40
+  - hash: -393336838
+    name: Standing Emotes.33-40.39
+  - hash: 2016492139
+    name: Standing Emotes.33-40.36
+  - hash: -1774232761
+    name: Standing Emotes.33-40.34
+  - hash: -1618405524
+    name: Standing Emotes.33-40.38
+  - hash: 255199997
+    name: Standing Emotes.33-40.37
+  - hash: 140234468
+    name: Standing Emotes.33-40.33
+  - hash: 536111356
+    name: Standing Emotes.41-48.43
+  - hash: -2010730124
+    name: Standing Emotes.41-48.48
+  - hash: 412724453
+    name: Standing Emotes.41-48.47
+  - hash: -2121204385
+    name: Standing Emotes.41-48.44
+  - hash: 1760778346
+    name: Standing Emotes.41-48.42
+  - hash: 1872665715
+    name: Standing Emotes.41-48.46
+  - hash: -157823543
+    name: Standing Emotes.41-48.45
+  - hash: -235271728
+    name: Standing Emotes.41-48.41
+  - hash: 112273525
+    name: Standing Emotes.49-56.51
+  - hash: -1730822698
+    name: Standing Emotes.49-56.56
+  - hash: 31255660
+    name: Standing Emotes.49-56.55
+  - hash: -1615300145
+    name: Standing Emotes.49-56.52
+  - hash: 1907759331
+    name: Standing Emotes.49-56.50
+  - hash: 1994120442
+    name: Standing Emotes.49-56.54
+  - hash: -390117031
+    name: Standing Emotes.49-56.53
+  - hash: 292655366
+    name: Standing Emotes.49-56.49
+  - hash: 2035706335
+    name: Standing Emotes.57-64.59
+  - hash: 751453857
+    name: Standing Emotes.57-64.64
+  - hash: -1297165566
+    name: Standing Emotes.57-64.63
+  - hash: 732398264
+    name: Standing Emotes.57-64.60
+  - hash: 240212297
+    name: Standing Emotes.57-64.58
+  - hash: -978721900
+    name: Standing Emotes.57-64.62
+  - hash: 1554035246
+    name: Standing Emotes.57-64.61
+  - hash: -1628551976
+    name: Standing Emotes.57-64.57
+  - hash: -122253868
+    name: Restore Tracking.Restore Tracking (Seated)
+  - hash: 436923447
+    name: Restore Tracking.Restore Tracking (Seated) FBT
+  - hash: -2045880022
+    name: Restore Tracking.Restore Tracking (Stand)
+  - hash: -429738135
+    name: Restore Tracking.Restore Tracking (Pose)
+  - hash: -1476076012
+    name: Prepare Standing.Prepare Standing Desktop
+  - hash: 1901608015
+    name: Prepare Standing.Prepare Standing VR
+  - hash: 1545162636
+    name: Go/PP Regulator Wait
+  - hash: -2031146476
+    name: IsUpright
+  - hash: -1079340638
+    name: Temporary Pose Space.PP Up
+  - hash: 1867228981
+    name: Temporary Pose Space.PP Down
+  - hash: 812566579
+    name: Temporary Pose Space.PP Spam
+  - hash: 143995547
+    name: Temporary Pose Space.Scale
+  - hash: -17702100
+    name: Temporary Pose Space.PP Spam Repeat
+  - hash: 895496173
+    name: Temporary Pose Space.PP Up Repeat
+  - hash: -20130791
+    name: Temporary Pose Space.PP Down Repeat
+  - hash: 885519704
+    name: Temporary Pose Space.Scale Repeat
+  - hash: 1726668605
+    name: Temporary Pose Space.Go/PP Regulator Out
+  - hash: 2072519561
+    name: Temporary Pose Space.Pose Bool True
+  - hash: -638619797
+    name: Temporary Pose Space.VRCEmote 0
+  - hash: 772916965
+    name: Temporary Pose Space.FBT InStation Fix
+  - hash: 732649311
+    name: Temporary Pose Space.Pose Float Adjustment.248
+  - hash: -871138728
+    name: Temporary Pose Space.Pose Float Adjustment.246
+  - hash: 1427778530
+    name: Temporary Pose Space.Pose Float Adjustment.245
+  - hash: -1132884265
+    name: Temporary Pose Space.Pose Float Adjustment.243
+  - hash: 1383591931
+    name: Temporary Pose Space.Pose Float Adjustment.241
+  - hash: 628154221
+    name: Temporary Pose Space.Pose Float Adjustment.240
+  - hash: -880886207
+    name: Temporary Pose Space.Pose Float Adjustment.242
+  - hash: 572332916
+    name: Temporary Pose Space.Pose Float Adjustment.244
+  - hash: -1156298034
+    name: Temporary Pose Space.Pose Float Adjustment.247
+  - hash: 1693106584
+    name: Temporary Pose Space.Pose Float Adjustment.238
+  - hash: 183943247
+    name: Temporary Pose Space.Pose Float Adjustment.229
+  - hash: 1781615018
+    name: Temporary Pose Space.Pose Float Adjustment.230
+  - hash: 490109244
+    name: Temporary Pose Space.Pose Float Adjustment.231
+  - hash: -2076235642
+    name: Temporary Pose Space.Pose Float Adjustment.232
+  - hash: -214427632
+    name: Temporary Pose Space.Pose Float Adjustment.233
+  - hash: 334360846
+    name: Temporary Pose Space.Pose Float Adjustment.239
+  - hash: -195699703
+    name: Temporary Pose Space.Pose Float Adjustment.237
+  - hash: 1554802633
+    name: Temporary Pose Space.Pose Float Adjustment.249
+  - hash: 1834782131
+    name: Temporary Pose Space.Pose Float Adjustment.234
+  - hash: -2091717473
+    name: Temporary Pose Space.Pose Float Adjustment.236
+  - hash: -1520255082
+    name: Temporary Pose Space.Pose Float Adjustment.253
+  - hash: -765096192
+    name: Temporary Pose Space.Pose Float Adjustment.252
+  - hash: 1265426106
+    name: Temporary Pose Space.Pose Float Adjustment.251
+  - hash: 1013706284
+    name: Temporary Pose Space.Pose Float Adjustment.250
+  - hash: 442219813
+    name: Temporary Pose Space.Pose Float Adjustment.235
+  - hash: -366794415
+    name: Temporary Pose Space.Pose Float Adjustment.223
+  - hash: -313594552
+    name: Temporary Pose Space.Pose Float Adjustment.227
+  - hash: 568038284
+    name: Temporary Pose Space.Pose Float Adjustment.219
+  - hash: 70076541
+    name: Temporary Pose Space.Pose Float Adjustment.221
+  - hash: 1932163307
+    name: Temporary Pose Space.Pose Float Adjustment.220
+  - hash: 2113007833
+    name: Temporary Pose Space.Pose Float Adjustment.228
+  - hash: -1658578489
+    name: Temporary Pose Space.Pose Float Adjustment.222
+  - hash: -1706435106
+    name: Temporary Pose Space.Pose Float Adjustment.226
+  - hash: 1950858482
+    name: Temporary Pose Space.Pose Float Adjustment.224
+  - hash: 54561892
+    name: Temporary Pose Space.Pose Float Adjustment.225
+  - hash: 972126249
+    name: Velocity Check.Jump Press
+  - hash: 1437261596
+    name: Velocity Check.On Wall
+  - hash: 1254223875
+    name: Velocity Check.On Rail Down
+  - hash: 786688619
+    name: Velocity Check.Jump Hold
+  - hash: -276681105
+    name: Velocity Check.On Rail Up
+  - hash: 549062720
+    name: Velocity Check.Falling
+  - hash: 2019031036
+    name: Velocity Check.Velocity Out
+  - hash: 1749983670
+    name: Locomotion.Locomotion Enable
+  - hash: 1573597209
+    name: Locomotion.Locomotion Enable Reset
+  - hash: -1525947391
+    name: Locomotion.Locomotion Disable
+  - hash: -1213602561
+    name: Grounded Check.JumpAndFall ?
+  - hash: 914131204
+    name: Grounded Check.Allow JumpAndFall
+  - hash: 864850386
+    name: Grounded Check.Jump Wait
+  - hash: 1223111905
+    name: Blocker.Third Person Ejected
+  - hash: 1029764947
+    name: Blocker.Horizon FBT Blocker
+  - hash: 1494419283
+    name: Timer Wait
+  - hash: -522818242
+    name: JSRF.Jump / Rail / Wall ?
+  - hash: 994404011
+    name: JSRF.Velocity Timer
+  - hash: 1512243380
+    name: JSRF.Jump
+  - hash: 1561214232
+    name: JSRF.JSRF Grounded
+  - hash: 1476764592
+    name: SVRB.SVRB Grounded ?
+  - hash: 1470532442
+    name: SVRB.SVRB Grounded
+  - hash: 193576762
+    name: PP & Scaling.Force Reset 6 pt
+  - hash: 1430879593
+    name: PP & Scaling.Timer PP
+  - hash: 1631843250
+    name: PP & Scaling.Scaling 6 pt
+  - hash: 1807261103
+    name: PP & Scaling.Force Close Horizon
+  - hash: 650208761
+    name: PP & Scaling.Force Close
+  - hash: -440273026
+    name: PP & Scaling.Pose Space PP
+  - hash: 1453130624
+    name: PP & Scaling.Scaling 3 pt
+  - hash: -665189202
+    name: Fly Wait
+  - hash: 281351038
+    name: Wait, am not flying ?
+  - hash: 710098064
+    name: Fly Tracking Trigger.Auto Fly Tracking Trigger
+  - hash: -800411438
+    name: Fly Tracking Trigger.Fly Tracking Trigger
+  - hash: 353800213
+    name: Fly Tracking Trigger.Auto Fly Tracking Radial
+  - hash: -1636908189
+    name: Fly Tracking Trigger.Fly Tracking Trigger FBT
+  - hash: -1084011220
+    name: Fly Tracking Radial.Fly Tracking Radial
+  - hash: 1955665206
+    name: Fly Tracking Radial.Auto Fly Tracking Radial
+  - hash: -595549866
+    name: Fly Tracking Radial.Fly Tracking Radial FBT
+  - hash: 1943695152
+    name: Scale
+  - hash: 1666750833
+    name: Save to Float.Scale Fly 3 PT
+  - hash: 965080969
+    name: Save to Float.Scale Reset
+  - hash: -1883109861
+    name: Save to Float.Scale Save To Float
+  - hash: -1655305914
+    name: Save to Float.Scale Fly 3 FBT
+  - hash: 321567669
+    name: Save to Float.Scale Transition
+  - hash: -340760958
+    name: Save to Float.Scale Save To Float Horizon
+  - hash: -1332180633
+    name: Action VR.Scale Action
+  - hash: 2087354442
+    name: Action VR.Scale Action End
+  - hash: 1300157252
+    name: Scaling Remote.Scaling Remote
+  - hash: 181892722
+    name: Scaling Remote.Scale Back
+  - hash: -159386543
+    name: Scaling.Scale Wait
+  - hash: -1414445519
+    name: Scaling.Scale Save Seated
+  - hash: -964748677
+    name: Scaling.Scale Default
+  - hash: 1969611953
+    name: Scaling.Scaling
+  - hash: 863894427
+    name: Scale Head
+  - hash: -154648553
+    name: Desktop Local
+  - hash: 1145060824
+    name: Remote Head
+  - hash: -995452616
+    name: Animate Hands
+  - hash: -1931534284
+    name: Default Head
+  autoFootsteps: 1
+  autoLocomotion: 0
+  collider_head:
+    isMirrored: 1
+    state: 0
+    transform: {fileID: 0}
+    radius: 0
+    height: 0
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  collider_torso:
+    isMirrored: 1
+    state: 0
+    transform: {fileID: 0}
+    radius: 0
+    height: 0
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  collider_footR:
+    isMirrored: 1
+    state: 0
+    transform: {fileID: 0}
+    radius: 0
+    height: 0
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  collider_footL:
+    isMirrored: 1
+    state: 0
+    transform: {fileID: 0}
+    radius: 0
+    height: 0
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  collider_handR:
+    isMirrored: 1
+    state: 0
+    transform: {fileID: 0}
+    radius: 0
+    height: 0
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  collider_handL:
+    isMirrored: 1
+    state: 0
+    transform: {fileID: 0}
+    radius: 0
+    height: 0
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  collider_fingerIndexL:
+    isMirrored: 1
+    state: 0
+    transform: {fileID: 0}
+    radius: 0
+    height: 0
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  collider_fingerMiddleL:
+    isMirrored: 1
+    state: 0
+    transform: {fileID: 0}
+    radius: 0
+    height: 0
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  collider_fingerRingL:
+    isMirrored: 1
+    state: 0
+    transform: {fileID: 0}
+    radius: 0
+    height: 0
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  collider_fingerLittleL:
+    isMirrored: 1
+    state: 0
+    transform: {fileID: 0}
+    radius: 0
+    height: 0
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  collider_fingerIndexR:
+    isMirrored: 1
+    state: 0
+    transform: {fileID: 0}
+    radius: 0
+    height: 0
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  collider_fingerMiddleR:
+    isMirrored: 1
+    state: 0
+    transform: {fileID: 0}
+    radius: 0
+    height: 0
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  collider_fingerRingR:
+    isMirrored: 1
+    state: 0
+    transform: {fileID: 0}
+    radius: 0
+    height: 0
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  collider_fingerLittleR:
+    isMirrored: 1
+    state: 0
+    transform: {fileID: 0}
+    radius: 0
+    height: 0
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+--- !u!1 &1784193973 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 616373069110365890, guid: 2e86234f85749c1469c3a122e2d7e338,
+    type: 3}
+  m_PrefabInstance: {fileID: 1784193963}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1784193974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1784193964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1427037861, guid: 4ecd63eff847044b68db9453ce219299, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  launchedFromSDKPipeline: 0
+  completedSDKPipeline: 0
+  blueprintId: 
+  contentType: 0
+  assetBundleUnityVersion: 
+  fallbackStatus: 1
+--- !u!114 &1784193975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1784193968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  integrationType: 0
+  rootTransform: {fileID: 0}
+  ignoreTransforms: []
+  endpointPosition: {x: 0, y: 0.09, z: 0}
+  multiChildType: 0
+  pull: 0.275
+  pullCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spring: 0.825
+  springCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stiffness: 0.2
+  stiffnessCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gravity: 0
+  gravityCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gravityFalloff: 0
+  gravityFalloffCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  immobileType: 1
+  immobile: 0.5
+  immobileCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowCollision: 1
+  radius: 0.1
+  radiusCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.36755157
+      value: 0.5499895
+      inSlope: -0.6023277
+      outSlope: -0.6023277
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0.16904831
+      inSlope: -0.6023277
+      outSlope: -0.6023277
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  colliders: []
+  limitType: 0
+  maxAngleX: 45
+  maxAngleXCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxAngleZ: 45
+  maxAngleZCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotation: {x: 0, y: 0, z: 0}
+  limitRotationXCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotationYCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotationZCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowGrabbing: 1
+  allowPosing: 1
+  grabMovement: 0.5
+  maxStretch: 0
+  maxStretchCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  isAnimated: 1
+  parameter: 
+  showGizmos: 1
+  boneOpacity: 0.5
+  limitOpacity: 0.5
+--- !u!114 &1784193976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1784193973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  integrationType: 0
+  rootTransform: {fileID: 0}
+  ignoreTransforms: []
+  endpointPosition: {x: 0, y: 0.09, z: 0}
+  multiChildType: 0
+  pull: 0.275
+  pullCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spring: 0.825
+  springCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stiffness: 0.2
+  stiffnessCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gravity: 0
+  gravityCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gravityFalloff: 0
+  gravityFalloffCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  immobileType: 1
+  immobile: 0.5
+  immobileCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowCollision: 1
+  radius: 0.1
+  radiusCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.36755157
+      value: 0.5499895
+      inSlope: -0.6023277
+      outSlope: -0.6023277
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0.16904831
+      inSlope: -0.6023277
+      outSlope: -0.6023277
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  colliders: []
+  limitType: 0
+  maxAngleX: 45
+  maxAngleXCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxAngleZ: 45
+  maxAngleZCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotation: {x: 0, y: 0, z: 0}
+  limitRotationXCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotationYCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotationZCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowGrabbing: 1
+  allowPosing: 1
+  grabMovement: 0.5
+  maxStretch: 0
+  maxStretchCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  isAnimated: 1
+  parameter: 
+  showGizmos: 1
+  boneOpacity: 0.5
+  limitOpacity: 0.5
+--- !u!1 &1864083571 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6686971162815637255, guid: 2e86234f85749c1469c3a122e2d7e338,
+    type: 3}
+  m_PrefabInstance: {fileID: 458181536}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1864083573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1864083571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  integrationType: 0
+  rootTransform: {fileID: 0}
+  ignoreTransforms: []
+  endpointPosition: {x: 0, y: 0.09, z: 0}
+  multiChildType: 0
+  pull: 0.275
+  pullCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spring: 0.825
+  springCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stiffness: 0.2
+  stiffnessCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gravity: 0
+  gravityCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gravityFalloff: 0
+  gravityFalloffCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  immobileType: 1
+  immobile: 0.5
+  immobileCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowCollision: 1
+  radius: 0.1
+  radiusCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.36755157
+      value: 0.5499895
+      inSlope: -0.6023277
+      outSlope: -0.6023277
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0.16904831
+      inSlope: -0.6023277
+      outSlope: -0.6023277
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  colliders: []
+  limitType: 0
+  maxAngleX: 45
+  maxAngleXCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxAngleZ: 45
+  maxAngleZCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotation: {x: 0, y: 0, z: 0}
+  limitRotationXCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotationYCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotationZCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowGrabbing: 1
+  allowPosing: 1
+  grabMovement: 0.5
+  maxStretch: 0
+  maxStretchCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  isAnimated: 1
+  parameter: 
+  showGizmos: 1
+  boneOpacity: 0.5
+  limitOpacity: 0.5
