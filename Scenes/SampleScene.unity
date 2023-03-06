@@ -2823,7 +2823,7 @@ Animator:
   m_GameObject: {fileID: 343981499}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 7724aed34b09e934ea2da5dbbbe78922, type: 3}
-  m_Controller: {fileID: 1406337135}
+  m_Controller: {fileID: 1618666711}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -5366,28 +5366,6 @@ Transform:
   m_Father: {fileID: 776745804}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1107 &655675105
-AnimatorStateMachine:
-  serializedVersion: 6
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Base
-  m_ChildStates:
-  - serializedVersion: 1
-    m_State: {fileID: 1443660380}
-    m_Position: {x: 200, y: 0, z: 0}
-  m_ChildStateMachines: []
-  m_AnyStateTransitions: []
-  m_EntryTransitions: []
-  m_StateMachineTransitions: {}
-  m_StateMachineBehaviours: []
-  m_AnyStatePosition: {x: 50, y: 20, z: 0}
-  m_EntryPosition: {x: 50, y: 120, z: 0}
-  m_ExitPosition: {x: 800, y: 120, z: 0}
-  m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
-  m_DefaultState: {fileID: 1443660380}
 --- !u!1 &660717390
 GameObject:
   m_ObjectHideFlags: 0
@@ -8343,6 +8321,32 @@ Transform:
   m_Father: {fileID: 1377184807}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1102 &1083389468
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: recorder
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 0
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 5bb6f72f3c7688645a73051fd02f71a4, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
 --- !u!1 &1100587319
 GameObject:
   m_ObjectHideFlags: 0
@@ -9745,28 +9749,6 @@ Transform:
   m_Father: {fileID: 81856635}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!91 &1406337135
-AnimatorController:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Fake Temporary Controller__DoNotModify
-  serializedVersion: 5
-  m_AnimatorParameters: []
-  m_AnimatorLayers:
-  - serializedVersion: 5
-    m_Name: Base
-    m_StateMachine: {fileID: 655675105}
-    m_Mask: {fileID: 0}
-    m_Motions: []
-    m_Behaviours: []
-    m_BlendingMode: 0
-    m_SyncedLayerIndex: -1
-    m_DefaultWeight: 0
-    m_IKPass: 0
-    m_SyncedLayerAffectsTiming: 0
-    m_Controller: {fileID: 1406337135}
 --- !u!1 &1416231008 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1767839385459854648, guid: 7724aed34b09e934ea2da5dbbbe78922,
@@ -10002,32 +9984,6 @@ Transform:
   m_Father: {fileID: 1905877826}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1102 &1443660380
-AnimatorState:
-  serializedVersion: 6
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: recorder
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Transitions: []
-  m_StateMachineBehaviours: []
-  m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
-  m_WriteDefaultValues: 0
-  m_Mirror: 0
-  m_SpeedParameterActive: 0
-  m_MirrorParameterActive: 0
-  m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 48edd8ebfeafa05468164800ae4739a9, type: 2}
-  m_Tag: 
-  m_SpeedParameter: 
-  m_MirrorParameter: 
-  m_CycleOffsetParameter: 
-  m_TimeParameter: 
 --- !u!1 &1463702494
 GameObject:
   m_ObjectHideFlags: 0
@@ -10477,6 +10433,11 @@ PrefabInstance:
       objectReference: {fileID: 948428589}
     - target: {fileID: 258466012350164061, guid: 791f08310e5f43443b06f7860f18a0cd,
         type: 3}
+      propertyPath: blinking.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 258466012350164061, guid: 791f08310e5f43443b06f7860f18a0cd,
+        type: 3}
       propertyPath: editorLegacyFoldout
       value: 0
       objectReference: {fileID: 0}
@@ -10707,6 +10668,28 @@ Transform:
   m_Father: {fileID: 2108946889}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1107 &1574258229
+AnimatorStateMachine:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Base
+  m_ChildStates:
+  - serializedVersion: 1
+    m_State: {fileID: 1083389468}
+    m_Position: {x: 200, y: 0, z: 0}
+  m_ChildStateMachines: []
+  m_AnyStateTransitions: []
+  m_EntryTransitions: []
+  m_StateMachineTransitions: {}
+  m_StateMachineBehaviours: []
+  m_AnyStatePosition: {x: 50, y: 20, z: 0}
+  m_EntryPosition: {x: 50, y: 120, z: 0}
+  m_ExitPosition: {x: 800, y: 120, z: 0}
+  m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
+  m_DefaultState: {fileID: 1083389468}
 --- !u!1 &1577507073
 GameObject:
   m_ObjectHideFlags: 0
@@ -11176,6 +11159,28 @@ MonoBehaviour:
   showGizmos: 1
   boneOpacity: 0.5
   limitOpacity: 0.5
+--- !u!91 &1618666711
+AnimatorController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Fake Temporary Controller__DoNotModify
+  serializedVersion: 5
+  m_AnimatorParameters: []
+  m_AnimatorLayers:
+  - serializedVersion: 5
+    m_Name: Base
+    m_StateMachine: {fileID: 1574258229}
+    m_Mask: {fileID: 0}
+    m_Motions: []
+    m_Behaviours: []
+    m_BlendingMode: 0
+    m_SyncedLayerIndex: -1
+    m_DefaultWeight: 0
+    m_IKPass: 0
+    m_SyncedLayerAffectsTiming: 0
+    m_Controller: {fileID: 1618666711}
 --- !u!1 &1619578102
 GameObject:
   m_ObjectHideFlags: 0
@@ -13511,7 +13516,7 @@ PrefabInstance:
     - target: {fileID: 4112984690662791721, guid: 7724aed34b09e934ea2da5dbbbe78922,
         type: 3}
       propertyPath: m_BlendShapeWeights.Array.data[21]
-      value: 50
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 4112984690662791721, guid: 7724aed34b09e934ea2da5dbbbe78922,
         type: 3}
@@ -14732,6 +14737,12 @@ MonoBehaviour:
     name: anim_gun
   - hash: 2135621116
     name: empty
+  - hash: -690754817
+    name: EnableBlinking
+  - hash: 245759410
+    name: DisableBlinking
+  - hash: 814330056
+    name: SuspendBlinking
   autoFootsteps: 1
   autoLocomotion: 1
   collider_head:
@@ -14846,6 +14857,19 @@ MonoBehaviour:
     height: 0
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
+--- !u!114 &1947115998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947115993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 229740497, guid: 4ecd63eff847044b68db9453ce219299, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  contentType: 0
 --- !u!1 &1962740999
 GameObject:
   m_ObjectHideFlags: 0
