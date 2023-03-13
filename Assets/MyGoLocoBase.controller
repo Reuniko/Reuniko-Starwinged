@@ -10,7 +10,7 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 4
     m_ConditionEvent: Upright
-    m_EventTreshold: 0.45
+    m_EventTreshold: 0.55
   - m_ConditionMode: 2
     m_ConditionEvent: InStation
     m_EventTreshold: 0
@@ -328,7 +328,7 @@ AnimatorStateTransition:
     m_EventTreshold: 0.7
   - m_ConditionMode: 3
     m_ConditionEvent: Upright
-    m_EventTreshold: 0.45
+    m_EventTreshold: 0.55
   - m_ConditionMode: 2
     m_ConditionEvent: InStation
     m_EventTreshold: 0
@@ -10868,7 +10868,7 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 3
     m_ConditionEvent: Upright
-    m_EventTreshold: 0.75
+    m_EventTreshold: 0.7
   - m_ConditionMode: 2
     m_ConditionEvent: InStation
     m_EventTreshold: 0
@@ -12720,7 +12720,7 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 4
     m_ConditionEvent: Upright
-    m_EventTreshold: 0.45
+    m_EventTreshold: 0.55
   - m_ConditionMode: 2
     m_ConditionEvent: InStation
     m_EventTreshold: 0
@@ -12748,7 +12748,7 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 3
     m_ConditionEvent: Upright
-    m_EventTreshold: 0.75
+    m_EventTreshold: 0.7
   - m_ConditionMode: 2
     m_ConditionEvent: InStation
     m_EventTreshold: 0
@@ -14646,7 +14646,7 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 3
     m_ConditionEvent: Upright
-    m_EventTreshold: 0.75
+    m_EventTreshold: 0.7
   - m_ConditionMode: 2
     m_ConditionEvent: InStation
     m_EventTreshold: 0
@@ -22386,7 +22386,7 @@ AnimatorStateTransition:
     m_EventTreshold: 0.7
   - m_ConditionMode: 3
     m_ConditionEvent: Upright
-    m_EventTreshold: 0.45
+    m_EventTreshold: 0.55
   - m_ConditionMode: 2
     m_ConditionEvent: InStation
     m_EventTreshold: 0
@@ -22770,7 +22770,7 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 3
     m_ConditionEvent: Upright
-    m_EventTreshold: 0.75
+    m_EventTreshold: 0.7
   - m_ConditionMode: 2
     m_ConditionEvent: InStation
     m_EventTreshold: 0
@@ -38469,7 +38469,7 @@ AnimatorStateTransition:
     m_EventTreshold: 0.55
   - m_ConditionMode: 4
     m_ConditionEvent: Upright
-    m_EventTreshold: 0.75
+    m_EventTreshold: 0.7
   - m_ConditionMode: 2
     m_ConditionEvent: InStation
     m_EventTreshold: 0
@@ -43864,7 +43864,7 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 4
     m_ConditionEvent: Upright
-    m_EventTreshold: 0.45
+    m_EventTreshold: 0.55
   - m_ConditionMode: 2
     m_ConditionEvent: InStation
     m_EventTreshold: 0
@@ -44468,7 +44468,7 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 4
     m_ConditionEvent: Upright
-    m_EventTreshold: 0.45
+    m_EventTreshold: 0.55
   - m_ConditionMode: 2
     m_ConditionEvent: InStation
     m_EventTreshold: 0
@@ -44643,7 +44643,7 @@ AnimatorStateTransition:
     m_EventTreshold: 0.55
   - m_ConditionMode: 4
     m_ConditionEvent: Upright
-    m_EventTreshold: 0.75
+    m_EventTreshold: 0.7
   - m_ConditionMode: 2
     m_ConditionEvent: InStation
     m_EventTreshold: 0
