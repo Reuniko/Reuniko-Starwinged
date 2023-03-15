@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3349,32 +3349,6 @@ Transform:
   m_Father: {fileID: 1549133101}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &408374948 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3489497601361014436, guid: 7724aed34b09e934ea2da5dbbbe78922,
-    type: 3}
-  m_PrefabInstance: {fileID: 1947115992}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &408374950
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 408374948}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1631200402, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rootTransform: {fileID: 0}
-  shapeType: 2
-  insideBounds: 0
-  radius: 0.5
-  height: 2
-  position: {x: 0, y: 0, z: 0}
-  rotation: {x: 0.70710677, y: 0, z: 0, w: 0.70710677}
-  bonesAsSpheres: 0
 --- !u!1 &417608805
 GameObject:
   m_ObjectHideFlags: 0
@@ -5208,7 +5182,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   colliders:
-  - {fileID: 408374950}
+  - {fileID: 0}
   limitType: 1
   maxAngleX: 30
   maxAngleXCurve:
@@ -5544,7 +5518,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 685358865}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.000025, y: 0.000973, z: 0.000598}
+  m_LocalPosition: {x: -0.000033, y: 0.001016, z: 0.000655}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1554440732}
@@ -5562,7 +5536,7 @@ MonoBehaviour:
   m_Script: {fileID: -1450912254, guid: 80f1b8067b0760e4bb45023bc2e9de66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rootTransform: {fileID: 1554440732}
+  rootTransform: {fileID: 0}
   shapeType: 0
   radius: 0.0002
   height: 2
@@ -13340,12 +13314,12 @@ PrefabInstance:
     - target: {fileID: -8721627455760276902, guid: 7724aed34b09e934ea2da5dbbbe78922,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.08625389
+      value: -0.0862539
       objectReference: {fileID: 0}
     - target: {fileID: -8721627455760276902, guid: 7724aed34b09e934ea2da5dbbbe78922,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.008901679
+      value: 0.00890168
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7724aed34b09e934ea2da5dbbbe78922,
         type: 3}
@@ -13792,11 +13766,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.75
       objectReference: {fileID: 0}
-    - target: {fileID: 5866666021909216657, guid: 7724aed34b09e934ea2da5dbbbe78922,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 063e2a62f1c2f2b4ca109ff0c65cc9b1, type: 2}
     - target: {fileID: 6147498047664253068, guid: 7724aed34b09e934ea2da5dbbbe78922,
         type: 3}
       propertyPath: m_LocalScale.x

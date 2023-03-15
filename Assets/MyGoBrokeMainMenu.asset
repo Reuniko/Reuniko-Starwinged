@@ -13,6 +13,26 @@ MonoBehaviour:
   m_Name: MyGoBrokeMainMenu
   m_EditorClassIdentifier: 
   controls:
+  - name: GoGoGo
+    icon: {fileID: 2800000, guid: f3998131de85a12408698d86355c3aa4, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: ac6ebd68f4ec4e8409d372ca32f51621, type: 2}
+    subParameters: []
+    labels: []
+  - name: Fly
+    icon: {fileID: 2800000, guid: 52189a4a87d9eed4d974106bb9f1ce33, type: 3}
+    type: 102
+    parameter:
+      name: VRCEmote
+    value: 210
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
   - name: <b>GoGo Loco</b></size>
     icon: {fileID: 2800000, guid: 82ab53a641de2f1448023168217721eb, type: 3}
     type: 103
@@ -21,5 +41,15 @@ MonoBehaviour:
     value: 1
     style: 0
     subMenu: {fileID: 11400000, guid: 8ed97fb259eee9e4d90bdacfdeed24b8, type: 2}
+    subParameters: []
+    labels: []
+  - name: Empty
+    icon: {fileID: 0}
+    type: 101
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
     subParameters: []
     labels: []
