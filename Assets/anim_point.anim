@@ -33,7 +33,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: "blendShape.\u3058\u3068\u76EE"
-    path: Body.002
+    path: Body
     classID: 137
     script: {fileID: 0}
   - curve:
@@ -52,7 +52,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: "blendShape.\u4E0A"
-    path: Body.002
+    path: Body
     classID: 137
     script: {fileID: 0}
   - curve:
@@ -71,7 +71,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: "blendShape.\u77B3\u5C0F"
-    path: Body.002
+    path: Body
     classID: 137
     script: {fileID: 0}
   - curve:
@@ -90,7 +90,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: "blendShape.\u6C57"
-    path: Body.002
+    path: Body
     classID: 137
     script: {fileID: 0}
   m_PPtrCurves: []
@@ -167,7 +167,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: "blendShape.\u3058\u3068\u76EE"
-    path: Body.002
+    path: Body
     classID: 137
     script: {fileID: 0}
   - curve:
@@ -186,7 +186,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: "blendShape.\u4E0A"
-    path: Body.002
+    path: Body
     classID: 137
     script: {fileID: 0}
   - curve:
@@ -205,7 +205,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: "blendShape.\u77B3\u5C0F"
-    path: Body.002
+    path: Body
     classID: 137
     script: {fileID: 0}
   - curve:
@@ -224,7 +224,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: "blendShape.\u6C57"
-    path: Body.002
+    path: Body
     classID: 137
     script: {fileID: 0}
   m_EulerEditorCurves: []

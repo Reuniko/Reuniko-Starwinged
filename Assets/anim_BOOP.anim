@@ -42,7 +42,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: "blendShape.\u0431\u0443\u043F"
-    path: Body.002
+    path: Body
     classID: 137
     script: {fileID: 0}
   m_PPtrCurves: []
@@ -107,7 +107,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: "blendShape.\u0431\u0443\u043F"
-    path: Body.002
+    path: Body
     classID: 137
     script: {fileID: 0}
   m_EulerEditorCurves: []
