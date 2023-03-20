@@ -13450,7 +13450,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: b2c08cbc282620e4dae1da4a5f5b9741, type: 2}
+      objectReference: {fileID: 2100000, guid: 4a63829ea3a43cc45afaa7d9fe6653b1, type: 2}
     - target: {fileID: 4112984690662791721, guid: 7724aed34b09e934ea2da5dbbbe78922,
         type: 3}
       propertyPath: m_BlendShapeWeights.Array.size
@@ -14941,6 +14941,8 @@ MonoBehaviour:
     name: Save to Float.VRCEmote 0
   - hash: 1214511728
     name: anim_BOOP
+  - hash: -738244957
+    name: anim_HUE
   autoFootsteps: 1
   autoLocomotion: 1
   collider_head:
@@ -15061,19 +15063,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1947115992}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1947115999
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1947115993}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 229740497, guid: 4ecd63eff847044b68db9453ce219299, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  contentType: 0
 --- !u!1 &1962740999
 GameObject:
   m_ObjectHideFlags: 0

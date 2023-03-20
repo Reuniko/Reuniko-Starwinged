@@ -43,13 +43,14 @@ MonoBehaviour:
     subMenu: {fileID: 11400000, guid: 8ed97fb259eee9e4d90bdacfdeed24b8, type: 2}
     subParameters: []
     labels: []
-  - name: Empty
-    icon: {fileID: 0}
-    type: 101
+  - name: HUE
+    icon: {fileID: 2800000, guid: 30891e000b76dfc4db977fc2238911a0, type: 3}
+    type: 203
     parameter:
       name: 
     value: 1
     style: 0
     subMenu: {fileID: 0}
-    subParameters: []
+    subParameters:
+    - name: HUE
     labels: []
