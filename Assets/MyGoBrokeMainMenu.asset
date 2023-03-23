@@ -64,3 +64,13 @@ MonoBehaviour:
     subMenu: {fileID: 11400000, guid: 125d8a4c50f47914bba61fe482dece9e, type: 2}
     subParameters: []
     labels: []
+  - name: Choker
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: Choker
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
