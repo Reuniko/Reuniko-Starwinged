@@ -1089,11 +1089,11 @@ Material:
     - _EmissionHueShift1: 0
     - _EmissionHueShift2: 0
     - _EmissionHueShift3: 0
-    - _EmissionHueShiftEnabled: 0
+    - _EmissionHueShiftEnabled: 1
     - _EmissionHueShiftEnabled1: 0
     - _EmissionHueShiftEnabled2: 0
     - _EmissionHueShiftEnabled3: 0
-    - _EmissionHueShiftSpeed: 0
+    - _EmissionHueShiftSpeed: 10
     - _EmissionHueShiftSpeed1: 0
     - _EmissionHueShiftSpeed2: 0
     - _EmissionHueShiftSpeed3: 0

@@ -154,7 +154,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._EmissionHueShift
-    path: Armature/Hips/Spine/Chest/Neck/choker/Upper
+    path: Armature/Hips/Spine/Chest/Neck/choker/upper
     classID: 23
     script: {fileID: 0}
   - curve:
@@ -182,7 +182,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._EmissionHueShift
-    path: Armature/Hips/Spine/Chest/Neck/choker/Lower
+    path: Armature/Hips/Spine/Chest/Neck/choker/lower
     classID: 23
     script: {fileID: 0}
   m_PPtrCurves: []
@@ -222,14 +222,14 @@ AnimationClip:
       customType: 22
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2251071759
+      path: 1206750731
       attribute: 2283923410
       script: {fileID: 0}
       typeID: 23
       customType: 22
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 3874031024
+      path: 656943796
       attribute: 2283923410
       script: {fileID: 0}
       typeID: 23
@@ -394,7 +394,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._EmissionHueShift
-    path: Armature/Hips/Spine/Chest/Neck/choker/Upper
+    path: Armature/Hips/Spine/Chest/Neck/choker/upper
     classID: 23
     script: {fileID: 0}
   - curve:
@@ -422,7 +422,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._EmissionHueShift
-    path: Armature/Hips/Spine/Chest/Neck/choker/Lower
+    path: Armature/Hips/Spine/Chest/Neck/choker/lower
     classID: 23
     script: {fileID: 0}
   m_EulerEditorCurves: []
