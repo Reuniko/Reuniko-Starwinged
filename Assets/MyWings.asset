@@ -23,53 +23,23 @@ MonoBehaviour:
     subMenu: {fileID: 0}
     subParameters: []
     labels: []
-  - name: Default
+  - name: CONTROL
     icon: {fileID: 0}
-    type: 102
+    type: 201
     parameter:
-      name: WINGS
-    value: 0
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: Down
-    icon: {fileID: 0}
-    type: 102
-    parameter:
-      name: WINGS
+      name: 
     value: 1
     style: 0
     subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: Hug
-    icon: {fileID: 0}
-    type: 102
-    parameter:
-      name: WINGS
-    value: 2
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: Spread
-    icon: {fileID: 0}
-    type: 102
-    parameter:
-      name: WINGS
-    value: 3
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: Up
-    icon: {fileID: 0}
-    type: 102
-    parameter:
-      name: WINGS
-    value: 4
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
+    subParameters:
+    - name: WingsH
+    - name: WingsV
+    labels:
+    - name: 
+      icon: {fileID: 0}
+    - name: 
+      icon: {fileID: 0}
+    - name: 
+      icon: {fileID: 0}
+    - name: 
+      icon: {fileID: 0}
