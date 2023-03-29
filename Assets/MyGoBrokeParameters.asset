@@ -73,3 +73,7 @@ MonoBehaviour:
     valueType: 1
     saved: 0
     defaultValue: 0
+  - name: SHIELD_SCALE
+    valueType: 1
+    saved: 1
+    defaultValue: 0
