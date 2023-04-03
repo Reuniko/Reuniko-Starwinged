@@ -198,6 +198,114 @@ ModelImporter:
   - first:
       74: -623603649343465320
     second: Scene
+  - first:
+      74: 2060988923831343310
+    second: Circle.000|Icosphere PolyAction
+  - first:
+      74: -3808159825224163943
+    second: Circle.000|Icosphere WireAction
+  - first:
+      74: 8304169022547661242
+    second: Circle.001|Icosphere PolyAction
+  - first:
+      74: 6341721975549940851
+    second: Circle.001|Icosphere WireAction
+  - first:
+      74: -1247973734949027414
+    second: Circle.002|Icosphere PolyAction
+  - first:
+      74: -1261179671974938835
+    second: Circle.002|Icosphere WireAction
+  - first:
+      74: 6962840744308181123
+    second: Circle.003|Icosphere PolyAction
+  - first:
+      74: 8443745604737269035
+    second: Circle.003|Icosphere WireAction
+  - first:
+      74: 980039274786551328
+    second: Circle.004|Icosphere PolyAction
+  - first:
+      74: 4564037910841909717
+    second: Circle.004|Icosphere WireAction
+  - first:
+      74: 1081462404998530783
+    second: Circle.005|Icosphere PolyAction
+  - first:
+      74: 3454144294134840596
+    second: Circle.005|Icosphere WireAction
+  - first:
+      74: -500731951213961310
+    second: Circle.006|Icosphere PolyAction
+  - first:
+      74: -253327430097168354
+    second: Circle.006|Icosphere WireAction
+  - first:
+      74: -6172571215232361356
+    second: Circle.007|Icosphere PolyAction
+  - first:
+      74: 8856783753962605439
+    second: Circle.007|Icosphere WireAction
+  - first:
+      74: -5685049756019614802
+    second: Icosphere Wire|Circle.000Action
+  - first:
+      74: 8536548184312456082
+    second: Icosphere Wire|Circle.001Action
+  - first:
+      74: 7121376121915816070
+    second: Icosphere Wire|Circle.002Action
+  - first:
+      74: 5910365548261073386
+    second: Icosphere Wire|Circle.003Action
+  - first:
+      74: 3869617946989523506
+    second: Icosphere Wire|Circle.004Action
+  - first:
+      74: -6266520047552294846
+    second: Icosphere Wire|Circle.005Action
+  - first:
+      74: -7943233578029155951
+    second: Icosphere Wire|Circle.006Action
+  - first:
+      74: 6935537058538064778
+    second: Icosphere Wire|Circle.007Action
+  - first:
+      74: -8955284611197069108
+    second: Icosphere Wire|Icosphere PolyAction
+  - first:
+      74: 6141801242130817315
+    second: Icosphere Wire|Icosphere WireAction
+  - first:
+      74: 6200557753419286407
+    second: Icosphere Poly|Circle.000Action
+  - first:
+      74: -6405195814064069994
+    second: Icosphere Poly|Circle.001Action
+  - first:
+      74: 1824930810226016336
+    second: Icosphere Poly|Circle.002Action
+  - first:
+      74: 5049584514592522166
+    second: Icosphere Poly|Circle.003Action
+  - first:
+      74: -1453024268166076432
+    second: Icosphere Poly|Circle.004Action
+  - first:
+      74: -3575588570973916311
+    second: Icosphere Poly|Circle.005Action
+  - first:
+      74: -7180451182315493939
+    second: Icosphere Poly|Circle.006Action
+  - first:
+      74: -1139982507695199714
+    second: Icosphere Poly|Circle.007Action
+  - first:
+      74: 5420454264636188890
+    second: Icosphere Poly|Icosphere PolyAction
+  - first:
+      74: -3049308409641587140
+    second: Icosphere Poly|Icosphere WireAction
   externalObjects: {}
   materials:
     materialImportMode: 1
