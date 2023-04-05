@@ -12306,6 +12306,31 @@ Transform:
   m_Father: {fileID: 909846407}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1713451447 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1665193221343275970, guid: 0331f36341a34cb49a05016f7d02ce86,
+    type: 3}
+  m_PrefabInstance: {fileID: 2099222438}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1713451449
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1713451447}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f2de4114510f317429964b15a329742d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1721068701
 GameObject:
   m_ObjectHideFlags: 0
@@ -13770,12 +13795,12 @@ PrefabInstance:
     - target: {fileID: -8872994116827098693, guid: 7724aed34b09e934ea2da5dbbbe78922,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.06277128
+      value: -0.06277129
       objectReference: {fileID: 0}
     - target: {fileID: -8872994116827098693, guid: 7724aed34b09e934ea2da5dbbbe78922,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0034301167
+      value: 0.003430117
       objectReference: {fileID: 0}
     - target: {fileID: -8721627455760276902, guid: 7724aed34b09e934ea2da5dbbbe78922,
         type: 3}
@@ -13990,12 +14015,12 @@ PrefabInstance:
     - target: {fileID: -1081300718440646433, guid: 7724aed34b09e934ea2da5dbbbe78922,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.018940484
+      value: 0.018940486
       objectReference: {fileID: 0}
     - target: {fileID: -1081300718440646433, guid: 7724aed34b09e934ea2da5dbbbe78922,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.02002021
+      value: -0.020020211
       objectReference: {fileID: 0}
     - target: {fileID: 452720090720547876, guid: 7724aed34b09e934ea2da5dbbbe78922,
         type: 3}

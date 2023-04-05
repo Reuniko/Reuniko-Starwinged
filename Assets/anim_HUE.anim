@@ -434,7 +434,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._EmissionHueShift
-    path: Armature/Hips/Spine/Chest/shield/Shield
+    path: Armature/Hips/Spine/Chest/shield/Icosphere Poly
     classID: 23
     script: {fileID: 0}
   m_PPtrCurves: []
@@ -544,7 +544,7 @@ AnimationClip:
       customType: 22
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 787574251
+      path: 3259056208
       attribute: 2283923410
       script: {fileID: 0}
       typeID: 23
@@ -989,7 +989,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._EmissionHueShift
-    path: Armature/Hips/Spine/Chest/shield/Shield
+    path: Armature/Hips/Spine/Chest/shield/Icosphere Poly
     classID: 23
     script: {fileID: 0}
   m_EulerEditorCurves: []
