@@ -4,13 +4,14 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Toon
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Mat_Hair
   m_Shader: {fileID: 4800000, guid: 1a97144e4ad27a04aafd70f7b915cedb, type: 3}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: MTOON_OUTLINE_COLOR_MIXED MTOON_OUTLINE_WIDTH_SCREEN
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 1
+  m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap:
@@ -19,10 +20,6 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _AlphaTexture:
-        m_Texture: {fileID: 2800000, guid: 92024733fdffba54db25f64b8c81a267, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -43,11 +40,11 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _LitTexture:
-        m_Texture: {fileID: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 9861759f61fb159429615dc2bce2b3e1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _MainTex:
+    - _MatcapTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -55,11 +52,11 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _NormalTexture:
-        m_Texture: {fileID: 179082629, guid: 114e7de62fa527d458ae3774d145e045, type: 3}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
+    - _OutlineWidthTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -75,7 +72,27 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _RimTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RimTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadeTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _ShadeTexture:
+        m_Texture: {fileID: 2800000, guid: 9861759f61fb159429615dc2bce2b3e1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadingGradeTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadingShiftTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -83,45 +100,75 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _UvAnimMaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _UvAnimMaskTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Alpha: 1
+    - _AlphaMode: 0
+    - _AlphaToMask: 0
     - _BlendMode: 0
     - _BumpScale: 1
     - _CullMode: 2
-    - _Cutoff: 0.611
+    - _Cutoff: 0.5
     - _DebugMode: 0
     - _DetailNormalMapScale: 1
+    - _DoubleSided: 0
     - _DstBlend: 0
+    - _GiEqualization: 0.9
     - _GlossMapScale: 1
     - _Glossiness: 0
     - _GlossyReflections: 1
-    - _IsFirstSetup: 0
-    - _LightColorAttenuation: 0
+    - _IndirectLightIntensity: 1
+    - _LightColorAttenuation: 1
+    - _MToonVersion: 38
+    - _M_AlphaToMask: 0
+    - _M_CullMode: 2
+    - _M_DebugMode: 0
+    - _M_DstBlend: 0
+    - _M_EditMode: 1
+    - _M_SrcBlend: 1
+    - _M_ZWrite: 1
     - _Metallic: 0
     - _Mode: 0
-    - _NormalCylinderizeRate: 0
-    - _NormalFromVColorRate: 0
     - _OcclusionStrength: 1
-    - _OutlineColorMode: 0
+    - _OutlineColorMode: 1
+    - _OutlineCullMode: 1
     - _OutlineLightingMix: 1
-    - _OutlineMode: 0
     - _OutlineScaledMaxDistance: 1
-    - _OutlineWidth: 1
-    - _OutlineWidthMode: 0
+    - _OutlineWidth: 0.185
+    - _OutlineWidthMode: 2
     - _Parallax: 0.02
     - _ReceiveShadowRate: 1
-    - _ShadeShift: 0.5
-    - _ShadeToony: 0.5
+    - _RenderQueueOffset: 0
+    - _RimFresnelPower: 5
+    - _RimLift: 0.1
+    - _RimLightingMix: 1
+    - _ShadeShift: -1
+    - _ShadeToony: 0
+    - _ShadingGradeRate: 1
+    - _ShadingShiftFactor: -0.05
+    - _ShadingShiftTexScale: 1
+    - _ShadingToonyFactor: 0.95
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
+    - _TransparentWithZWrite: 0
     - _UVSec: 0
+    - _UvAnimRotation: 0
+    - _UvAnimRotationSpeed: 0
+    - _UvAnimScrollX: 0
+    - _UvAnimScrollXSpeed: 0
+    - _UvAnimScrollY: 0
+    - _UvAnimScrollYSpeed: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 1, g: 0.93995947, b: 0.45588237, a: 1}
+    - _Color: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _LitColor: {r: 1, g: 1, b: 1, a: 1}
-    - _NormalCylinderizeAxis: {r: 0, g: 1, b: 0, a: 0}
-    - _NormalCylinderizePos: {r: 0, g: 0, b: 0, a: 0}
-    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
-    - _ShadeColor: {r: 1, g: 0.5147059, b: 0.80588233, a: 1}
+    - _OutlineColor: {r: 0.7764706, g: 0.6784314, b: 0.7176471, a: 1}
+    - _RimColor: {r: 0.12156863, g: 0.105882354, b: 0.12941177, a: 1}
+    - _ShadeColor: {r: 0.9811321, g: 0.9811321, b: 0.9811321, a: 1}
