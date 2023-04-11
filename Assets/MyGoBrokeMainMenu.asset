@@ -85,3 +85,13 @@ MonoBehaviour:
     subParameters:
     - name: SHIELD_SCALE
     labels: []
+  - name: Trails
+    icon: {fileID: 2800000, guid: ab6dae33d7a158a44a4fff12d8567a91, type: 3}
+    type: 102
+    parameter:
+      name: Trails
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []

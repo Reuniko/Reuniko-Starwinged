@@ -77,3 +77,7 @@ MonoBehaviour:
     valueType: 1
     saved: 1
     defaultValue: 0
+  - name: Trails
+    valueType: 2
+    saved: 0
+    defaultValue: 0
