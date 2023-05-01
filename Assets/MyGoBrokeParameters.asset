@@ -75,9 +75,13 @@ MonoBehaviour:
     defaultValue: 0
   - name: SHIELD_SCALE
     valueType: 1
-    saved: 1
+    saved: 0
     defaultValue: 0
   - name: Trails
     valueType: 2
-    saved: 0
-    defaultValue: 0
+    saved: 1
+    defaultValue: 1
+  - name: Ring
+    valueType: 2
+    saved: 1
+    defaultValue: 1

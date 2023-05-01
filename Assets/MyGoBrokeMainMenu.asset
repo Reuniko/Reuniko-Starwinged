@@ -54,24 +54,34 @@ MonoBehaviour:
     subParameters:
     - name: HUE
     labels: []
-  - name: WINGS
+  - name: Wings
     icon: {fileID: 2800000, guid: 29b4286f41c93f84f9ffc6ca7551f2d3, type: 3}
-    type: 103
+    type: 201
     parameter:
       name: 
     value: 1
     style: 0
     subMenu: {fileID: 11400000, guid: 125d8a4c50f47914bba61fe482dece9e, type: 2}
-    subParameters: []
-    labels: []
-  - name: Choker
+    subParameters:
+    - name: WingsH
+    - name: WingsV
+    labels:
+    - name: 
+      icon: {fileID: 0}
+    - name: 
+      icon: {fileID: 0}
+    - name: 
+      icon: {fileID: 0}
+    - name: 
+      icon: {fileID: 0}
+  - name: Items
     icon: {fileID: 0}
-    type: 102
+    type: 103
     parameter:
-      name: Choker
+      name: 
     value: 1
     style: 0
-    subMenu: {fileID: 0}
+    subMenu: {fileID: 11400000, guid: 4211e87ebd4c3ae458f2ee7805f0c011, type: 2}
     subParameters: []
     labels: []
   - name: Shield
