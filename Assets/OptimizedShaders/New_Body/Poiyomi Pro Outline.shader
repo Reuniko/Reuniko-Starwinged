@@ -2086,7 +2086,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Outline/4a63829ea3a43cc45
 				{
 					distanceOffset *= min(distance(_WorldSpaceCameraPos, mul(unity_ObjectToWorld, o.localPos).xyz), (9999.0 /*_OutlinesMaxDistance*/));
 				}
-				float lineWidth = (0.001 /*_LineWidth*/);
+				float lineWidth = (0.05 /*_LineWidth*/);
 				#ifdef POI_AUDIOLINK
 				if ((1.0 /*_AudioLinkAnimToggle*/))
 				{
@@ -3449,7 +3449,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Outline/4a63829ea3a43cc45
 				#endif
 				#ifdef VIGNETTE_MASKED
 				#ifdef POI_PASS_OUTLINE
-				if ((1.0 /*_OutlineLit*/))
+				if ((0.0 /*_OutlineLit*/))
 				{
 					calculateShading(poiLight, poiFragData, poiMesh, poiCam);
 				}
@@ -4974,7 +4974,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Outline/4a63829ea3a43cc45
 				{
 					distanceOffset *= min(distance(_WorldSpaceCameraPos, mul(unity_ObjectToWorld, o.localPos).xyz), (9999.0 /*_OutlinesMaxDistance*/));
 				}
-				float lineWidth = (0.001 /*_LineWidth*/);
+				float lineWidth = (0.05 /*_LineWidth*/);
 				#ifdef POI_AUDIOLINK
 				if ((1.0 /*_AudioLinkAnimToggle*/))
 				{
@@ -5255,7 +5255,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Outline/4a63829ea3a43cc45
 				float OutlineMask = tex2D(_OutlineMask, TRANSFORM_TEX(poiMesh.uv[(0.0 /*_OutlineMaskUV*/)], _OutlineMask) + _Time.x * float4(0,0,0,0))[(0.0 /*_OutlineMaskChannel*/)];
 				if ((0.0 /*_OutlineClipAtZeroWidth*/))
 				{
-					float lineWidth = (0.001 /*_LineWidth*/);
+					float lineWidth = (0.05 /*_LineWidth*/);
 					#ifdef POI_AUDIOLINK
 					if (poiMods.audioLinkAvailable)
 					{
@@ -5264,8 +5264,8 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Outline/4a63829ea3a43cc45
 					#endif
 					clip(OutlineMask * lineWidth - 0.001);
 				}
-				float4 col = POI2D_SAMPLER_PAN(_OutlineTexture, _MainTex, poiUV(poiMesh.uv[(0.0 /*_OutlineTextureUV*/)], float4(1,1,0,0)), float4(0,0,0,0)) * float4(poiThemeColor(poiMods, float4(0.07896994,0.07896994,0.07896994,1).rgb, (0.0 /*_LineColorThemeIndex*/)), float4(0.07896994,0.07896994,0.07896994,1).a);
-				poiFragData.baseColor = lerp(col, col * poiFragData.baseColor * lerp(1, poiFragData.baseColor, (0.0 /*_PoiUTSStyleOutlineBlend*/)), (0.876 /*_OutlineTintMix*/));
+				float4 col = POI2D_SAMPLER_PAN(_OutlineTexture, _MainTex, poiUV(poiMesh.uv[(0.0 /*_OutlineTextureUV*/)], float4(1,1,0,0)), float4(0,0,0,0)) * float4(poiThemeColor(poiMods, float4(0.1887741,0.1887741,0.1887741,1).rgb, (0.0 /*_LineColorThemeIndex*/)), float4(0.1887741,0.1887741,0.1887741,1).a);
+				poiFragData.baseColor = lerp(col, col * poiFragData.baseColor * lerp(1, poiFragData.baseColor, (0.0 /*_PoiUTSStyleOutlineBlend*/)), (1.0 /*_OutlineTintMix*/));
 				if ((1.0 /*_OutlineExpansionMode*/) == 2)
 				{
 					poiFragData.baseColor = lerp(poiFragData.baseColor, poiLight.directColor, (0.0 /*_OutlineRimLightBlend*/));
@@ -5287,7 +5287,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Outline/4a63829ea3a43cc45
 				{
 					poiFragData.baseColor = hueShift(poiFragData.baseColor, (0.0 /*_OutlineHueOffset*/) +(0.0 /*_OutlineHueOffsetSpeed*/) * _Time.x);
 				}
-				float emission = (7.78 /*_OutlineEmission*/);
+				float emission = (10.0 /*_OutlineEmission*/);
 				#ifdef POI_AUDIOLINK
 				if (poiMods.audioLinkAvailable)
 				{
@@ -5889,7 +5889,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Outline/4a63829ea3a43cc45
 				#endif
 				#ifdef VIGNETTE_MASKED
 				#ifdef POI_PASS_OUTLINE
-				if ((1.0 /*_OutlineLit*/))
+				if ((0.0 /*_OutlineLit*/))
 				{
 					calculateShading(poiLight, poiFragData, poiMesh, poiCam);
 				}
@@ -7368,7 +7368,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Outline/4a63829ea3a43cc45
 				{
 					distanceOffset *= min(distance(_WorldSpaceCameraPos, mul(unity_ObjectToWorld, o.localPos).xyz), (9999.0 /*_OutlinesMaxDistance*/));
 				}
-				float lineWidth = (0.001 /*_LineWidth*/);
+				float lineWidth = (0.05 /*_LineWidth*/);
 				#ifdef POI_AUDIOLINK
 				if ((1.0 /*_AudioLinkAnimToggle*/))
 				{
@@ -8594,7 +8594,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Outline/4a63829ea3a43cc45
 				#endif
 				#ifdef VIGNETTE_MASKED
 				#ifdef POI_PASS_OUTLINE
-				if ((1.0 /*_OutlineLit*/))
+				if ((0.0 /*_OutlineLit*/))
 				{
 					calculateShading(poiLight, poiFragData, poiMesh, poiCam);
 				}
@@ -9976,7 +9976,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Outline/4a63829ea3a43cc45
 				{
 					distanceOffset *= min(distance(_WorldSpaceCameraPos, mul(unity_ObjectToWorld, o.localPos).xyz), (9999.0 /*_OutlinesMaxDistance*/));
 				}
-				float lineWidth = (0.001 /*_LineWidth*/);
+				float lineWidth = (0.05 /*_LineWidth*/);
 				#ifdef POI_AUDIOLINK
 				if ((1.0 /*_AudioLinkAnimToggle*/))
 				{

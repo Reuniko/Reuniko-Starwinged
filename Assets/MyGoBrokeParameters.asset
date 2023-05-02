@@ -84,4 +84,4 @@ MonoBehaviour:
   - name: Ring
     valueType: 2
     saved: 1
-    defaultValue: 1
+    defaultValue: 0

@@ -9,7 +9,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: New_Body
   m_Shader: {fileID: 4800000, guid: ee8ba5039b11d6548b31761d18289377, type: 3}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: COLOR_GRADING_HDR POI_LIGHT_DATA_ADDITIVE_DIRECTIONAL_ENABLE
+    POI_LIGHT_DATA_ADDITIVE_ENABLE POI_VERTEXLIGHT_ON VIGNETTE_MASKED _EMISSION _GLOSSYREFLECTIONS_OFF
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -1516,7 +1517,7 @@ Material:
     - _LightingWrappedNormalization: 0
     - _LightingWrappedWrap: 0
     - _LineColorThemeIndex: 0
-    - _LineWidth: 0.001
+    - _LineWidth: 0.05
     - _LockTooltip: 0
     - _MainALHueShiftBand: 0
     - _MainALHueShiftCTIndex: 0
@@ -1704,13 +1705,13 @@ Material:
     - _OutlineCull: 1
     - _OutlineDstBlend: 0
     - _OutlineDstBlendAlpha: 0
-    - _OutlineEmission: 7.78
+    - _OutlineEmission: 10
     - _OutlineExpansionMode: 1
     - _OutlineFixedSize: 0
     - _OutlineHueOffset: 0
     - _OutlineHueOffsetSpeed: 0
     - _OutlineHueShift: 0
-    - _OutlineLit: 1
+    - _OutlineLit: 0
     - _OutlineMaskChannel: 0
     - _OutlineMaskUV: 0
     - _OutlineOverrideAlpha: 0
@@ -1736,7 +1737,7 @@ Material:
     - _OutlineStencilWriteMask: 255
     - _OutlineStencilZFailOp: 0
     - _OutlineTextureUV: 0
-    - _OutlineTintMix: 0.876
+    - _OutlineTintMix: 1
     - _OutlineUseVertexColorNormals: 0
     - _OutlineUseVertexColors: 0
     - _OutlineVertexColorMask: 0
@@ -2725,7 +2726,7 @@ Material:
     - _LightingShadowColor: {r: 1, g: 1, b: 1, a: 1}
     - _LightingShadowMasksPan: {r: 0, g: 0, b: 0, a: 0}
     - _LightngForcedDirection: {r: 0, g: 0, b: 0, a: 1}
-    - _LineColor: {r: 0.31132078, g: 0.31132078, b: 0.31132078, a: 1}
+    - _LineColor: {r: 0.4716981, g: 0.4716981, b: 0.4716981, a: 1}
     - _MainColorAdjustTexturePan: {r: 0, g: 0, b: 0, a: 0}
     - _MainTexPan: {r: 0, g: 0, b: 0, a: 0}
     - _Matcap0NormalMapPan: {r: 0, g: 0, b: 0, a: 0}
