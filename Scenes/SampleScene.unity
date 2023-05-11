@@ -16143,6 +16143,8 @@ MonoBehaviour:
     name: anim_BOOP
   - hash: -738244957
     name: anim_HUE
+  - hash: -7172694
+    name: LSD
   - hash: 1639900809
     name: WingController
   - hash: -669389121
@@ -16283,7 +16285,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1947115992}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1947115998
+--- !u!114 &1947115999
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
