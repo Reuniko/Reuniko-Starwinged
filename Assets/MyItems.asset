@@ -53,3 +53,23 @@ MonoBehaviour:
     subMenu: {fileID: 0}
     subParameters: []
     labels: []
+  - name: Shirt
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: Shirt
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Shorts
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: Shorts
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
