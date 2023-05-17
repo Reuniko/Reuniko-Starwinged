@@ -92,8 +92,8 @@ MonoBehaviour:
   - name: Shirt
     valueType: 2
     saved: 1
-    defaultValue: 1
+    defaultValue: 0
   - name: Shorts
     valueType: 2
     saved: 1
-    defaultValue: 1
+    defaultValue: 0

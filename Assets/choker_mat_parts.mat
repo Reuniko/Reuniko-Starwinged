@@ -9,7 +9,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: choker_mat_parts
   m_Shader: {fileID: 4800000, guid: 7e4255c9c84d6944a9e38fca1cbb7029, type: 3}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: POI_LIGHT_DATA_ADDITIVE_DIRECTIONAL_ENABLE POI_LIGHT_DATA_ADDITIVE_ENABLE
+    POI_VERTEXLIGHT_ON _EMISSION
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0

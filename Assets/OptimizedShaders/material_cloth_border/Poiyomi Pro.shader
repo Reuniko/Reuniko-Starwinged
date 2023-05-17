@@ -1,4 +1,4 @@
-Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro/55d8e89de9106cc4b96eb85027fe8c51"
+Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro/cc0b472a9c5a8da46b3231f733fc76b2"
 {
 	Properties
 	{
@@ -2349,9 +2349,9 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro/55d8e89de9106cc4b96eb8502
 				float2 mainUV = poiMesh.uv[(0.0 /*_MainTexUV*/)].xy;
 				if ((0.0 /*_MainPixelMode*/))
 				{
-					mainUV = sharpSample(float4(0.0009765625,0.0009765625,1024,1024), mainUV);
+					mainUV = sharpSample(float4(0.001953125,0.001953125,512,512), mainUV);
 				}
-				float4 mainTexture = POI2D_SAMPLER_PAN_STOCHASTIC(_MainTex, _MainTex, poiUV(mainUV, float4(2,2,0,0)), float4(0,0,0,0), (0.0 /*_MainTexStochastic*/));
+				float4 mainTexture = POI2D_SAMPLER_PAN_STOCHASTIC(_MainTex, _MainTex, poiUV(mainUV, float4(100,100,0,0)), float4(1,1,0,0), (0.0 /*_MainTexStochastic*/));
 				#if defined(PROP_BUMPMAP) || !defined(OPTIMIZER_ENABLED)
 				poiMesh.tangentSpaceNormal = UnpackScaleNormal(POI2D_SAMPLER_PAN_STOCHASTIC(_BumpMap, _MainTex, poiUV(poiMesh.uv[(0.0 /*_BumpMapUV*/)].xy, float4(1,1,0,0)), float4(0,0,0,0), (0.0 /*_BumpMapStochastic*/)), (1.0 /*_BumpScale*/));
 				#else
@@ -2635,8 +2635,8 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro/55d8e89de9106cc4b96eb8502
 				poiLight.vertexNDotH = max(0.00001, dot(poiMesh.normals[0], poiLight.halfDir));
 				poiLight.lightMap = 1;
 				#endif
-				poiFragData.baseColor = mainTexture.rgb * poiThemeColor(poiMods, float4(1,1,1,1).rgb, (0.0 /*_ColorThemeIndex*/));
-				poiFragData.alpha = mainTexture.a * float4(1,1,1,1).a;
+				poiFragData.baseColor = mainTexture.rgb * poiThemeColor(poiMods, float4(0.03251993,0.03251993,0.03251993,1).rgb, (0.0 /*_ColorThemeIndex*/));
+				poiFragData.alpha = mainTexture.a * float4(0.03251993,0.03251993,0.03251993,1).a;
 				#if defined(PROP_CLIPPINGMASK) || !defined(OPTIMIZER_ENABLED)
 				float alphaMask = POI2D_SAMPLER_PAN(_ClippingMask, _MainTex, poiUV(poiMesh.uv[(0.0 /*_ClippingMaskUV*/)], float4(1,1,0,0)), float4(0,0,0,0)).r;
 				if ((0.0 /*_Inverse_Clipping*/))
@@ -4716,9 +4716,9 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro/55d8e89de9106cc4b96eb8502
 				float2 mainUV = poiMesh.uv[(0.0 /*_MainTexUV*/)].xy;
 				if ((0.0 /*_MainPixelMode*/))
 				{
-					mainUV = sharpSample(float4(0.0009765625,0.0009765625,1024,1024), mainUV);
+					mainUV = sharpSample(float4(0.001953125,0.001953125,512,512), mainUV);
 				}
-				float4 mainTexture = POI2D_SAMPLER_PAN_STOCHASTIC(_MainTex, _MainTex, poiUV(mainUV, float4(2,2,0,0)), float4(0,0,0,0), (0.0 /*_MainTexStochastic*/));
+				float4 mainTexture = POI2D_SAMPLER_PAN_STOCHASTIC(_MainTex, _MainTex, poiUV(mainUV, float4(100,100,0,0)), float4(1,1,0,0), (0.0 /*_MainTexStochastic*/));
 				#if defined(PROP_BUMPMAP) || !defined(OPTIMIZER_ENABLED)
 				poiMesh.tangentSpaceNormal = UnpackScaleNormal(POI2D_SAMPLER_PAN_STOCHASTIC(_BumpMap, _MainTex, poiUV(poiMesh.uv[(0.0 /*_BumpMapUV*/)].xy, float4(1,1,0,0)), float4(0,0,0,0), (0.0 /*_BumpMapStochastic*/)), (1.0 /*_BumpScale*/));
 				#else
@@ -5002,8 +5002,8 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro/55d8e89de9106cc4b96eb8502
 				poiLight.vertexNDotH = max(0.00001, dot(poiMesh.normals[0], poiLight.halfDir));
 				poiLight.lightMap = 1;
 				#endif
-				poiFragData.baseColor = mainTexture.rgb * poiThemeColor(poiMods, float4(1,1,1,1).rgb, (0.0 /*_ColorThemeIndex*/));
-				poiFragData.alpha = mainTexture.a * float4(1,1,1,1).a;
+				poiFragData.baseColor = mainTexture.rgb * poiThemeColor(poiMods, float4(0.03251993,0.03251993,0.03251993,1).rgb, (0.0 /*_ColorThemeIndex*/));
+				poiFragData.alpha = mainTexture.a * float4(0.03251993,0.03251993,0.03251993,1).a;
 				#if defined(PROP_CLIPPINGMASK) || !defined(OPTIMIZER_ENABLED)
 				float alphaMask = POI2D_SAMPLER_PAN(_ClippingMask, _MainTex, poiUV(poiMesh.uv[(0.0 /*_ClippingMaskUV*/)], float4(1,1,0,0)), float4(0,0,0,0)).r;
 				if ((0.0 /*_Inverse_Clipping*/))
@@ -6598,9 +6598,9 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro/55d8e89de9106cc4b96eb8502
 				float2 mainUV = poiMesh.uv[(0.0 /*_MainTexUV*/)].xy;
 				if ((0.0 /*_MainPixelMode*/))
 				{
-					mainUV = sharpSample(float4(0.0009765625,0.0009765625,1024,1024), mainUV);
+					mainUV = sharpSample(float4(0.001953125,0.001953125,512,512), mainUV);
 				}
-				float4 mainTexture = POI2D_SAMPLER_PAN_STOCHASTIC(_MainTex, _MainTex, poiUV(mainUV, float4(2,2,0,0)), float4(0,0,0,0), (0.0 /*_MainTexStochastic*/));
+				float4 mainTexture = POI2D_SAMPLER_PAN_STOCHASTIC(_MainTex, _MainTex, poiUV(mainUV, float4(100,100,0,0)), float4(1,1,0,0), (0.0 /*_MainTexStochastic*/));
 				#if defined(PROP_BUMPMAP) || !defined(OPTIMIZER_ENABLED)
 				poiMesh.tangentSpaceNormal = UnpackScaleNormal(POI2D_SAMPLER_PAN_STOCHASTIC(_BumpMap, _MainTex, poiUV(poiMesh.uv[(0.0 /*_BumpMapUV*/)].xy, float4(1,1,0,0)), float4(0,0,0,0), (0.0 /*_BumpMapStochastic*/)), (1.0 /*_BumpScale*/));
 				#else
@@ -6624,8 +6624,8 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro/55d8e89de9106cc4b96eb8502
 				poiCam.clipPos = i.pos;
 				poiCam.worldDirection = i.worldDirection;
 				ApplyGlobalMaskModifiers(poiMesh, poiMods);
-				poiFragData.baseColor = mainTexture.rgb * poiThemeColor(poiMods, float4(1,1,1,1).rgb, (0.0 /*_ColorThemeIndex*/));
-				poiFragData.alpha = mainTexture.a * float4(1,1,1,1).a;
+				poiFragData.baseColor = mainTexture.rgb * poiThemeColor(poiMods, float4(0.03251993,0.03251993,0.03251993,1).rgb, (0.0 /*_ColorThemeIndex*/));
+				poiFragData.alpha = mainTexture.a * float4(0.03251993,0.03251993,0.03251993,1).a;
 				#if defined(PROP_CLIPPINGMASK) || !defined(OPTIMIZER_ENABLED)
 				float alphaMask = POI2D_SAMPLER_PAN(_ClippingMask, _MainTex, poiUV(poiMesh.uv[(0.0 /*_ClippingMaskUV*/)], float4(1,1,0,0)), float4(0,0,0,0)).r;
 				if ((0.0 /*_Inverse_Clipping*/))
