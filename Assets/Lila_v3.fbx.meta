@@ -6,6 +6,12 @@ ModelImporter:
   - first:
       74: 2571659832788614180
     second: Armature|Armature|Armature|Disappointed
+  - first:
+      74: 777568692046251733
+    second: Armature|Armature.001|Armature|Armature|Armature|Disappointed
+  - first:
+      74: 8516393932956592929
+    second: Armature|Armature|Armature|Armature|Armature|Disappointed
   externalObjects: {}
   materials:
     materialImportMode: 1
