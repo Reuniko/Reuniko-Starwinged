@@ -2788,7 +2788,7 @@ MonoBehaviour:
     m_RotationOrder: 4
   colliders: []
   limitType: 1
-  maxAngleX: 45
+  maxAngleX: 60
   maxAngleXCurve:
     serializedVersion: 2
     m_Curve: []
@@ -2831,7 +2831,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  isAnimated: 0
+  isAnimated: 1
   parameter: 
   showGizmos: 1
   boneOpacity: 0.5

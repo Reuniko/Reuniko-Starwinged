@@ -10,9 +10,9 @@ Material:
   m_Name: New_Monstercat
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: POI_LIGHT_DATA_ADDITIVE_DIRECTIONAL_ENABLE POI_LIGHT_DATA_ADDITIVE_ENABLE
-    POI_VERTEXLIGHT_ON VIGNETTE_MASKED _LIGHTINGMODE_FLAT _RIM2STYLE_POIYOMI _RIMSTYLE_POIYOMI
-    _STOCHASTICMODE_DELIOT_HEITZ _TPS_ANIMATEDTOGGLE_ON
-  m_LightmapFlags: 4
+    POI_VERTEXLIGHT_ON VIGNETTE_MASKED _EMISSION _LIGHTINGMODE_FLAT _RIM2STYLE_POIYOMI
+    _RIMSTYLE_POIYOMI _STOCHASTICMODE_DELIOT_HEITZ _TPS_ANIMATEDTOGGLE_ON
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -2542,7 +2542,7 @@ Material:
     - _EmissionAL2StrengthMod: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionAL3Multipliers: {r: 1, g: 1, b: 0, a: 0}
     - _EmissionAL3StrengthMod: {r: 0, g: 0, b: 0, a: 0}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 0.3301887, g: 0.20319305, b: 0, a: 1}
     - _EmissionColor1: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor2: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor3: {r: 1, g: 1, b: 1, a: 1}
