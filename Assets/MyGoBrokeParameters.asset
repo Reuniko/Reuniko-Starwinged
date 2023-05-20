@@ -96,7 +96,7 @@ MonoBehaviour:
   - name: Shorts
     valueType: 2
     saved: 1
-    defaultValue: 0
+    defaultValue: 1
   - name: Monstercat
     valueType: 2
     saved: 1
