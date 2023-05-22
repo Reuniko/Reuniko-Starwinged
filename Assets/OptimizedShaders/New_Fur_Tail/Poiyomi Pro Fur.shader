@@ -2074,7 +2074,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Fur/3a0d11e1174de224ca7de
 			#if !defined(OPTIMIZER_ENABLED)
 			[instance(32)]
 			#else
-			[instance((31 /*_FurLayerCount*/) + 1)]
+			[instance((16 /*_FurLayerCount*/) + 1)]
 			#endif
 			[maxvertexcount(3)]
 			void GeometryProgram(triangle VertexOut p[3], inout TriangleStream <VertexOut> tristream, uint InstanceID : SV_GSInstanceID)
@@ -2083,9 +2083,9 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Fur/3a0d11e1174de224ca7de
 				UNITY_SETUP_STEREO_EYE_INDEX_POST_VERTEX(p[1]);
 				UNITY_SETUP_STEREO_EYE_INDEX_POST_VERTEX(p[2]);
 				#ifdef POI_WORLD
-				uint layerCount = max(1, ceil((31 /*_FurLayerCount*/) * (1 - smoothstep((2.0 /*_FurMinDistance*/), (8.0 /*_FurMaxDistance*/), distance(p[0].objectPos, getCameraPosition())))));
+				uint layerCount = max(1, ceil((16 /*_FurLayerCount*/) * (1 - smoothstep((2.0 /*_FurMinDistance*/), (8.0 /*_FurMaxDistance*/), distance(p[0].objectPos, getCameraPosition())))));
 				#else
-				uint layerCount = max(1, ceil((31 /*_FurLayerCount*/) * (1 - smoothstep(2, 8, distance(p[0].objectPos, getCameraPosition())))));
+				uint layerCount = max(1, ceil((16 /*_FurLayerCount*/) * (1 - smoothstep(2, 8, distance(p[0].objectPos, getCameraPosition())))));
 				#endif
 				if (InstanceID > layerCount) return;
 				float4 furSettings = 0;
@@ -2103,9 +2103,9 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Fur/3a0d11e1174de224ca7de
 						float3 vectorTS = t.vertexColor.rgb * 2.0 - 1.0;
 						normal = vectorTS.x * t.tangent.xyz + vectorTS.y * t.binormal.xyz + vectorTS.z * normal;
 					}
-					float3 furGravityOffset = (float3(0, -1, 0) * (furSettings.y * (0.05 /*_FurLength*/)) *(0.0 /*_FurGravityStrength*/)) * smoothstep(-0.5, 1, dot(normal, float3(0, -sign((0.0 /*_FurGravityStrength*/)), 0)) * 0.5 + 0.5);
+					float3 furGravityOffset = (float3(0, -1, 0) * (furSettings.y * (0.025 /*_FurLength*/)) *(0.0 /*_FurGravityStrength*/)) * smoothstep(-0.5, 1, dot(normal, float3(0, -sign((0.0 /*_FurGravityStrength*/)), 0)) * 0.5 + 0.5);
 					t.furSettings = furSettings;
-					float3 offset = furGravityOffset + furSettings.y * (0.05 /*_FurLength*/) * normal;
+					float3 offset = furGravityOffset + furSettings.y * (0.025 /*_FurLength*/) * normal;
 					t.worldPos.xyz += offset;
 					t.localPos.xyz += mul((float3x3)unity_WorldToObject, offset);
 					o[i] = t;
@@ -4997,7 +4997,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Fur/3a0d11e1174de224ca7de
 			#if !defined(OPTIMIZER_ENABLED)
 			[instance(32)]
 			#else
-			[instance((31 /*_FurLayerCount*/) + 1)]
+			[instance((16 /*_FurLayerCount*/) + 1)]
 			#endif
 			[maxvertexcount(3)]
 			void GeometryProgram(triangle VertexOut p[3], inout TriangleStream <VertexOut> tristream, uint InstanceID : SV_GSInstanceID)
@@ -5006,9 +5006,9 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Fur/3a0d11e1174de224ca7de
 				UNITY_SETUP_STEREO_EYE_INDEX_POST_VERTEX(p[1]);
 				UNITY_SETUP_STEREO_EYE_INDEX_POST_VERTEX(p[2]);
 				#ifdef POI_WORLD
-				uint layerCount = max(1, ceil((31 /*_FurLayerCount*/) * (1 - smoothstep((2.0 /*_FurMinDistance*/), (8.0 /*_FurMaxDistance*/), distance(p[0].objectPos, getCameraPosition())))));
+				uint layerCount = max(1, ceil((16 /*_FurLayerCount*/) * (1 - smoothstep((2.0 /*_FurMinDistance*/), (8.0 /*_FurMaxDistance*/), distance(p[0].objectPos, getCameraPosition())))));
 				#else
-				uint layerCount = max(1, ceil((31 /*_FurLayerCount*/) * (1 - smoothstep(2, 8, distance(p[0].objectPos, getCameraPosition())))));
+				uint layerCount = max(1, ceil((16 /*_FurLayerCount*/) * (1 - smoothstep(2, 8, distance(p[0].objectPos, getCameraPosition())))));
 				#endif
 				if (InstanceID > layerCount) return;
 				float4 furSettings = 0;
@@ -5026,9 +5026,9 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Fur/3a0d11e1174de224ca7de
 						float3 vectorTS = t.vertexColor.rgb * 2.0 - 1.0;
 						normal = vectorTS.x * t.tangent.xyz + vectorTS.y * t.binormal.xyz + vectorTS.z * normal;
 					}
-					float3 furGravityOffset = (float3(0, -1, 0) * (furSettings.y * (0.05 /*_FurLength*/)) *(0.0 /*_FurGravityStrength*/)) * smoothstep(-0.5, 1, dot(normal, float3(0, -sign((0.0 /*_FurGravityStrength*/)), 0)) * 0.5 + 0.5);
+					float3 furGravityOffset = (float3(0, -1, 0) * (furSettings.y * (0.025 /*_FurLength*/)) *(0.0 /*_FurGravityStrength*/)) * smoothstep(-0.5, 1, dot(normal, float3(0, -sign((0.0 /*_FurGravityStrength*/)), 0)) * 0.5 + 0.5);
 					t.furSettings = furSettings;
-					float3 offset = furGravityOffset + furSettings.y * (0.05 /*_FurLength*/) * normal;
+					float3 offset = furGravityOffset + furSettings.y * (0.025 /*_FurLength*/) * normal;
 					t.worldPos.xyz += offset;
 					t.localPos.xyz += mul((float3x3)unity_WorldToObject, offset);
 					o[i] = t;
@@ -7639,7 +7639,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Fur/3a0d11e1174de224ca7de
 			#if !defined(OPTIMIZER_ENABLED)
 			[instance(32)]
 			#else
-			[instance((31 /*_FurLayerCount*/) + 1)]
+			[instance((16 /*_FurLayerCount*/) + 1)]
 			#endif
 			[maxvertexcount(3)]
 			void GeometryProgram(triangle VertexOut p[3], inout TriangleStream <VertexOut> tristream, uint InstanceID : SV_GSInstanceID)
@@ -7648,9 +7648,9 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Fur/3a0d11e1174de224ca7de
 				UNITY_SETUP_STEREO_EYE_INDEX_POST_VERTEX(p[1]);
 				UNITY_SETUP_STEREO_EYE_INDEX_POST_VERTEX(p[2]);
 				#ifdef POI_WORLD
-				uint layerCount = max(1, ceil((31 /*_FurLayerCount*/) * (1 - smoothstep((2.0 /*_FurMinDistance*/), (8.0 /*_FurMaxDistance*/), distance(p[0].objectPos, getCameraPosition())))));
+				uint layerCount = max(1, ceil((16 /*_FurLayerCount*/) * (1 - smoothstep((2.0 /*_FurMinDistance*/), (8.0 /*_FurMaxDistance*/), distance(p[0].objectPos, getCameraPosition())))));
 				#else
-				uint layerCount = max(1, ceil((31 /*_FurLayerCount*/) * (1 - smoothstep(2, 8, distance(p[0].objectPos, getCameraPosition())))));
+				uint layerCount = max(1, ceil((16 /*_FurLayerCount*/) * (1 - smoothstep(2, 8, distance(p[0].objectPos, getCameraPosition())))));
 				#endif
 				if (InstanceID > layerCount) return;
 				float4 furSettings = 0;
@@ -7668,9 +7668,9 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Fur/3a0d11e1174de224ca7de
 						float3 vectorTS = t.vertexColor.rgb * 2.0 - 1.0;
 						normal = vectorTS.x * t.tangent.xyz + vectorTS.y * t.binormal.xyz + vectorTS.z * normal;
 					}
-					float3 furGravityOffset = (float3(0, -1, 0) * (furSettings.y * (0.05 /*_FurLength*/)) *(0.0 /*_FurGravityStrength*/)) * smoothstep(-0.5, 1, dot(normal, float3(0, -sign((0.0 /*_FurGravityStrength*/)), 0)) * 0.5 + 0.5);
+					float3 furGravityOffset = (float3(0, -1, 0) * (furSettings.y * (0.025 /*_FurLength*/)) *(0.0 /*_FurGravityStrength*/)) * smoothstep(-0.5, 1, dot(normal, float3(0, -sign((0.0 /*_FurGravityStrength*/)), 0)) * 0.5 + 0.5);
 					t.furSettings = furSettings;
-					float3 offset = furGravityOffset + furSettings.y * (0.05 /*_FurLength*/) * normal;
+					float3 offset = furGravityOffset + furSettings.y * (0.025 /*_FurLength*/) * normal;
 					t.worldPos.xyz += offset;
 					t.localPos.xyz += mul((float3x3)unity_WorldToObject, offset);
 					o[i] = t;

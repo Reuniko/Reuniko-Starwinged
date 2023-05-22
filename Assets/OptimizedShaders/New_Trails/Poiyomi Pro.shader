@@ -334,8 +334,6 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro/75ee78519922aae4eb966531c
  #define POI_VERTEXLIGHT_ON 
  #define _EMISSION 
  #define _STOCHASTICMODE_DELIOT_HEITZ 
- #define PROP_CLIPPINGMASK 
- #define PROP_EMISSIONMAP 
  #define PROP_EMISSIONMASK 
  #define OPTIMIZER_ENABLED 
 			#pragma target 5.0
@@ -2210,11 +2208,11 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro/75ee78519922aae4eb966531c
 				#if defined(PROP_EMISSIONMAP) || !defined(OPTIMIZER_ENABLED)
 				if (!(0.0 /*_EmissionCenterOutEnabled*/))
 				{
-					emissionColor0 = POI2D_SAMPLER_PAN(_EmissionMap, _MainTex, poiUV(poiMesh.uv[(0.0 /*_EmissionMapUV*/)], float4(1,1,0,0)), float4(0,1,0,0)).rgb * lerp(1, poiFragData.baseColor, (0.0 /*_EmissionBaseColorAsMap*/)).rgb * poiThemeColor(poiMods, float4(0,1,0.4,1).rgb, (0.0 /*_EmissionColorThemeIndex*/));
+					emissionColor0 = POI2D_SAMPLER_PAN(_EmissionMap, _MainTex, poiUV(poiMesh.uv[(0.0 /*_EmissionMapUV*/)], float4(0.5,0.5,0.25,0.25)), float4(0,0,0,0)).rgb * lerp(1, poiFragData.baseColor, (0.0 /*_EmissionBaseColorAsMap*/)).rgb * poiThemeColor(poiMods, float4(0,1,0.4,1).rgb, (0.0 /*_EmissionColorThemeIndex*/));
 				}
 				else
 				{
-					emissionColor0 = UNITY_SAMPLE_TEX2D_SAMPLER(_EmissionMap, _MainTex, ((.5 + poiLight.nDotV * .5) * float4(1,1,0,0).xy) + _Time.x * (5.0 /*_EmissionCenterOutSpeed*/)).rgb * lerp(1, poiFragData.baseColor, (0.0 /*_EmissionBaseColorAsMap*/)).rgb * poiThemeColor(poiMods, float4(0,1,0.4,1).rgb, (0.0 /*_EmissionColorThemeIndex*/));
+					emissionColor0 = UNITY_SAMPLE_TEX2D_SAMPLER(_EmissionMap, _MainTex, ((.5 + poiLight.nDotV * .5) * float4(0.5,0.5,0.25,0.25).xy) + _Time.x * (5.0 /*_EmissionCenterOutSpeed*/)).rgb * lerp(1, poiFragData.baseColor, (0.0 /*_EmissionBaseColorAsMap*/)).rgb * poiThemeColor(poiMods, float4(0,1,0.4,1).rgb, (0.0 /*_EmissionColorThemeIndex*/));
 				}
 				#else
 				emissionColor0 = lerp(1, poiFragData.baseColor, (0.0 /*_EmissionBaseColorAsMap*/)).rgb * poiThemeColor(poiMods, float4(0,1,0.4,1).rgb, (0.0 /*_EmissionColorThemeIndex*/));
@@ -2244,7 +2242,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro/75ee78519922aae4eb966531c
 				applyLumaGradient(poiMods, emissionColor0, (0.0 /*_EmissionColorThemeIndex*/), poiLight.nDotV);
 				emissionColor0 = hueShift(emissionColor0, frac(_EmissionHueShift + (0.0 /*_EmissionHueShiftSpeed*/) * _Time.x) * (1.0 /*_EmissionHueShiftEnabled*/));
 				#if defined(PROP_EMISSIONMASK) || !defined(OPTIMIZER_ENABLED)
-				float emissionMask0 = UNITY_SAMPLE_TEX2D_SAMPLER(_EmissionMask, _MainTex, poiUV(poiMesh.uv[(0.0 /*_EmissionMaskUV*/)], float4(1,1,0,0)) + _Time.x * float4(0,0,0,0))[(0.0 /*_EmissionMaskChannel*/)];
+				float emissionMask0 = UNITY_SAMPLE_TEX2D_SAMPLER(_EmissionMask, _MainTex, poiUV(poiMesh.uv[(0.0 /*_EmissionMaskUV*/)], float4(0.5,0.5,0.25,0.25)) + _Time.x * float4(0,0,0,0))[(0.0 /*_EmissionMaskChannel*/)];
 				#else
 				float emissionMask0 = 1;
 				#endif
@@ -2701,8 +2699,6 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro/75ee78519922aae4eb966531c
  #define POI_VERTEXLIGHT_ON 
  #define _EMISSION 
  #define _STOCHASTICMODE_DELIOT_HEITZ 
- #define PROP_CLIPPINGMASK 
- #define PROP_EMISSIONMAP 
  #define PROP_EMISSIONMASK 
  #define OPTIMIZER_ENABLED 
 			#pragma target 5.0
@@ -4860,8 +4856,6 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro/75ee78519922aae4eb966531c
  #define POI_VERTEXLIGHT_ON 
  #define _EMISSION 
  #define _STOCHASTICMODE_DELIOT_HEITZ 
- #define PROP_CLIPPINGMASK 
- #define PROP_EMISSIONMAP 
  #define PROP_EMISSIONMASK 
  #define OPTIMIZER_ENABLED 
 			#pragma target 5.0

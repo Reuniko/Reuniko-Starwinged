@@ -1259,8 +1259,8 @@ Material:
     - _FurHueShift: 0
     - _FurHueShiftEnabled: 1
     - _FurHueShiftSpeed: 0
-    - _FurLayerCount: 31
-    - _FurLength: 0.05
+    - _FurLayerCount: 16
+    - _FurLength: 0.025
     - _FurMaskUV: 0
     - _FurMaxDistance: 8
     - _FurMinDistance: 2

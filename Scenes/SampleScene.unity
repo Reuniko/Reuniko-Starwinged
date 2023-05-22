@@ -713,7 +713,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 0.1
+  m_Intensity: 0
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -1487,7 +1487,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1323918674
 Transform:
   m_ObjectHideFlags: 0
@@ -3366,6 +3366,11 @@ PrefabInstance:
       propertyPath: m_BlendShapeWeights.Array.data[1]
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2981147273980894988, guid: 7724aed34b09e934ea2da5dbbbe78922,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: -2652640201854890241, guid: 7724aed34b09e934ea2da5dbbbe78922,
         type: 3}
       propertyPath: m_IsActive
@@ -3584,7 +3589,7 @@ PrefabInstance:
     - target: {fileID: 1630794972795428178, guid: 7724aed34b09e934ea2da5dbbbe78922,
         type: 3}
       propertyPath: m_BlendShapeWeights.Array.data[51]
-      value: 1.3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1966364730263803334, guid: 7724aed34b09e934ea2da5dbbbe78922,
         type: 3}
@@ -3956,6 +3961,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4167280743394806330, guid: 7724aed34b09e934ea2da5dbbbe78922,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.166
+      objectReference: {fileID: 0}
     - target: {fileID: 4474269760122961287, guid: 7724aed34b09e934ea2da5dbbbe78922,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -3980,12 +3990,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 55d8e89de9106cc4b96eb85027fe8c51, type: 2}
+      objectReference: {fileID: 2100000, guid: cc0b472a9c5a8da46b3231f733fc76b2, type: 2}
     - target: {fileID: 4800545675622748477, guid: 7724aed34b09e934ea2da5dbbbe78922,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: cc0b472a9c5a8da46b3231f733fc76b2, type: 2}
+      objectReference: {fileID: 2100000, guid: 55d8e89de9106cc4b96eb85027fe8c51, type: 2}
     - target: {fileID: 5866666021909216657, guid: 7724aed34b09e934ea2da5dbbbe78922,
         type: 3}
       propertyPath: m_Controller
@@ -4059,7 +4069,7 @@ PrefabInstance:
     - target: {fileID: 8567094875112489961, guid: 7724aed34b09e934ea2da5dbbbe78922,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8879528566716807029, guid: 7724aed34b09e934ea2da5dbbbe78922,
         type: 3}

@@ -1259,8 +1259,8 @@ Material:
     - _FurHueShift: 0
     - _FurHueShiftEnabled: 1
     - _FurHueShiftSpeed: 0
-    - _FurLayerCount: 31
-    - _FurLength: 0.025
+    - _FurLayerCount: 16
+    - _FurLength: 0.01
     - _FurMaskUV: 0
     - _FurMaxDistance: 8
     - _FurMinDistance: 2
@@ -2695,7 +2695,7 @@ Material:
     - _FurColor: {r: 1, g: 1, b: 1, a: 1}
     - _FurHeightMapMinMax: {r: 0, g: 1, b: 0, a: 1}
     - _FurHeightMapPan: {r: 0, g: 0, b: 0, a: 0}
-    - _FurMaskPan: {r: 0, g: 0, b: 0, a: 0}
+    - _FurMaskPan: {r: 0, g: 0.5, b: 0, a: 0}
     - _FurTexturePan: {r: 0, g: 0, b: 0, a: 0}
     - _GlitterColor: {r: 1, g: 1, b: 1, a: 1}
     - _GlitterColorMapPan: {r: 0, g: 0, b: 0, a: 0}
