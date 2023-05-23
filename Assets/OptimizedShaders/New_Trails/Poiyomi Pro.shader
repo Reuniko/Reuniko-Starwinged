@@ -334,6 +334,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro/75ee78519922aae4eb966531c
  #define POI_VERTEXLIGHT_ON 
  #define _EMISSION 
  #define _STOCHASTICMODE_DELIOT_HEITZ 
+ #define PROP_CLIPPINGMASK 
  #define PROP_EMISSIONMASK 
  #define OPTIMIZER_ENABLED 
 			#pragma target 5.0
@@ -2620,7 +2621,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro/75ee78519922aae4eb966531c
 				poiFragData.baseColor = mainTexture.rgb * poiThemeColor(poiMods, float4(0.1887741,0.1887741,0.1887741,1).rgb, (0.0 /*_ColorThemeIndex*/));
 				poiFragData.alpha = mainTexture.a * float4(0.1887741,0.1887741,0.1887741,1).a;
 				#if defined(PROP_CLIPPINGMASK) || !defined(OPTIMIZER_ENABLED)
-				float alphaMask = POI2D_SAMPLER_PAN(_ClippingMask, _MainTex, poiUV(poiMesh.uv[(0.0 /*_ClippingMaskUV*/)], float4(1,1,0,0)), float4(0,0,0,0)).r;
+				float alphaMask = POI2D_SAMPLER_PAN(_ClippingMask, _MainTex, poiUV(poiMesh.uv[(0.0 /*_ClippingMaskUV*/)], float4(0.5,0.5,0.25,0.25)), float4(0,0,0,0)).r;
 				if ((0.0 /*_Inverse_Clipping*/))
 				{
 					alphaMask = 1 - alphaMask;
@@ -2699,6 +2700,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro/75ee78519922aae4eb966531c
  #define POI_VERTEXLIGHT_ON 
  #define _EMISSION 
  #define _STOCHASTICMODE_DELIOT_HEITZ 
+ #define PROP_CLIPPINGMASK 
  #define PROP_EMISSIONMASK 
  #define OPTIMIZER_ENABLED 
 			#pragma target 5.0
@@ -4783,7 +4785,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro/75ee78519922aae4eb966531c
 				poiFragData.baseColor = mainTexture.rgb * poiThemeColor(poiMods, float4(0.1887741,0.1887741,0.1887741,1).rgb, (0.0 /*_ColorThemeIndex*/));
 				poiFragData.alpha = mainTexture.a * float4(0.1887741,0.1887741,0.1887741,1).a;
 				#if defined(PROP_CLIPPINGMASK) || !defined(OPTIMIZER_ENABLED)
-				float alphaMask = POI2D_SAMPLER_PAN(_ClippingMask, _MainTex, poiUV(poiMesh.uv[(0.0 /*_ClippingMaskUV*/)], float4(1,1,0,0)), float4(0,0,0,0)).r;
+				float alphaMask = POI2D_SAMPLER_PAN(_ClippingMask, _MainTex, poiUV(poiMesh.uv[(0.0 /*_ClippingMaskUV*/)], float4(0.5,0.5,0.25,0.25)), float4(0,0,0,0)).r;
 				if ((0.0 /*_Inverse_Clipping*/))
 				{
 					alphaMask = 1 - alphaMask;
@@ -4856,6 +4858,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro/75ee78519922aae4eb966531c
  #define POI_VERTEXLIGHT_ON 
  #define _EMISSION 
  #define _STOCHASTICMODE_DELIOT_HEITZ 
+ #define PROP_CLIPPINGMASK 
  #define PROP_EMISSIONMASK 
  #define OPTIMIZER_ENABLED 
 			#pragma target 5.0
@@ -6386,7 +6389,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro/75ee78519922aae4eb966531c
 				poiFragData.baseColor = mainTexture.rgb * poiThemeColor(poiMods, float4(0.1887741,0.1887741,0.1887741,1).rgb, (0.0 /*_ColorThemeIndex*/));
 				poiFragData.alpha = mainTexture.a * float4(0.1887741,0.1887741,0.1887741,1).a;
 				#if defined(PROP_CLIPPINGMASK) || !defined(OPTIMIZER_ENABLED)
-				float alphaMask = POI2D_SAMPLER_PAN(_ClippingMask, _MainTex, poiUV(poiMesh.uv[(0.0 /*_ClippingMaskUV*/)], float4(1,1,0,0)), float4(0,0,0,0)).r;
+				float alphaMask = POI2D_SAMPLER_PAN(_ClippingMask, _MainTex, poiUV(poiMesh.uv[(0.0 /*_ClippingMaskUV*/)], float4(0.5,0.5,0.25,0.25)), float4(0,0,0,0)).r;
 				if ((0.0 /*_Inverse_Clipping*/))
 				{
 					alphaMask = 1 - alphaMask;

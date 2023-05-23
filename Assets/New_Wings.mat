@@ -9,8 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: New_Wings
   m_Shader: {fileID: 4800000, guid: 29ec3005e42c5fd43bba7d7609994bdc, type: 3}
-  m_ShaderKeywords: COLOR_GRADING_HDR POI_LIGHT_DATA_ADDITIVE_DIRECTIONAL_ENABLE
-    POI_LIGHT_DATA_ADDITIVE_ENABLE POI_VERTEXLIGHT_ON VIGNETTE_MASKED _EMISSION _GLOSSYREFLECTIONS_OFF
+  m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -1162,7 +1161,7 @@ Material:
     - _EmissiveScroll_Velocity1: 10
     - _EmissiveScroll_Velocity2: 10
     - _EmissiveScroll_Velocity3: 10
-    - _EmissiveScroll_Width: 10
+    - _EmissiveScroll_Width: 5
     - _EmissiveScroll_Width1: 10
     - _EmissiveScroll_Width2: 10
     - _EmissiveScroll_Width3: 10
@@ -2640,7 +2639,7 @@ Material:
     - _EmissionMask2Pan: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionMask3Pan: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionMaskPan: {r: 0, g: 0, b: 0, a: 0}
-    - _EmissiveScroll_Direction: {r: 0, g: -10, b: 0, a: 0}
+    - _EmissiveScroll_Direction: {r: 10, g: 0, b: 0, a: 0}
     - _EmissiveScroll_Direction1: {r: 0, g: -10, b: 0, a: 0}
     - _EmissiveScroll_Direction2: {r: 0, g: -10, b: 0, a: 0}
     - _EmissiveScroll_Direction3: {r: 0, g: -10, b: 0, a: 0}
