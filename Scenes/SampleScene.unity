@@ -17720,8 +17720,8 @@ MonoBehaviour:
     eyeMovement:
       confidence: 0.5
       excitement: 0.5
-    leftEye: {fileID: 1947115999}
-    rightEye: {fileID: 1947115998}
+    leftEye: {fileID: 0}
+    rightEye: {fileID: 0}
     eyesLookingStraight:
       linked: 1
       left: {x: 0, y: 0, z: 0, w: 1}
@@ -18922,19 +18922,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1947115992}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1947115998 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -3551960246506442466, guid: 7724aed34b09e934ea2da5dbbbe78922,
-    type: 3}
-  m_PrefabInstance: {fileID: 1947115992}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1947115999 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -1951410641895098583, guid: 7724aed34b09e934ea2da5dbbbe78922,
-    type: 3}
-  m_PrefabInstance: {fileID: 1947115992}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1947116001
+--- !u!114 &1947115999
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
