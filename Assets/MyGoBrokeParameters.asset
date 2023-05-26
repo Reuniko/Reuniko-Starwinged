@@ -101,3 +101,7 @@ MonoBehaviour:
     valueType: 2
     saved: 1
     defaultValue: 1
+  - name: HEAD
+    valueType: 1
+    saved: 0
+    defaultValue: 0
