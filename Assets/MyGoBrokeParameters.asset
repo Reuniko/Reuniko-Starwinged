@@ -84,7 +84,7 @@ MonoBehaviour:
   - name: Ring
     valueType: 2
     saved: 1
-    defaultValue: 0
+    defaultValue: 1
   - name: LSD
     valueType: 2
     saved: 1
@@ -96,7 +96,7 @@ MonoBehaviour:
   - name: Shorts
     valueType: 2
     saved: 1
-    defaultValue: 1
+    defaultValue: 0
   - name: Monstercat
     valueType: 2
     saved: 1
