@@ -3182,12 +3182,12 @@ PrefabInstance:
     - target: {fileID: -1081300718440646433, guid: 7724aed34b09e934ea2da5dbbbe78922,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.01894052
+      value: 0.018940521
       objectReference: {fileID: 0}
     - target: {fileID: -1081300718440646433, guid: 7724aed34b09e934ea2da5dbbbe78922,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.020020245
+      value: -0.020020247
       objectReference: {fileID: 0}
     - target: {fileID: -881357870800076697, guid: 7724aed34b09e934ea2da5dbbbe78922,
         type: 3}
@@ -5784,7 +5784,7 @@ MonoBehaviour:
     m_RotationOrder: 4
   colliders: []
   limitType: 1
-  maxAngleX: 8
+  maxAngleX: 15
   maxAngleXCurve:
     serializedVersion: 2
     m_Curve: []
