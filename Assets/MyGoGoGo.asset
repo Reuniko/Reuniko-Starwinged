@@ -43,12 +43,12 @@ MonoBehaviour:
     subMenu: {fileID: 0}
     subParameters: []
     labels: []
-  - name: Lie Side Front
+  - name: Lie Side
     icon: {fileID: 2800000, guid: 6e934d6337ba26b40b2fe5ca6ceef8b5, type: 3}
     type: 101
     parameter:
       name: VRCEmote
-    value: 239
+    value: 243
     style: 0
     subMenu: {fileID: 0}
     subParameters: []

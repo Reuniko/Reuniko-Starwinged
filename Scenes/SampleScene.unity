@@ -3401,12 +3401,12 @@ PrefabInstance:
     - target: {fileID: -1081300718440646433, guid: 7724aed34b09e934ea2da5dbbbe78922,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.018940521
+      value: 0.018940523
       objectReference: {fileID: 0}
     - target: {fileID: -1081300718440646433, guid: 7724aed34b09e934ea2da5dbbbe78922,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.020020247
+      value: -0.020020248
       objectReference: {fileID: 0}
     - target: {fileID: -881357870800076697, guid: 7724aed34b09e934ea2da5dbbbe78922,
         type: 3}
@@ -5816,7 +5816,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1947115992}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1947116006
+--- !u!114 &1947116005
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6029,7 +6029,7 @@ MonoBehaviour:
     m_RotationOrder: 4
   colliders: []
   limitType: 1
-  maxAngleX: 15
+  maxAngleX: 1
   maxAngleXCurve:
     serializedVersion: 2
     m_Curve: []
@@ -6243,7 +6243,7 @@ MonoBehaviour:
   allowGrabbing: 1
   allowPosing: 1
   grabMovement: 0.777
-  maxStretch: 0
+  maxStretch: 1
   maxStretchCurve:
     serializedVersion: 2
     m_Curve: []
