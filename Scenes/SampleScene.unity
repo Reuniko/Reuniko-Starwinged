@@ -756,6 +756,225 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -180.00002, z: 0}
+--- !u!1001 &979783791
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1947116002}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 5dc9a5399b858334ab2171efdc0de36e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5dc9a5399b858334ab2171efdc0de36e,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5dc9a5399b858334ab2171efdc0de36e,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5dc9a5399b858334ab2171efdc0de36e,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5dc9a5399b858334ab2171efdc0de36e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.12
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5dc9a5399b858334ab2171efdc0de36e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0367
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5dc9a5399b858334ab2171efdc0de36e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0331
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5dc9a5399b858334ab2171efdc0de36e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7401008
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5dc9a5399b858334ab2171efdc0de36e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5dc9a5399b858334ab2171efdc0de36e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5dc9a5399b858334ab2171efdc0de36e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.6724959
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5dc9a5399b858334ab2171efdc0de36e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5dc9a5399b858334ab2171efdc0de36e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5dc9a5399b858334ab2171efdc0de36e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 84.52
+      objectReference: {fileID: 0}
+    - target: {fileID: -6534452094097458546, guid: 5dc9a5399b858334ab2171efdc0de36e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8015010dd3574c94a8e7b760a83c44d4, type: 2}
+    - target: {fileID: 919132149155446097, guid: 5dc9a5399b858334ab2171efdc0de36e,
+        type: 3}
+      propertyPath: m_Name
+      value: monstercat
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5dc9a5399b858334ab2171efdc0de36e, type: 3}
+--- !u!4 &979783792 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5dc9a5399b858334ab2171efdc0de36e,
+    type: 3}
+  m_PrefabInstance: {fileID: 979783791}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &979783793 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1790183945725220954, guid: 5dc9a5399b858334ab2171efdc0de36e,
+    type: 3}
+  m_PrefabInstance: {fileID: 979783791}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &979783794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979783793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  integrationType: 0
+  rootTransform: {fileID: 0}
+  ignoreTransforms: []
+  endpointPosition: {x: 0, y: 0, z: 0}
+  multiChildType: 0
+  pull: 0.1
+  pullCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spring: 0.7
+  springCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stiffness: 0.2
+  stiffnessCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gravity: 0.25
+  gravityCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gravityFalloff: 0
+  gravityFalloffCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  immobileType: 0
+  immobile: 0
+  immobileCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowCollision: 1
+  radius: 0.0005
+  radiusCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  colliders: []
+  limitType: 1
+  maxAngleX: 45
+  maxAngleXCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxAngleZ: 45
+  maxAngleZCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotation: {x: 0, y: 0, z: 0}
+  limitRotationXCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotationYCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotationZCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowGrabbing: 1
+  allowPosing: 1
+  grabMovement: 0.5
+  maxStretch: 0
+  maxStretchCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  isAnimated: 1
+  parameter: 
+  showGizmos: 1
+  boneOpacity: 0.5
+  limitOpacity: 0.5
 --- !u!1 &1059906285
 GameObject:
   m_ObjectHideFlags: 0
@@ -2962,7 +3181,7 @@ PrefabInstance:
     - target: {fileID: -7146359073500734243, guid: 7724aed34b09e934ea2da5dbbbe78922,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -6934967025087590878, guid: 7724aed34b09e934ea2da5dbbbe78922,
         type: 3}
@@ -3907,7 +4126,7 @@ PrefabInstance:
     - target: {fileID: 8879528566716807029, guid: 7724aed34b09e934ea2da5dbbbe78922,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8879528566716807029, guid: 7724aed34b09e934ea2da5dbbbe78922,
         type: 3}
@@ -4956,6 +5175,84 @@ MonoBehaviour:
     name: PP & Scaling.Pose Space PP
   - hash: 1453130624
     name: PP & Scaling.Scaling 3 pt
+  - hash: 281351038
+    name: Wait, am not flying ?
+  - hash: -665189202
+    name: Fly Wait
+  - hash: 710098064
+    name: Fly Tracking Trigger.Auto Fly Tracking Trigger
+  - hash: -800411438
+    name: Fly Tracking Trigger.Fly Tracking Trigger
+  - hash: 353800213
+    name: Fly Tracking Trigger.Auto Fly Tracking Radial
+  - hash: -1636908189
+    name: Fly Tracking Trigger.Fly Tracking Trigger FBT
+  - hash: -1084011220
+    name: Fly Tracking Radial.Fly Tracking Radial
+  - hash: 1955665206
+    name: Fly Tracking Radial.Auto Fly Tracking Radial
+  - hash: -595549866
+    name: Fly Tracking Radial.Fly Tracking Radial FBT
+  - hash: 1943695152
+    name: Scale
+  - hash: -2033047714
+    name: Scaling.Scale Changed
+  - hash: 1969611953
+    name: Scaling.Scaling
+  - hash: 1480646887
+    name: Scaling.Scale Default 0_25
+  - hash: 1300157252
+    name: Scaling Remote.Scaling Remote
+  - hash: 181892722
+    name: Scaling Remote.Scale Back
+  - hash: 1613033222
+    name: Save to Float.VRCEmote 213
+  - hash: -1102976014
+    name: Save to Float.Horizon
+  - hash: -472514433
+    name: Save to Float.Horizon 0
+  - hash: 1945195097
+    name: Save to Float.Scale Seated
+  - hash: -1912263685
+    name: Save to Float.VRCEmote 0
+  - hash: 1214511728
+    name: anim_BOOP
+  - hash: -738244957
+    name: anim_HUE
+  - hash: -7172694
+    name: LSD
+  - hash: 1639900809
+    name: WingController
+  - hash: -669389121
+    name: Off
+  - hash: 359964122
+    name: On
+  - hash: -2035258725
+    name: Off
+  - hash: 1644804002
+    name: On
+  - hash: 2007720040
+    name: shield_animation_scaling
+  - hash: -497663098
+    name: Off
+  - hash: -276272453
+    name: On
+  - hash: -641794769
+    name: Off
+  - hash: 1763052443
+    name: On
+  - hash: 1444096860
+    name: Off
+  - hash: -1587640505
+    name: On
+  - hash: -1498232096
+    name: Off
+  - hash: 254574551
+    name: On
+  - hash: -478498072
+    name: anim_tail_wag
+  - hash: 148105528
+    name: anim_ears_down
   - hash: -201220167
     name: Init
   - hash: 200646699
@@ -5046,10 +5343,10 @@ MonoBehaviour:
     name: anim_victory_x2
   - hash: -532930140
     name: anim_victory_x1+
-  - hash: -1301811273
-    name: anim_victory+ani
-  - hash: 1773499136
-    name: anim_victory+ani 0
+  - hash: 1954975614
+    name: anim_victory_x1+ 0
+  - hash: 58834920
+    name: anim_victory_x1+ 1
   - hash: 817223536
     name: anim_rock_x2
   - hash: -884975031
@@ -5058,92 +5355,20 @@ MonoBehaviour:
     name: anim_rock_x1+ani 0
   - hash: -338855286
     name: anim_gun_x2
+  - hash: 1801578270
+    name: anim_gun_x1+anim
   - hash: 1012344714
     name: anim_thumbs_x2
   - hash: 2135621116
     name: empty
-  - hash: 281351038
-    name: Wait, am not flying ?
-  - hash: -665189202
-    name: Fly Wait
-  - hash: 710098064
-    name: Fly Tracking Trigger.Auto Fly Tracking Trigger
-  - hash: -800411438
-    name: Fly Tracking Trigger.Fly Tracking Trigger
-  - hash: 353800213
-    name: Fly Tracking Trigger.Auto Fly Tracking Radial
-  - hash: -1636908189
-    name: Fly Tracking Trigger.Fly Tracking Trigger FBT
-  - hash: -1084011220
-    name: Fly Tracking Radial.Fly Tracking Radial
-  - hash: 1955665206
-    name: Fly Tracking Radial.Auto Fly Tracking Radial
-  - hash: -595549866
-    name: Fly Tracking Radial.Fly Tracking Radial FBT
-  - hash: 1943695152
-    name: Scale
-  - hash: -2033047714
-    name: Scaling.Scale Changed
-  - hash: 1969611953
-    name: Scaling.Scaling
-  - hash: 1480646887
-    name: Scaling.Scale Default 0_25
-  - hash: 1300157252
-    name: Scaling Remote.Scaling Remote
-  - hash: 181892722
-    name: Scaling Remote.Scale Back
-  - hash: 1613033222
-    name: Save to Float.VRCEmote 213
-  - hash: -1102976014
-    name: Save to Float.Horizon
-  - hash: -472514433
-    name: Save to Float.Horizon 0
-  - hash: 1945195097
-    name: Save to Float.Scale Seated
-  - hash: -1912263685
-    name: Save to Float.VRCEmote 0
-  - hash: 1214511728
-    name: anim_BOOP
-  - hash: -738244957
-    name: anim_HUE
-  - hash: -7172694
-    name: LSD
-  - hash: 1639900809
-    name: WingController
-  - hash: -669389121
-    name: Off
-  - hash: 359964122
-    name: On
-  - hash: -2035258725
-    name: Off
-  - hash: 1644804002
-    name: On
-  - hash: 2007720040
-    name: shield_animation_scaling
-  - hash: -497663098
-    name: Off
-  - hash: -276272453
-    name: On
-  - hash: -641794769
-    name: Off
-  - hash: 1763052443
-    name: On
-  - hash: 1444096860
-    name: Off
-  - hash: -1587640505
-    name: On
-  - hash: -1498232096
-    name: Off
-  - hash: 254574551
-    name: On
+  - hash: 447328660
+    name: anim_tongue_on
+  - hash: 1232232196
+    name: anim_tongue_off
   - hash: 1979898674
     name: Off
   - hash: -550806990
     name: On
-  - hash: -478498072
-    name: anim_tail_wag
-  - hash: 148105528
-    name: anim_ears_down
   autoFootsteps: 1
   autoLocomotion: 1
   collider_head:
@@ -5444,9 +5669,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   integrationType: 0
   rootTransform: {fileID: 0}
-  ignoreTransforms: []
+  ignoreTransforms:
+  - {fileID: 979783792}
   endpointPosition: {x: 0, y: 0, z: 0}
-  multiChildType: 0
+  multiChildType: 1
   pull: 0.3
   pullCurve:
     serializedVersion: 2
@@ -5505,31 +5731,31 @@ MonoBehaviour:
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
-      time: 0.18895303
-      value: 0.828739
-      inSlope: -1.7807691
-      outSlope: -1.7807691
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.62482333
-    - serializedVersion: 3
-      time: 0.2999929
-      value: 0.3537764
-      inSlope: -1.6036875
-      outSlope: -1.6036875
+      time: 0.57228637
+      value: 0.76505315
+      inSlope: -0.86759555
+      outSlope: -0.86759555
       tangentMode: 0
       weightedMode: 0
       inWeight: 0.33333334
       outWeight: 1
     - serializedVersion: 3
-      time: 0.3666708
-      value: 0.094339624
-      inSlope: -0.35541087
-      outSlope: -0.35541087
+      time: 0.7833262
+      value: 0.5141537
+      inSlope: 0
+      outSlope: 0
       tangentMode: 0
       weightedMode: 0
-      inWeight: 1
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0.18632126
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
       outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
@@ -5584,6 +5810,25 @@ MonoBehaviour:
   showGizmos: 1
   boneOpacity: 0.5
   limitOpacity: 0.5
+--- !u!4 &1947116002 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5078542588038566621, guid: 7724aed34b09e934ea2da5dbbbe78922,
+    type: 3}
+  m_PrefabInstance: {fileID: 1947115992}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1947116006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947115993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 229740497, guid: 4ecd63eff847044b68db9453ce219299, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  contentType: 0
 --- !u!1 &1948434849 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 73410745239461622, guid: 7724aed34b09e934ea2da5dbbbe78922,
