@@ -3401,12 +3401,12 @@ PrefabInstance:
     - target: {fileID: -1081300718440646433, guid: 7724aed34b09e934ea2da5dbbbe78922,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.018940523
+      value: 0.018940525
       objectReference: {fileID: 0}
     - target: {fileID: -1081300718440646433, guid: 7724aed34b09e934ea2da5dbbbe78922,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.020020248
+      value: -0.02002025
       objectReference: {fileID: 0}
     - target: {fileID: -881357870800076697, guid: 7724aed34b09e934ea2da5dbbbe78922,
         type: 3}
@@ -5361,10 +5361,6 @@ MonoBehaviour:
     name: anim_thumbs_x2
   - hash: 2135621116
     name: empty
-  - hash: 447328660
-    name: anim_tongue_on
-  - hash: 1232232196
-    name: anim_tongue_off
   - hash: 1979898674
     name: Off
   - hash: -550806990
