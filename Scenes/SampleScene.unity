@@ -3410,6 +3410,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 747969231759637169, guid: 7724aed34b09e934ea2da5dbbbe78922,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 747969231759637169, guid: 7724aed34b09e934ea2da5dbbbe78922,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 747969231759637169, guid: 7724aed34b09e934ea2da5dbbbe78922,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 747969231759637169, guid: 7724aed34b09e934ea2da5dbbbe78922,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
@@ -5742,7 +5757,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1947115992}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1947116006
+--- !u!114 &1947116005
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
