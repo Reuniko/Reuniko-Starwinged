@@ -9,8 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: New_Fur_Chest
   m_Shader: {fileID: 4800000, guid: 8108933f9b33f9842aa7f693eb04f80b, type: 3}
-  m_ShaderKeywords: COLOR_GRADING_HDR POI_LIGHT_DATA_ADDITIVE_DIRECTIONAL_ENABLE
-    POI_LIGHT_DATA_ADDITIVE_ENABLE POI_VERTEXLIGHT_ON VIGNETTE_MASKED _EMISSION _GLOSSYREFLECTIONS_OFF
+  m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -1191,7 +1190,7 @@ Material:
     - _EnableDissolveAudioLink: 0
     - _EnableDistortion: 0
     - _EnableDistortionAudioLink: 0
-    - _EnableEmission: 1
+    - _EnableEmission: 0
     - _EnableEmission1: 0
     - _EnableEmission2: 0
     - _EnableEmission3: 0

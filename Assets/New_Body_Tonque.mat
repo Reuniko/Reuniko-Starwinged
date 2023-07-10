@@ -9,8 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: New_Body_Tonque
   m_Shader: {fileID: 4800000, guid: 795dcb482e66f94488e629f27ff70c59, type: 3}
-  m_ShaderKeywords: COLOR_GRADING_HDR POI_LIGHT_DATA_ADDITIVE_DIRECTIONAL_ENABLE
-    POI_LIGHT_DATA_ADDITIVE_ENABLE POI_VERTEXLIGHT_ON VIGNETTE_MASKED _EMISSION
+  m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -1176,7 +1175,7 @@ Material:
     - _EnableDissolveAudioLink: 0
     - _EnableDistortion: 0
     - _EnableDistortionAudioLink: 0
-    - _EnableEmission: 1
+    - _EnableEmission: 0
     - _EnableEmission1: 0
     - _EnableEmission2: 0
     - _EnableEmission3: 0
@@ -1188,7 +1187,7 @@ Material:
     - _EnableGITDEmission3: 0
     - _EnableIridescence: 0
     - _EnableMirrorOptions: 0
-    - _EnableOutlines: 1
+    - _EnableOutlines: 0
     - _EnablePathing: 0
     - _EnableRim2Lighting: 0
     - _EnableRimLighting: 0
@@ -1525,7 +1524,7 @@ Material:
     - _MainBrightnessGlobalMask: 0
     - _MainBrightnessGlobalMaskBlendType: 2
     - _MainColorAdjustTextureUV: 0
-    - _MainColorAdjustToggle: 1
+    - _MainColorAdjustToggle: 0
     - _MainHueALCTEnabled: 0
     - _MainHueALMotionSpeed: 1
     - _MainHueGlobalMask: 0
@@ -1533,7 +1532,7 @@ Material:
     - _MainHueShift: 0
     - _MainHueShiftReplace: 1
     - _MainHueShiftSpeed: 0
-    - _MainHueShiftToggle: 1
+    - _MainHueShiftToggle: 0
     - _MainPixelMode: 0
     - _MainSaturationGlobalMask: 0
     - _MainSaturationGlobalMaskBlendType: 2
@@ -2394,7 +2393,7 @@ Material:
     - m_start_GlobalThemes: 0
     - m_start_Iridescence: 0
     - m_start_IridescenceAudioLink: 0
-    - m_start_MainHueShift: 1
+    - m_start_MainHueShift: 0
     - m_start_MainHueShiftGlobalMask: 0
     - m_start_MainVertexColors: 0
     - m_start_Matcap2: 0
@@ -2445,7 +2444,7 @@ Material:
     - m_start_emission1Options: 0
     - m_start_emission2Options: 0
     - m_start_emission3Options: 0
-    - m_start_emissionOptions: 1
+    - m_start_emissionOptions: 0
     - m_start_flipBook: 0
     - m_start_glitter: 0
     - m_start_internalparallax: 0

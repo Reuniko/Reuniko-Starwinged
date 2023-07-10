@@ -105,3 +105,27 @@ MonoBehaviour:
     valueType: 2
     saved: 1
     defaultValue: 1
+  - name: HUE_BASE
+    valueType: 1
+    saved: 1
+    defaultValue: 0
+  - name: HUE_RIM
+    valueType: 1
+    saved: 1
+    defaultValue: 0
+  - name: HUE_EFFECTS
+    valueType: 1
+    saved: 1
+    defaultValue: 0
+  - name: HAIR_BRI
+    valueType: 1
+    saved: 1
+    defaultValue: 0
+  - name: HAIR_SAT
+    valueType: 1
+    saved: 1
+    defaultValue: 0
+  - name: HAIR_HUE
+    valueType: 1
+    saved: 1
+    defaultValue: 0

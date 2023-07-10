@@ -17,6 +17,8 @@ Material:
   stringTagMap:
     OriginalShader: .poiyomi/Poiyomi 8.1/Poiyomi Pro
     RenderType: Opaque
+    _EmissionHueShift1Animated: 1
+    _EmissionHueShiftAnimated: 1
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -1076,8 +1078,8 @@ Material:
     - _EmissionHueShift1: 0
     - _EmissionHueShift2: 0
     - _EmissionHueShift3: 0
-    - _EmissionHueShiftEnabled: 0
-    - _EmissionHueShiftEnabled1: 0
+    - _EmissionHueShiftEnabled: 1
+    - _EmissionHueShiftEnabled1: 1
     - _EmissionHueShiftEnabled2: 0
     - _EmissionHueShiftEnabled3: 0
     - _EmissionHueShiftSpeed: 0
@@ -1511,7 +1513,7 @@ Material:
     - _MainHueGlobalMask: 0
     - _MainHueGlobalMaskBlendType: 2
     - _MainHueShift: 0
-    - _MainHueShiftReplace: 1
+    - _MainHueShiftReplace: 0
     - _MainHueShiftSpeed: 0
     - _MainHueShiftToggle: 0
     - _MainPixelMode: 0
@@ -2314,7 +2316,7 @@ Material:
     - m_start_GlobalThemes: 0
     - m_start_Iridescence: 0
     - m_start_IridescenceAudioLink: 0
-    - m_start_MainHueShift: 0
+    - m_start_MainHueShift: 1
     - m_start_MainHueShiftGlobalMask: 0
     - m_start_MainVertexColors: 0
     - m_start_Matcap2: 0

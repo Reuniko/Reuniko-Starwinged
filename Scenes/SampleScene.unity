@@ -5711,7 +5711,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 0
+  m_Intensity: 0.5
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -16206,7 +16206,7 @@ PrefabInstance:
     - target: {fileID: -7146359073500734243, guid: 7724aed34b09e934ea2da5dbbbe78922,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: -6934967025087590878, guid: 7724aed34b09e934ea2da5dbbbe78922,
         type: 3}
@@ -16503,6 +16503,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1335273204797726079, guid: 7724aed34b09e934ea2da5dbbbe78922,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0017470539
+      objectReference: {fileID: 0}
+    - target: {fileID: 1335273204797726079, guid: 7724aed34b09e934ea2da5dbbbe78922,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.060232807
+      objectReference: {fileID: 0}
     - target: {fileID: 1455916061257320285, guid: 7724aed34b09e934ea2da5dbbbe78922,
         type: 3}
       propertyPath: m_RootOrder
@@ -16531,6 +16541,11 @@ PrefabInstance:
     - target: {fileID: 1630794972795428178, guid: 7724aed34b09e934ea2da5dbbbe78922,
         type: 3}
       propertyPath: m_Materials.Array.data[3]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3a0d11e1174de224ca7deff9be1245df, type: 2}
+    - target: {fileID: 1630794972795428178, guid: 7724aed34b09e934ea2da5dbbbe78922,
+        type: 3}
+      propertyPath: m_Materials.Array.data[4]
       value: 
       objectReference: {fileID: 2100000, guid: 3a0d11e1174de224ca7deff9be1245df, type: 2}
     - target: {fileID: 1630794972795428178, guid: 7724aed34b09e934ea2da5dbbbe78922,
@@ -16598,6 +16613,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.8
       objectReference: {fileID: 0}
+    - target: {fileID: 2321523695958950486, guid: 7724aed34b09e934ea2da5dbbbe78922,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4879854e116dd6546ad35b702c4c2260, type: 2}
     - target: {fileID: 2642176511119461581, guid: 7724aed34b09e934ea2da5dbbbe78922,
         type: 3}
       propertyPath: m_RootOrder
@@ -16606,22 +16626,22 @@ PrefabInstance:
     - target: {fileID: 2832711459179850176, guid: 7724aed34b09e934ea2da5dbbbe78922,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9898861
+      value: 0.98988616
       objectReference: {fileID: 0}
     - target: {fileID: 2832711459179850176, guid: 7724aed34b09e934ea2da5dbbbe78922,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.032106124
+      value: -0.032106128
       objectReference: {fileID: 0}
     - target: {fileID: 2832711459179850176, guid: 7724aed34b09e934ea2da5dbbbe78922,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.102015875
+      value: 0.10201588
       objectReference: {fileID: 0}
     - target: {fileID: 2832711459179850176, guid: 7724aed34b09e934ea2da5dbbbe78922,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.09320588
+      value: 0.093205884
       objectReference: {fileID: 0}
     - target: {fileID: 3208179908744471200, guid: 7724aed34b09e934ea2da5dbbbe78922,
         type: 3}
@@ -16998,6 +17018,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: 55d8e89de9106cc4b96eb85027fe8c51, type: 2}
+    - target: {fileID: 5653519914247303419, guid: 7724aed34b09e934ea2da5dbbbe78922,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 7724aed34b09e934ea2da5dbbbe78922,
         type: 3}
       propertyPath: m_Controller
@@ -17072,6 +17097,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6657560127643677590, guid: 7724aed34b09e934ea2da5dbbbe78922,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6682227099505897712, guid: 7724aed34b09e934ea2da5dbbbe78922,
         type: 3}
@@ -18207,10 +18237,6 @@ MonoBehaviour:
     name: Save to Float.VRCEmote 0
   - hash: 1214511728
     name: anim_BOOP
-  - hash: -738244957
-    name: anim_HUE
-  - hash: -7172694
-    name: LSD
   - hash: 1639900809
     name: WingController
   - hash: -669389121
@@ -18327,6 +18353,20 @@ MonoBehaviour:
     name: Off
   - hash: -550806990
     name: On
+  - hash: 471775335
+    name: anim_HUE_EFFECTS
+  - hash: 588199375
+    name: LSD
+  - hash: -1740277307
+    name: anim_HUE_BASE
+  - hash: -1966717758
+    name: anim_HUE_RIM
+  - hash: -334380510
+    name: anim_HAIR_BRI
+  - hash: 760288208
+    name: anim_HAIR_HUE
+  - hash: 342364991
+    name: anim_HAIR_SAT
   autoFootsteps: 1
   autoLocomotion: 1
   collider_head:

@@ -9,8 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: New_Body
   m_Shader: {fileID: 4800000, guid: ee8ba5039b11d6548b31761d18289377, type: 3}
-  m_ShaderKeywords: COLOR_GRADING_HDR POI_LIGHT_DATA_ADDITIVE_DIRECTIONAL_ENABLE
-    POI_LIGHT_DATA_ADDITIVE_ENABLE POI_VERTEXLIGHT_ON VIGNETTE_MASKED _EMISSION _GLOSSYREFLECTIONS_OFF
+  m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -1176,7 +1175,7 @@ Material:
     - _EnableDissolveAudioLink: 0
     - _EnableDistortion: 0
     - _EnableDistortionAudioLink: 0
-    - _EnableEmission: 1
+    - _EnableEmission: 0
     - _EnableEmission1: 0
     - _EnableEmission2: 0
     - _EnableEmission3: 0
@@ -2462,7 +2461,7 @@ Material:
     - m_start_reflectionRim: 0
     - m_start_rgbanormals: 0
     - m_start_rim2LightOptions: 0
-    - m_start_rimLight1Options: 0
+    - m_start_rimLight1Options: 1
     - m_start_rimLightOptions: 1
     - m_start_stylizedSpec: 1
     - m_start_subsurfaceScattering: 0

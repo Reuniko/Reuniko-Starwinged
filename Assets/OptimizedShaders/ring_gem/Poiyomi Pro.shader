@@ -2758,7 +2758,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro/44a4e05fa0b1ab941b276938e
 					emissionStrength0 *= calculateBlinkingEmission((0.0 /*_EmissiveBlink_Min*/), (1.0 /*_EmissiveBlink_Max*/), (4.0 /*_EmissiveBlink_Velocity*/), (0.0 /*_EmissionBlinkingOffset*/));
 				}
 				applyLumaGradient(poiMods, emissionColor0, (0.0 /*_EmissionColorThemeIndex*/), poiLight.nDotV);
-				emissionColor0 = hueShift(emissionColor0, frac((0.0 /*_EmissionHueShift*/) + (0.0 /*_EmissionHueShiftSpeed*/) * _Time.x) * (0.0 /*_EmissionHueShiftEnabled*/));
+				emissionColor0 = hueShift(emissionColor0, frac(_EmissionHueShift + (0.0 /*_EmissionHueShiftSpeed*/) * _Time.x) * (1.0 /*_EmissionHueShiftEnabled*/));
 				#if defined(PROP_EMISSIONMASK) || !defined(OPTIMIZER_ENABLED)
 				float emissionMask0 = UNITY_SAMPLE_TEX2D_SAMPLER(_EmissionMask, _MainTex, poiUV(poiMesh.uv[(6.0 /*_EmissionMaskUV*/)], float4(1,1,0,0)) + _Time.x * float4(5,0,0,0))[(0.0 /*_EmissionMaskChannel*/)];
 				#else
@@ -2829,7 +2829,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro/44a4e05fa0b1ab941b276938e
 					emissionStrength1 *= calculateBlinkingEmission((0.0 /*_EmissiveBlink_Min1*/), (1.0 /*_EmissiveBlink_Max1*/), (4.0 /*_EmissiveBlink_Velocity1*/), (0.0 /*_EmissionBlinkingOffset1*/));
 				}
 				applyLumaGradient(poiMods, emissionColor1, (0.0 /*_EmissionColor1ThemeIndex*/), poiLight.nDotV);
-				emissionColor1 = hueShift(emissionColor1, frac((0.0 /*_EmissionHueShift1*/) + (0.0 /*_EmissionHueShiftSpeed1*/) * _Time.x) * (0.0 /*_EmissionHueShiftEnabled1*/));
+				emissionColor1 = hueShift(emissionColor1, frac(_EmissionHueShift1 + (0.0 /*_EmissionHueShiftSpeed1*/) * _Time.x) * (1.0 /*_EmissionHueShiftEnabled1*/));
 				#if defined(PROP_EMISSIONMASK1) || !defined(OPTIMIZER_ENABLED)
 				float emissionMask1 = UNITY_SAMPLE_TEX2D_SAMPLER(_EmissionMask1, _MainTex, poiUV(poiMesh.uv[(0.0 /*_EmissionMask1UV*/)], float4(0.05,0.05,0,0)) + _Time.x * float4(0,5,0,0))[(0.0 /*_EmissionMask1Channel*/)];
 				#else
