@@ -3153,7 +3153,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Outline/6ffab0fcc9bb39040
 				}
 				if ((1.0 /*_MainHueShiftToggle*/))
 				{
-					float shift = (0.0 /*_MainHueShift*/);
+					float shift = _MainHueShift;
 					#ifdef POI_AUDIOLINK
 					if (poiMods.audioLinkAvailable && (0.0 /*_MainHueALCTEnabled*/))
 					{
@@ -5582,7 +5582,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Outline/6ffab0fcc9bb39040
 				}
 				if ((1.0 /*_MainHueShiftToggle*/))
 				{
-					float shift = (0.0 /*_MainHueShift*/);
+					float shift = _MainHueShift;
 					#ifdef POI_AUDIOLINK
 					if (poiMods.audioLinkAvailable && (0.0 /*_MainHueALCTEnabled*/))
 					{
@@ -8285,7 +8285,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Outline/6ffab0fcc9bb39040
 				}
 				if ((1.0 /*_MainHueShiftToggle*/))
 				{
-					float shift = (0.0 /*_MainHueShift*/);
+					float shift = _MainHueShift;
 					#ifdef POI_AUDIOLINK
 					if (poiMods.audioLinkAvailable && (0.0 /*_MainHueALCTEnabled*/))
 					{
@@ -10080,7 +10080,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Outline/6ffab0fcc9bb39040
 				}
 				if ((1.0 /*_MainHueShiftToggle*/))
 				{
-					float shift = (0.0 /*_MainHueShift*/);
+					float shift = _MainHueShift;
 					#ifdef POI_AUDIOLINK
 					if (poiMods.audioLinkAvailable && (0.0 /*_MainHueALCTEnabled*/))
 					{
