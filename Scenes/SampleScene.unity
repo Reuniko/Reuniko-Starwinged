@@ -4117,6 +4117,10 @@ MonoBehaviour:
     name: anim_HAIR_HUE
   - hash: 342364991
     name: anim_HAIR_SAT
+  - hash: -813511848
+    name: Off
+  - hash: 971979076
+    name: On
   autoFootsteps: 1
   autoLocomotion: 1
   collider_head:
@@ -6379,7 +6383,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8389176557563269966}
-  m_LocalRotation: {x: 0.001747054, y: -0.70855814, z: 0.06023281, w: 0.7030749}
+  m_LocalRotation: {x: 0.0017470543, y: -0.70855814, z: 0.060232818, w: 0.7030749}
   m_LocalPosition: {x: 0.00000011733149, y: 0.080782555, z: -0.0000000012014061}
   m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 0.99999994}
   m_Children:

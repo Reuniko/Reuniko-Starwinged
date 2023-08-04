@@ -17,6 +17,7 @@ Material:
   stringTagMap:
     OriginalShader: .poiyomi/Poiyomi 8.1/Poiyomi Pro Outline
     RenderType: Opaque
+    _EmissionStrengthAnimated: 1
     _MainHueShiftAnimated: 1
     _RimHueShiftAnimated: 1
   disabledShaderPasses: []
@@ -1137,7 +1138,7 @@ Material:
     - _EmissionScrollingVertexColor1: 0
     - _EmissionScrollingVertexColor2: 0
     - _EmissionScrollingVertexColor3: 0
-    - _EmissionStrength: 1
+    - _EmissionStrength: 4
     - _EmissionStrength1: 0
     - _EmissionStrength2: 0
     - _EmissionStrength3: 0
@@ -1157,11 +1158,11 @@ Material:
     - _EmissiveScroll_Interval1: 20
     - _EmissiveScroll_Interval2: 20
     - _EmissiveScroll_Interval3: 20
-    - _EmissiveScroll_Velocity: 10
+    - _EmissiveScroll_Velocity: 5
     - _EmissiveScroll_Velocity1: 10
     - _EmissiveScroll_Velocity2: 10
     - _EmissiveScroll_Velocity3: 10
-    - _EmissiveScroll_Width: 10
+    - _EmissiveScroll_Width: 7
     - _EmissiveScroll_Width1: 10
     - _EmissiveScroll_Width2: 10
     - _EmissiveScroll_Width3: 10
@@ -1966,7 +1967,7 @@ Material:
     - _SSSThicknessMapUV: 0
     - _SSSThicknessMod: 0
     - _Saturation: 0
-    - _ScrollingEmission: 0
+    - _ScrollingEmission: 1
     - _ScrollingEmission1: 0
     - _ScrollingEmission2: 0
     - _ScrollingEmission3: 0
@@ -2639,7 +2640,7 @@ Material:
     - _EmissionMask2Pan: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionMask3Pan: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionMaskPan: {r: 1, g: 0.14637, b: 0, a: 0}
-    - _EmissiveScroll_Direction: {r: 0, g: -10, b: 0, a: 0}
+    - _EmissiveScroll_Direction: {r: 0, g: 10, b: 0, a: 0}
     - _EmissiveScroll_Direction1: {r: 0, g: -10, b: 0, a: 0}
     - _EmissiveScroll_Direction2: {r: 0, g: -10, b: 0, a: 0}
     - _EmissiveScroll_Direction3: {r: 0, g: -10, b: 0, a: 0}

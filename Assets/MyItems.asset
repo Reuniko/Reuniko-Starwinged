@@ -83,3 +83,13 @@ MonoBehaviour:
     subMenu: {fileID: 0}
     subParameters: []
     labels: []
+  - name: Runes
+    icon: {fileID: 2800000, guid: 9a813651412be254292901e6a7337a09, type: 3}
+    type: 102
+    parameter:
+      name: Runes
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
