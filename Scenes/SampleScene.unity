@@ -4161,7 +4161,7 @@ MonoBehaviour:
     transform: {fileID: 3236707864773629264}
     radius: 0.020912576
     height: 0.083650306
-    position: {x: -0.0058085998, y: 0.07082638, z: -0.0023557546}
+    position: {x: -0.0058085965, y: 0.070826374, z: -0.0023557579}
     rotation: {x: 0.026148872, y: 0, z: 0.7345567, w: 0.6780433}
   collider_handL:
     isMirrored: 1
@@ -4215,16 +4215,16 @@ MonoBehaviour:
     isMirrored: 1
     state: 0
     transform: {fileID: 7436043106406165373}
-    radius: 0.010214557
-    height: 0.051072784
+    radius: 0.010214556
+    height: 0.05107278
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerRingR:
     isMirrored: 1
     state: 0
     transform: {fileID: 2062776948372341652}
-    radius: 0.010181473
-    height: 0.050907362
+    radius: 0.010181472
+    height: 0.050907355
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerLittleR:
@@ -6383,7 +6383,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8389176557563269966}
-  m_LocalRotation: {x: 0.0017470543, y: -0.70855814, z: 0.060232818, w: 0.7030749}
+  m_LocalRotation: {x: 0.0017470544, y: -0.70855814, z: 0.06023282, w: 0.7030749}
   m_LocalPosition: {x: 0.00000011733149, y: 0.080782555, z: -0.0000000012014061}
   m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 0.99999994}
   m_Children:

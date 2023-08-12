@@ -36,6 +36,25 @@ AnimationClip:
     path: Body
     classID: 137
     script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._EmissionStrength1
+    path: Armature/Hips/Spine/Chest/AetherWings/Wings
+    classID: 137
+    script: {fileID: 0}
   m_PPtrCurves: []
   m_SampleRate: 60
   m_WrapMode: 0
@@ -47,6 +66,13 @@ AnimationClip:
     - serializedVersion: 2
       path: 2073732236
       attribute: 2352341076
+      script: {fileID: 0}
+      typeID: 137
+      customType: 22
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4023541834
+      attribute: 2413187002
       script: {fileID: 0}
       typeID: 137
       customType: 22
@@ -90,6 +116,25 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: material._EmissionStrength
     path: Body
+    classID: 137
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._EmissionStrength1
+    path: Armature/Hips/Spine/Chest/AetherWings/Wings
     classID: 137
     script: {fileID: 0}
   m_EulerEditorCurves: []
