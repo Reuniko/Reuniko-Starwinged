@@ -3003,12 +3003,12 @@ MonoBehaviour:
       right: {x: 0, y: 0, z: 0, w: 1}
     eyesLookingUp:
       linked: 1
-      left: {x: -0.17364818, y: 0, z: 0, w: 0.9848077}
-      right: {x: -0.17364818, y: 0, z: 0, w: 0.9848077}
+      left: {x: -0.08715574, y: 0, z: 0, w: 0.9961947}
+      right: {x: -0.08715574, y: 0, z: 0, w: 0.9961947}
     eyesLookingDown:
       linked: 1
-      left: {x: 0.17364827, y: 0, z: 0, w: 0.9848077}
-      right: {x: 0.17364827, y: 0, z: 0, w: 0.9848077}
+      left: {x: 0.08715569, y: 0, z: 0, w: 0.9961947}
+      right: {x: 0.08715569, y: 0, z: 0, w: 0.9961947}
     eyesLookingLeft:
       linked: 1
       left: {x: 0, y: -0.17364818, z: 0, w: 0.9848077}

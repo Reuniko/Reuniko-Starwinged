@@ -63,16 +63,15 @@ MonoBehaviour:
     subMenu: {fileID: 0}
     subParameters: []
     labels: []
-  - name: Scale
-    icon: {fileID: 2800000, guid: ac3d46552619224449364f4f84e3b0dd, type: 3}
-    type: 203
+  - name: AFK
+    icon: {fileID: 2800000, guid: 6d18eca55992446409be5dfb7b4ff869, type: 3}
+    type: 101
     parameter:
       name: VRCEmote
-    value: 212
+    value: 238
     style: 0
     subMenu: {fileID: 0}
-    subParameters:
-    - name: Go/ScaleFloat
+    subParameters: []
     labels: []
   - name: Height
     icon: {fileID: 2800000, guid: eeb8c536e3c3d3e429549cc9f5612b15, type: 3}
