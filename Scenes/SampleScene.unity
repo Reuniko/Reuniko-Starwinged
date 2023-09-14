@@ -12708,7 +12708,7 @@ PrefabInstance:
     - target: {fileID: 258466012350164061, guid: 791f08310e5f43443b06f7860f18a0cd,
         type: 3}
       propertyPath: blinking.Array.size
-      value: 17
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 258466012350164061, guid: 791f08310e5f43443b06f7860f18a0cd,
         type: 3}
@@ -17546,6 +17546,28 @@ MonoBehaviour:
     name: anim_tail_wag
   - hash: 148105528
     name: anim_ears_down
+  - hash: 1979898674
+    name: Off
+  - hash: -550806990
+    name: On
+  - hash: 471775335
+    name: anim_HUE_EFFECTS
+  - hash: 588199375
+    name: LSD
+  - hash: -1740277307
+    name: anim_HUE_BASE
+  - hash: -1966717758
+    name: anim_HUE_RIM
+  - hash: -334380510
+    name: anim_HAIR_BRI
+  - hash: 760288208
+    name: anim_HAIR_HUE
+  - hash: 342364991
+    name: anim_HAIR_SAT
+  - hash: -813511848
+    name: Off
+  - hash: 971979076
+    name: On
   - hash: -201220167
     name: Init
   - hash: 200646699
@@ -17632,28 +17654,6 @@ MonoBehaviour:
     name: DisableBlinking
   - hash: 814330056
     name: SuspendBlinking
-  - hash: 1979898674
-    name: Off
-  - hash: -550806990
-    name: On
-  - hash: 471775335
-    name: anim_HUE_EFFECTS
-  - hash: 588199375
-    name: LSD
-  - hash: -1740277307
-    name: anim_HUE_BASE
-  - hash: -1966717758
-    name: anim_HUE_RIM
-  - hash: -334380510
-    name: anim_HAIR_BRI
-  - hash: 760288208
-    name: anim_HAIR_HUE
-  - hash: 342364991
-    name: anim_HAIR_SAT
-  - hash: -813511848
-    name: Off
-  - hash: 971979076
-    name: On
   autoFootsteps: 1
   autoLocomotion: 1
   collider_head:
@@ -21313,8 +21313,8 @@ SkinnedMeshRenderer:
   m_Materials:
   - {fileID: 2100000, guid: 60e00e56ae1cb764f90e3c8f96589838, type: 2}
   - {fileID: 2100000, guid: 8391af6eaf6b9284299eba44fa7fe10b, type: 2}
-  - {fileID: 2100000, guid: 33f2dfb4b68081c46976a249d566d005, type: 2}
   - {fileID: 2100000, guid: 3a0d11e1174de224ca7deff9be1245df, type: 2}
+  - {fileID: 2100000, guid: 4879854e116dd6546ad35b702c4c2260, type: 2}
   - {fileID: 2100000, guid: 4879854e116dd6546ad35b702c4c2260, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0

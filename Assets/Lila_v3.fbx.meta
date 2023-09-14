@@ -28,9 +28,7 @@ ModelImporter:
     optimizeGameObjects: 0
     motionNodeName: 
     rigImportErrors: 
-    rigImportWarnings: "Avatar Rig Configuration mis-match. Bone length in configuration
-      does not match position in animation file:\n\t'LeftEye' : position error =
-      25.500050 mm\n\t'RightEye' : position error = 25.500048 mm\n"
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -1392,12 +1390,12 @@ ModelImporter:
     - name: Left arm
       parentName: Shoulder.L
       position: {x: -0.000000051414712, y: 0.08043654, z: -9.313225e-11}
-      rotation: {x: 0.0027246438, y: 0.71121025, z: -0.060513355, w: 0.7003647}
+      rotation: {x: 0.009565098, y: 0.7109508, z: -0.059002195, w: 0.700697}
       scale: {x: 1.0000001, y: 1.0000001, z: 1}
     - name: Left elbow
       parentName: Left arm
       position: {x: 0.000000004172325, y: 0.22577828, z: -0.000000072140246}
-      rotation: {x: 0.024771655, y: -0.006079808, z: 0.11600867, w: 0.99292064}
+      rotation: {x: 0.023396006, y: -0.0052239294, z: 0.07426988, w: 0.99695003}
       scale: {x: 0.9999999, y: 1, z: 0.99999994}
     - name: Left wrist
       parentName: Left elbow
@@ -1407,7 +1405,7 @@ ModelImporter:
     - name: IndexFinger1_L
       parentName: Left wrist
       position: {x: -0.028059334, y: 0.080088235, z: -0.005054259}
-      rotation: {x: -0.04021633, y: -0.05890085, z: 0.17350817, w: 0.9822466}
+      rotation: {x: -0.021761287, y: -0.05890476, z: 0.108265884, w: 0.9921367}
       scale: {x: 0.99999994, y: 1, z: 1}
     - name: IndexFinger2_L
       parentName: IndexFinger1_L
@@ -1447,7 +1445,7 @@ ModelImporter:
     - name: PinkyFinger1_L
       parentName: Left wrist
       position: {x: 0.043210104, y: 0.07165319, z: -0.004218161}
-      rotation: {x: -0.109478034, y: 0.059145004, z: -0.2253369, w: 0.9663021}
+      rotation: {x: -0.03185426, y: 0.06435588, z: -0.036011003, w: 0.99676824}
       scale: {x: 1.0000001, y: 1, z: 1}
     - name: PinkyFinger2_L
       parentName: PinkyFinger1_L
@@ -1467,12 +1465,12 @@ ModelImporter:
     - name: RingFinger1_L
       parentName: Left wrist
       position: {x: 0.017171517, y: 0.080620036, z: -0.002312094}
-      rotation: {x: -0.03979715, y: -0.0016082263, z: -0.15537602, w: 0.98705214}
+      rotation: {x: -0.017408533, y: -0.00068215095, z: -0.044505384, w: 0.99885726}
       scale: {x: 1, y: 1, z: 0.99999994}
     - name: RingFinger2_L
       parentName: RingFinger1_L
       position: {x: -0.000000011324882, y: 0.0231401, z: 0.00000021275133}
-      rotation: {x: -0.05652208, y: 0.06451704, z: -0.0072445483, w: 0.9962883}
+      rotation: {x: -0.040440798, y: 0.06456829, z: -0.0051838984, w: 0.99708}
       scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
     - name: RingFinger3_L
       parentName: RingFinger2_L
@@ -1487,12 +1485,12 @@ ModelImporter:
     - name: ThumbFinger1_L
       parentName: Left wrist
       position: {x: -0.023740372, y: 0.029685527, z: -0.018114418}
-      rotation: {x: -0.56652844, y: 0.60735977, z: 0.17439029, w: 0.52891195}
+      rotation: {x: -0.40882102, y: 0.70800257, z: 0.21347688, w: 0.5348134}
       scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
     - name: ThumbFinger2_L
       parentName: ThumbFinger1_L
       position: {x: 0.000000067949294, y: 0.031795505, z: 0.000000023841856}
-      rotation: {x: 0.11714848, y: -0.10142438, z: -0.08626479, w: 0.9841482}
+      rotation: {x: 0.029211666, y: -0.10244717, z: -0.021513788, w: 0.99407667}
       scale: {x: 1, y: 1, z: 1}
     - name: ThumbFinger3_L
       parentName: ThumbFinger2_L
@@ -1512,12 +1510,12 @@ ModelImporter:
     - name: right arm
       parentName: Shoulder.R
       position: {x: 0.00000011733149, y: 0.080782555, z: -0.0000000012014061}
-      rotation: {x: 0.0017470539, y: -0.70855814, z: 0.060232807, w: 0.7030749}
+      rotation: {x: 0.009273391, y: -0.7082752, z: 0.058614127, w: 0.70343775}
       scale: {x: 0.9999999, y: 0.9999999, z: 0.99999994}
     - name: right elbow
       parentName: right arm
       position: {x: -0.0000000011920929, y: 0.2221363, z: 0.0000000012433156}
-      rotation: {x: 0.02562511, y: 0.0021846925, z: -0.116603896, w: 0.9928455}
+      rotation: {x: 0.0238829, y: 0.0013005137, z: -0.0740708, w: 0.9969661}
       scale: {x: 1, y: 0.99999994, z: 1}
     - name: right wrist
       parentName: right elbow
@@ -1527,7 +1525,7 @@ ModelImporter:
     - name: IndexFinger1_R
       parentName: right wrist
       position: {x: 0.027935695, y: 0.083730966, z: -0.0049313237}
-      rotation: {x: -0.04039748, y: 0.060147006, z: -0.17343198, w: 0.9821771}
+      rotation: {x: -0.021051092, y: 0.0601194, z: -0.10612978, w: 0.99231}
       scale: {x: 0.99999994, y: 0.9999999, z: 0.9999998}
     - name: IndexFinger2_R
       parentName: IndexFinger1_R
@@ -1567,7 +1565,7 @@ ModelImporter:
     - name: PinkyFinger1_R
       parentName: right wrist
       position: {x: -0.043331, y: 0.075292505, z: -0.003915996}
-      rotation: {x: -0.10915343, y: -0.057936467, z: 0.22549494, w: 0.9663752}
+      rotation: {x: -0.030975254, y: -0.06272588, z: 0.037738208, w: 0.99683595}
       scale: {x: 0.99999994, y: 0.9999999, z: 0.9999998}
     - name: PinkyFinger2_R
       parentName: PinkyFinger1_R
@@ -1587,12 +1585,12 @@ ModelImporter:
     - name: RingFinger1_R
       parentName: right wrist
       position: {x: -0.0172881, y: 0.08426045, z: -0.0020748824}
-      rotation: {x: -0.039561514, y: 0.0028473476, z: 0.15544905, w: 0.9870473}
+      rotation: {x: -0.016791267, y: 0.0020966264, z: 0.04637925, w: 0.9987806}
       scale: {x: 0.99999994, y: 0.9999999, z: 0.9999998}
     - name: RingFinger2_R
       parentName: RingFinger1_R
       position: {x: 0.000000048279762, y: 0.02314004, z: 0.0000002121739}
-      rotation: {x: -0.056522068, y: -0.06451706, z: 0.007244639, w: 0.9962883}
+      rotation: {x: -0.040440705, y: -0.06456839, z: 0.005183201, w: 0.9970801}
       scale: {x: 1, y: 1, z: 1}
     - name: RingFinger3_R
       parentName: RingFinger2_R
@@ -1607,12 +1605,12 @@ ModelImporter:
     - name: ThumbFinger1_R
       parentName: right wrist
       position: {x: 0.023586111, y: 0.03332906, z: -0.017984578}
-      rotation: {x: -0.56671286, y: -0.6066977, z: -0.17368688, w: 0.529705}
+      rotation: {x: -0.4071777, y: -0.7082039, z: -0.21289685, w: 0.5360303}
       scale: {x: 1, y: 0.9999999, z: 0.99999994}
     - name: ThumbFinger2_R
       parentName: ThumbFinger1_R
       position: {x: 0.00000009059906, y: 0.031795487, z: 0.000000042915342}
-      rotation: {x: 0.11714845, y: 0.10142454, z: 0.08626472, w: 0.9841482}
+      rotation: {x: 0.029211875, y: 0.10244821, z: 0.021513669, w: 0.9940766}
       scale: {x: 1, y: 0.99999994, z: 0.99999994}
     - name: ThumbFinger3_R
       parentName: ThumbFinger2_R
