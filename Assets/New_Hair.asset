@@ -1586,7 +1586,7 @@ Material:
     - _M_ZWrite: 1
     - _MainALHueShiftBand: 0
     - _MainALHueShiftCTIndex: 0
-    - _MainBrightness: -1
+    - _MainBrightness: 0.201
     - _MainBrightnessGlobalMask: 0
     - _MainBrightnessGlobalMaskBlendType: 2
     - _MainColorAdjustTextureUV: 0
@@ -1595,7 +1595,7 @@ Material:
     - _MainHueALMotionSpeed: 1
     - _MainHueGlobalMask: 0
     - _MainHueGlobalMaskBlendType: 2
-    - _MainHueShift: 0
+    - _MainHueShift: 0.604
     - _MainHueShiftReplace: 1
     - _MainHueShiftSpeed: 0
     - _MainHueShiftToggle: 1
@@ -2041,7 +2041,7 @@ Material:
     - _SSSThicknessMapChannel: 0
     - _SSSThicknessMapUV: 0
     - _SSSThicknessMod: 0
-    - _Saturation: -0.33
+    - _Saturation: -0.76
     - _ScrollingEmission: 0
     - _ScrollingEmission1: 0
     - _ScrollingEmission2: 0
