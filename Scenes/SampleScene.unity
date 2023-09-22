@@ -17694,7 +17694,7 @@ MonoBehaviour:
     transform: {fileID: 3236707864773629264}
     radius: 0.020912576
     height: 0.083650306
-    position: {x: -0.0058085932, y: 0.070826374, z: -0.0023557611}
+    position: {x: -0.005808594, y: 0.070826374, z: -0.0023557642}
     rotation: {x: 0.026148872, y: 0, z: 0.7345567, w: 0.6780433}
   collider_handL:
     isMirrored: 1
@@ -17756,16 +17756,16 @@ MonoBehaviour:
     isMirrored: 1
     state: 0
     transform: {fileID: 2062776948372341652}
-    radius: 0.010181472
-    height: 0.050907355
+    radius: 0.010181494
+    height: 0.050907467
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerLittleR:
     isMirrored: 1
     state: 0
     transform: {fileID: 3125585407948182769}
-    radius: 0.008222703
-    height: 0.041113514
+    radius: 0.008222723
+    height: 0.041113615
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
 --- !u!114 &1947116000
@@ -19408,7 +19408,7 @@ PrefabInstance:
     - target: {fileID: 1665193221343275969, guid: 0331f36341a34cb49a05016f7d02ce86,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1665193221343275969, guid: 0331f36341a34cb49a05016f7d02ce86,
         type: 3}
@@ -20519,7 +20519,6 @@ GameObject:
   - component: {fileID: 5866666020098153545}
   - component: {fileID: 1947115995}
   - component: {fileID: 1947115996}
-  - component: {fileID: 919132147745528970}
   m_Layer: 0
   m_Name: Lila_v3
   m_TagString: Untagged
@@ -20527,19 +20526,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &919132147745528970
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919132147745528969}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 229740497, guid: 4ecd63eff847044b68db9453ce219299, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  contentType: 0
 --- !u!1 &936243483485443512
 GameObject:
   m_ObjectHideFlags: 0
@@ -20890,7 +20876,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8389176557563269966}
-  m_LocalRotation: {x: 0.0017470546, y: -0.70855814, z: 0.06023283, w: 0.7030749}
+  m_LocalRotation: {x: 0.0017470547, y: -0.70855814, z: 0.060232833, w: 0.7030749}
   m_LocalPosition: {x: 0.00000011733149, y: 0.080782555, z: -0.0000000012014061}
   m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 0.99999994}
   m_Children:
@@ -21314,7 +21300,6 @@ SkinnedMeshRenderer:
   - {fileID: 2100000, guid: 60e00e56ae1cb764f90e3c8f96589838, type: 2}
   - {fileID: 2100000, guid: 8391af6eaf6b9284299eba44fa7fe10b, type: 2}
   - {fileID: 2100000, guid: 3a0d11e1174de224ca7deff9be1245df, type: 2}
-  - {fileID: 2100000, guid: 4879854e116dd6546ad35b702c4c2260, type: 2}
   - {fileID: 2100000, guid: 4879854e116dd6546ad35b702c4c2260, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0

@@ -43,7 +43,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Outline/4879854e116dd6546
 		[HideInInspector][ThryWideEnum(UV0, 0, UV1, 1, UV2, 2, UV3, 3, Panosphere, 4, World Pos XZ, 5, Polar UV, 6, Distorted UV, 7)] _ClippingMaskUV ("UV", Int) = 0
 		[HideInInspector][ToggleUI]_Inverse_Clipping ("Invert", Float) = 0
 		_Cutoff ("Alpha Cutoff", Range(0, 1.001)) = 0.5
-		[HideInInspector] m_start_MainHueShift ("Color Adjust--{reference_property:_MainColorAdjustToggle,button_help:{text:Tutorial,action:{type:URL,data:https://www.poiyomi.com/color-and-normals/color-adjust},hover:Documentation}}", Float) = 0
+		[HideInInspector] m_start_MainHueShift_New_Eyes ("Color Adjust--{reference_property:_MainColorAdjustToggle,button_help:{text:Tutorial,action:{type:URL,data:https://www.poiyomi.com/color-and-normals/color-adjust},hover:Documentation}}", Float) = 0
 		[HideInInspector][ThryToggle(COLOR_GRADING_HDR)] _MainColorAdjustToggle ("Adjust Colors", Float) = 0
 		[sRGBWarning][ThryRGBAPacker(R Hue Mask, G Brightness Mask, B Saturation Mask)]_MainColorAdjustTexture ("Mask (Expand)--{reference_properties:[_MainColorAdjustTexturePan, _MainColorAdjustTextureUV]}", 2D) = "white" { }
 		[HideInInspector][Vector2]_MainColorAdjustTexturePan ("Panning", Vector) = (0, 0, 0, 0)
@@ -52,7 +52,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Outline/4879854e116dd6546
 		_MainBrightness ("Brightness", Range(-1, 1)) = 0
 		[ThryToggleUI(true)] _MainHueShiftToggle ("<size=13><b>  Hue Shift</b></size>", Float) = 0
 		[ToggleUI]_MainHueShiftReplace ("Hue Replace?--{condition_showS:(_MainHueShiftToggle==1)}", Float) = 1
-		_MainHueShift ("Hue Shift--{condition_showS:(_MainHueShiftToggle==1)}", Range(0, 1)) = 0
+		_MainHueShift_New_Eyes ("Hue Shift--{condition_showS:(_MainHueShiftToggle==1)}", Range(0, 1)) = 0
 		_MainHueShiftSpeed ("Hue Shift Speed--{condition_showS:(_MainHueShiftToggle==1)}", Float) = 0
 		[Space(4)]
 		[ThryToggleUI(true)]_MainHueALCTEnabled ("<size=13><b>  Hue Shift Audio Link</b></size>--{condition_showS:(_MainHueShiftToggle==1 && _EnableAudioLink==1)}", Float) = 0
@@ -67,7 +67,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Outline/4879854e116dd6546
 		[ThryWideEnum(Off, 0, 1R, 1, 1G, 2, 1B, 3, 1A, 4, 2R, 5, 2G, 6, 2B, 7, 2A, 8, 3R, 9, 3G, 10, 3B, 11, 3A, 12, 4R, 13, 4G, 14, 4B, 15, 4A, 16)] _MainBrightnessGlobalMask ("Brightness--{reference_property:_MainBrightnessGlobalMaskBlendType}", Int) = 0
 		[HideInInspector][ThryWideEnum(Replace, 0, Darken, 1, Multiply, 2, Color Burn, 3, Linear Burn, 4, Lighten, 5, Screen, 6, Color Dodge, 7, Linear Dodge(Add), 8, Overlay, 9, Soft Lighten, 10, Hard Light, 11, Vivid Light, 12, Linear Light, 13, Pin Light, 14, Hard Mix, 15, Difference, 16, Exclusion, 17, Subtract, 18, Divide, 19)] _MainBrightnessGlobalMaskBlendType ("Blending", Int) = 2
 		[HideInInspector] m_end_MainHueShiftGlobalMask ("Global Mask", Float) = 0
-		[HideInInspector] m_end_MainHueShift ("Hue Shift", Float) = 0
+		[HideInInspector] m_end_MainHueShift_New_Eyes ("Hue Shift", Float) = 0
 		[HideInInspector] m_start_Alpha ("Alpha Options--{button_help:{text:Tutorial,action:{type:URL,data:https://www.poiyomi.com/color-and-normals/alpha-options},hover:Documentation}}", Float) = 0
 		[ToggleUI]_AlphaForceOpaque ("Force Opaque", Float) = 0
 		_AlphaMod ("Alpha Mod", Range(-1, 1)) = 0.0
@@ -333,7 +333,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Outline/4879854e116dd6546
 		_EmissionStrength ("Emission Strength", Range(0, 20)) = 0
 		[Space(4)]
 		[ThryToggleUI(true)]_EmissionHueShiftEnabled ("<size=13><b>  Hue Shift</b></size>", Float) = 0
-		_EmissionHueShift ("Hue Shift--{condition_showS:(_EmissionHueShiftEnabled==1)}", Range(0, 1)) = 0
+		_EmissionHueShift_New_Eyes ("Hue Shift--{condition_showS:(_EmissionHueShiftEnabled==1)}", Range(0, 1)) = 0
 		_EmissionHueShiftSpeed ("Hue Shift Speed--{condition_showS:(_EmissionHueShiftEnabled==1)}", Float) = 0
 		[Space(4)]
 		[ThryToggleUI(true)]_EmissionCenterOutEnabled ("<size=13><b>  Center Out</b></size>", Float) = 0
@@ -702,7 +702,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Outline/4879854e116dd6546
 			float _MainColorAdjustTextureUV;
 			float _MainHueShiftToggle;
 			float _MainHueShiftReplace;
-			float _MainHueShift;
+			float _MainHueShift_New_Eyes;
 			float _MainHueShiftSpeed;
 			float _Saturation;
 			float _MainBrightness;
@@ -761,7 +761,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Outline/4879854e116dd6546
 			float _EmissionBaseColorAsMap;
 			float _EmissionStrength;
 			float _EmissionHueShiftEnabled;
-			float _EmissionHueShift;
+			float _EmissionHueShift_New_Eyes;
 			float _EmissionHueShiftSpeed;
 			float _EmissionCenterOutEnabled;
 			float _EmissionCenterOutSpeed;
@@ -2724,7 +2724,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Outline/4879854e116dd6546
 					emissionStrength0 *= calculateBlinkingEmission((0.0 /*_EmissiveBlink_Min*/), (1.0 /*_EmissiveBlink_Max*/), (4.0 /*_EmissiveBlink_Velocity*/), (0.0 /*_EmissionBlinkingOffset*/));
 				}
 				applyLumaGradient(poiMods, emissionColor0, (0.0 /*_EmissionColorThemeIndex*/), poiLight.nDotV);
-				emissionColor0 = hueShift(emissionColor0, frac(_EmissionHueShift + (0.0 /*_EmissionHueShiftSpeed*/) * _Time.x) * (1.0 /*_EmissionHueShiftEnabled*/));
+				emissionColor0 = hueShift(emissionColor0, frac(_EmissionHueShift_New_Eyes + (0.0 /*_EmissionHueShiftSpeed*/) * _Time.x) * (1.0 /*_EmissionHueShiftEnabled*/));
 				#if defined(PROP_EMISSIONMASK) || !defined(OPTIMIZER_ENABLED)
 				float emissionMask0 = UNITY_SAMPLE_TEX2D_SAMPLER(_EmissionMask, _MainTex, poiUV(poiMesh.uv[(0.0 /*_EmissionMaskUV*/)], float4(1,1,0,0)) + _Time.x * float4(0,0,0,0))[(0.0 /*_EmissionMaskChannel*/)];
 				#else
@@ -3126,7 +3126,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Outline/4879854e116dd6546
 				}
 				if ((1.0 /*_MainHueShiftToggle*/))
 				{
-					float shift = _MainHueShift;
+					float shift = _MainHueShift_New_Eyes;
 					#ifdef POI_AUDIOLINK
 					if (poiMods.audioLinkAvailable && (0.0 /*_MainHueALCTEnabled*/))
 					{
@@ -3420,7 +3420,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Outline/4879854e116dd6546
 			float _MainColorAdjustTextureUV;
 			float _MainHueShiftToggle;
 			float _MainHueShiftReplace;
-			float _MainHueShift;
+			float _MainHueShift_New_Eyes;
 			float _MainHueShiftSpeed;
 			float _Saturation;
 			float _MainBrightness;
@@ -5534,7 +5534,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Outline/4879854e116dd6546
 				}
 				if ((1.0 /*_MainHueShiftToggle*/))
 				{
-					float shift = _MainHueShift;
+					float shift = _MainHueShift_New_Eyes;
 					#ifdef POI_AUDIOLINK
 					if (poiMods.audioLinkAvailable && (0.0 /*_MainHueALCTEnabled*/))
 					{
@@ -5812,7 +5812,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Outline/4879854e116dd6546
 			float _MainColorAdjustTextureUV;
 			float _MainHueShiftToggle;
 			float _MainHueShiftReplace;
-			float _MainHueShift;
+			float _MainHueShift_New_Eyes;
 			float _MainHueShiftSpeed;
 			float _Saturation;
 			float _MainBrightness;
@@ -8035,7 +8035,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Outline/4879854e116dd6546
 				}
 				if ((1.0 /*_MainHueShiftToggle*/))
 				{
-					float shift = _MainHueShift;
+					float shift = _MainHueShift_New_Eyes;
 					#ifdef POI_AUDIOLINK
 					if (poiMods.audioLinkAvailable && (0.0 /*_MainHueALCTEnabled*/))
 					{
@@ -8252,7 +8252,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Outline/4879854e116dd6546
 			float _MainColorAdjustTextureUV;
 			float _MainHueShiftToggle;
 			float _MainHueShiftReplace;
-			float _MainHueShift;
+			float _MainHueShift_New_Eyes;
 			float _MainHueShiftSpeed;
 			float _Saturation;
 			float _MainBrightness;
@@ -9800,7 +9800,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Outline/4879854e116dd6546
 				}
 				if ((1.0 /*_MainHueShiftToggle*/))
 				{
-					float shift = _MainHueShift;
+					float shift = _MainHueShift_New_Eyes;
 					#ifdef POI_AUDIOLINK
 					if (poiMods.audioLinkAvailable && (0.0 /*_MainHueALCTEnabled*/))
 					{
