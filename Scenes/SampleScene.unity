@@ -6017,6 +6017,7 @@ GameObject:
   - component: {fileID: 5866666020098153545}
   - component: {fileID: 1947115995}
   - component: {fileID: 1947115996}
+  - component: {fileID: 919132147745528970}
   m_Layer: 0
   m_Name: Lila_v3
   m_TagString: Untagged
@@ -6024,6 +6025,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &919132147745528970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132147745528969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 229740497, guid: 4ecd63eff847044b68db9453ce219299, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  contentType: 0
 --- !u!1 &936243483485443512
 GameObject:
   m_ObjectHideFlags: 0
@@ -6799,6 +6813,7 @@ SkinnedMeshRenderer:
   - {fileID: 2100000, guid: 8391af6eaf6b9284299eba44fa7fe10b, type: 2}
   - {fileID: 2100000, guid: 3a0d11e1174de224ca7deff9be1245df, type: 2}
   - {fileID: 2100000, guid: 4879854e116dd6546ad35b702c4c2260, type: 2}
+  - {fileID: 2100000, guid: 33f2dfb4b68081c46976a249d566d005, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7001,6 +7016,7 @@ SkinnedMeshRenderer:
   - {fileID: 2672882609493629200}
   - {fileID: 2529651787255129311}
   m_BlendShapeWeights:
+  - 0
   - 0
   - 0
   - 0
