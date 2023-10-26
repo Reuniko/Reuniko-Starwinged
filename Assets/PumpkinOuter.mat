@@ -170,8 +170,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
+        m_Texture: {fileID: 2800000, guid: aded3d8bdb52eb744964762b45920654, type: 3}
+        m_Scale: {x: 20, y: 20}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap1:
         m_Texture: {fileID: 0}
@@ -186,8 +186,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
+        m_Texture: {fileID: 2800000, guid: 4570c6c56d363c648aae0e42267c42c0, type: 3}
+        m_Scale: {x: 10, y: 10}
         m_Offset: {x: 0, y: 0}
     - _EmissionMask1:
         m_Texture: {fileID: 0}
@@ -299,7 +299,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: bda04423b02a9a941a05e7fd43c2e452, type: 3}
-        m_Scale: {x: 3, y: 3}
+        m_Scale: {x: 10, y: 10}
         m_Offset: {x: 0, y: 0}
     - _Matcap:
         m_Texture: {fileID: 0}
@@ -1056,7 +1056,7 @@ Material:
     - _EmissionBlinkingEnabled1: 0
     - _EmissionBlinkingEnabled2: 0
     - _EmissionBlinkingEnabled3: 0
-    - _EmissionBlinkingOffset: 0
+    - _EmissionBlinkingOffset: 4
     - _EmissionBlinkingOffset1: 0
     - _EmissionBlinkingOffset2: 0
     - _EmissionBlinkingOffset3: 0
@@ -1087,7 +1087,7 @@ Material:
     - _EmissionMap1UV: 0
     - _EmissionMap2UV: 0
     - _EmissionMap3UV: 0
-    - _EmissionMapUV: 0
+    - _EmissionMapUV: 6
     - _EmissionMask0GlobalMask: 0
     - _EmissionMask0GlobalMaskBlendType: 2
     - _EmissionMask1Channel: 0
@@ -1124,7 +1124,7 @@ Material:
     - _EmissionScrollingVertexColor1: 0
     - _EmissionScrollingVertexColor2: 0
     - _EmissionScrollingVertexColor3: 0
-    - _EmissionStrength: 0
+    - _EmissionStrength: 1
     - _EmissionStrength1: 0
     - _EmissionStrength2: 0
     - _EmissionStrength3: 0
@@ -1161,7 +1161,7 @@ Material:
     - _EnableDissolveAudioLink: 0
     - _EnableDistortion: 0
     - _EnableDistortionAudioLink: 0
-    - _EnableEmission: 0
+    - _EnableEmission: 1
     - _EnableEmission1: 0
     - _EnableEmission2: 0
     - _EnableEmission3: 0
@@ -1518,7 +1518,7 @@ Material:
     - _MainSaturationGlobalMask: 0
     - _MainSaturationGlobalMaskBlendType: 2
     - _MainTexStochastic: 0
-    - _MainTexUV: 6
+    - _MainTexUV: 0
     - _MainUseVertexColorAlpha: 0
     - _MainVertexColoring: 0
     - _MainVertexColoringEnabled: 0
@@ -2274,7 +2274,7 @@ Material:
     - m_modifierCategory: 0
     - m_postprocessing: 0
     - m_renderingCategory: 0
-    - m_specialFXCategory: 0
+    - m_specialFXCategory: 1
     - m_start_ALDecalSpectrum: 0
     - m_start_Alpha: 0
     - m_start_AlphaGlobalMask: 0
@@ -2361,7 +2361,7 @@ Material:
     - m_start_emission1Options: 0
     - m_start_emission2Options: 0
     - m_start_emission3Options: 0
-    - m_start_emissionOptions: 0
+    - m_start_emissionOptions: 1
     - m_start_flipBook: 0
     - m_start_glitter: 0
     - m_start_internalparallax: 0
@@ -2487,7 +2487,7 @@ Material:
     - _ClearCoatSpecularTint: {r: 1, g: 1, b: 1, a: 1}
     - _ClippingMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _ClothMetallicSmoothnessMapPan: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 0.9245283, g: 0.6834469, b: 0.5538448, a: 1}
+    - _Color: {r: 0.9254902, g: 0.7882601, b: 0.5529412, a: 1}
     - _CubeMapColor: {r: 1, g: 1, b: 1, a: 1}
     - _CubeMapMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _CubeMapRotation: {r: 0, g: 0, b: 0, a: 0}
@@ -2542,14 +2542,14 @@ Material:
     - _EmissionAL2StrengthMod: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionAL3Multipliers: {r: 1, g: 1, b: 0, a: 0}
     - _EmissionAL3StrengthMod: {r: 0, g: 0, b: 0, a: 0}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 0.41960785, g: 0.049572814, b: 0, a: 1}
     - _EmissionColor1: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor2: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor3: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionMap1Pan: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionMap2Pan: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionMap3Pan: {r: 0, g: 0, b: 0, a: 0}
-    - _EmissionMapPan: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionMapPan: {r: 1, g: 1, b: 0, a: 0}
     - _EmissionMask1Pan: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionMask2Pan: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionMask3Pan: {r: 0, g: 0, b: 0, a: 0}

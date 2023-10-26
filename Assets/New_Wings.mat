@@ -193,8 +193,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMask1:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 0.3, y: 0.3}
+        m_Texture: {fileID: 2800000, guid: aded3d8bdb52eb744964762b45920654, type: 3}
+        m_Scale: {x: 50, y: 50}
         m_Offset: {x: 0, y: 0}
     - _EmissionMask2:
         m_Texture: {fileID: 0}
@@ -1107,7 +1107,7 @@ Material:
     - _EmissionMask1Channel: 0
     - _EmissionMask1GlobalMask: 0
     - _EmissionMask1GlobalMaskBlendType: 2
-    - _EmissionMask1UV: 3
+    - _EmissionMask1UV: 0
     - _EmissionMask2Channel: 0
     - _EmissionMask2GlobalMask: 0
     - _EmissionMask2GlobalMaskBlendType: 2
@@ -1139,7 +1139,7 @@ Material:
     - _EmissionScrollingVertexColor2: 0
     - _EmissionScrollingVertexColor3: 0
     - _EmissionStrength: 1
-    - _EmissionStrength1: 4
+    - _EmissionStrength1: 2
     - _EmissionStrength2: 0
     - _EmissionStrength3: 0
     - _EmissiveBlink_Max: 1
@@ -1968,7 +1968,7 @@ Material:
     - _SSSThicknessMod: 0
     - _Saturation: 0
     - _ScrollingEmission: 0
-    - _ScrollingEmission1: 1
+    - _ScrollingEmission1: 0
     - _ScrollingEmission2: 0
     - _ScrollingEmission3: 0
     - _Set_HighColorMaskChannel: 1
@@ -2636,7 +2636,7 @@ Material:
     - _EmissionMap2Pan: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionMap3Pan: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionMapPan: {r: 0, g: 0, b: 0, a: 0}
-    - _EmissionMask1Pan: {r: 1, g: 0.14637, b: 0, a: 0}
+    - _EmissionMask1Pan: {r: 5, g: 0, b: 0, a: 0}
     - _EmissionMask2Pan: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionMask3Pan: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionMaskPan: {r: 0, g: 0, b: 0, a: 0}

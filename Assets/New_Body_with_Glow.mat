@@ -9,8 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: New_Body_with_Glow
   m_Shader: {fileID: 4800000, guid: f96e26b871579b349b8f5d6d5516370f, type: 3}
-  m_ShaderKeywords: COLOR_GRADING_HDR POI_LIGHT_DATA_ADDITIVE_DIRECTIONAL_ENABLE
-    POI_LIGHT_DATA_ADDITIVE_ENABLE POI_VERTEXLIGHT_ON VIGNETTE_MASKED _EMISSION _GLOSSYREFLECTIONS_OFF
+  m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -190,8 +189,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 0.3, y: 0.3}
+        m_Texture: {fileID: 2800000, guid: aded3d8bdb52eb744964762b45920654, type: 3}
+        m_Scale: {x: 50, y: 50}
         m_Offset: {x: 0, y: 0}
     - _EmissionMask1:
         m_Texture: {fileID: 0}
@@ -1139,7 +1138,7 @@ Material:
     - _EmissionScrollingVertexColor1: 0
     - _EmissionScrollingVertexColor2: 0
     - _EmissionScrollingVertexColor3: 0
-    - _EmissionStrength: 4
+    - _EmissionStrength: 2
     - _EmissionStrength1: 0
     - _EmissionStrength2: 0
     - _EmissionStrength3: 0
@@ -1968,7 +1967,7 @@ Material:
     - _SSSThicknessMapUV: 0
     - _SSSThicknessMod: 0
     - _Saturation: 0
-    - _ScrollingEmission: 1
+    - _ScrollingEmission: 0
     - _ScrollingEmission1: 0
     - _ScrollingEmission2: 0
     - _ScrollingEmission3: 0
@@ -2640,7 +2639,7 @@ Material:
     - _EmissionMask1Pan: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionMask2Pan: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionMask3Pan: {r: 0, g: 0, b: 0, a: 0}
-    - _EmissionMaskPan: {r: 1, g: 0.14637, b: 0, a: 0}
+    - _EmissionMaskPan: {r: 5, g: 0, b: 0, a: 0}
     - _EmissiveScroll_Direction: {r: 0, g: 10, b: 0, a: 0}
     - _EmissiveScroll_Direction1: {r: 0, g: -10, b: 0, a: 0}
     - _EmissiveScroll_Direction2: {r: 0, g: -10, b: 0, a: 0}

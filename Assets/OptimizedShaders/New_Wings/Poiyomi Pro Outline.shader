@@ -674,6 +674,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Outline/aebbd6215aec5c04a
  #define _STOCHASTICMODE_DELIOT_HEITZ 
  #define PROP_EMISSIONMAP 
  #define PROP_EMISSIONMAP1 
+ #define PROP_EMISSIONMASK1 
  #define OPTIMIZER_ENABLED 
 			#pragma target 5.0
 			#pragma skip_variants LIGHTMAP_ON DYNAMICLIGHTMAP_ON LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK DIRLIGHTMAP_COMBINED _MIXED_LIGHTING_SUBTRACTIVE
@@ -3033,7 +3034,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Outline/aebbd6215aec5c04a
 				#else
 				emissionColor1 = lerp(1, poiFragData.baseColor, (0.0 /*_EmissionBaseColorAsMap1*/)).rgb * poiThemeColor(poiMods, float4(1,1,1,1).rgb, (0.0 /*_EmissionColor1ThemeIndex*/));
 				#endif
-				if ((1.0 /*_ScrollingEmission1*/))
+				if ((0.0 /*_ScrollingEmission1*/))
 				{
 					float3 pos1 = poiMesh.localPos;
 					if ((0.0 /*_EmissionScrollingVertexColor1*/))
@@ -3058,7 +3059,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Outline/aebbd6215aec5c04a
 				applyLumaGradient(poiMods, emissionColor1, (0.0 /*_EmissionColor1ThemeIndex*/), poiLight.nDotV);
 				emissionColor1 = hueShift(emissionColor1, frac((0.0 /*_EmissionHueShift1*/) + (0.0 /*_EmissionHueShiftSpeed1*/) * _Time.x) * (0.0 /*_EmissionHueShiftEnabled1*/));
 				#if defined(PROP_EMISSIONMASK1) || !defined(OPTIMIZER_ENABLED)
-				float emissionMask1 = UNITY_SAMPLE_TEX2D_SAMPLER(_EmissionMask1, _MainTex, poiUV(poiMesh.uv[(3.0 /*_EmissionMask1UV*/)], float4(0.3,0.3,0,0)) + _Time.x * float4(1,0.14637,0,0))[(0.0 /*_EmissionMask1Channel*/)];
+				float emissionMask1 = UNITY_SAMPLE_TEX2D_SAMPLER(_EmissionMask1, _MainTex, poiUV(poiMesh.uv[(0.0 /*_EmissionMask1UV*/)], float4(50,50,0,0)) + _Time.x * float4(5,0,0,0))[(0.0 /*_EmissionMask1Channel*/)];
 				#else
 				float emissionMask1 = 1;
 				#endif
@@ -3756,6 +3757,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Outline/aebbd6215aec5c04a
  #define _STOCHASTICMODE_DELIOT_HEITZ 
  #define PROP_EMISSIONMAP 
  #define PROP_EMISSIONMAP1 
+ #define PROP_EMISSIONMASK1 
  #define OPTIMIZER_ENABLED 
 			#pragma target 5.0
 			#pragma skip_variants LIGHTMAP_ON DYNAMICLIGHTMAP_ON LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK DIRLIGHTMAP_COMBINED _MIXED_LIGHTING_SUBTRACTIVE
@@ -6154,6 +6156,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Outline/aebbd6215aec5c04a
  #define _STOCHASTICMODE_DELIOT_HEITZ 
  #define PROP_EMISSIONMAP 
  #define PROP_EMISSIONMAP1 
+ #define PROP_EMISSIONMASK1 
  #define OPTIMIZER_ENABLED 
 			#pragma target 5.0
 			#pragma skip_variants LIGHTMAP_ON DYNAMICLIGHTMAP_ON LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK DIRLIGHTMAP_COMBINED _MIXED_LIGHTING_SUBTRACTIVE
@@ -8902,6 +8905,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Outline/aebbd6215aec5c04a
  #define _STOCHASTICMODE_DELIOT_HEITZ 
  #define PROP_EMISSIONMAP 
  #define PROP_EMISSIONMAP1 
+ #define PROP_EMISSIONMASK1 
  #define OPTIMIZER_ENABLED 
 			#pragma target 5.0
 			#pragma skip_variants LIGHTMAP_ON DYNAMICLIGHTMAP_ON LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK DIRLIGHTMAP_COMBINED _MIXED_LIGHTING_SUBTRACTIVE
