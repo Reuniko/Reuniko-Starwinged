@@ -83,6 +83,16 @@ MonoBehaviour:
     subMenu: {fileID: 11400000, guid: 4211e87ebd4c3ae458f2ee7805f0c011, type: 2}
     subParameters: []
     labels: []
+  - name: Toggles2
+    icon: {fileID: 2800000, guid: ab6dae33d7a158a44a4fff12d8567a91, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 09b31871da909304399bbff6d33b2298, type: 2}
+    subParameters: []
+    labels: []
   - name: Shield
     icon: {fileID: 0}
     type: 203
@@ -93,14 +103,4 @@ MonoBehaviour:
     subMenu: {fileID: 0}
     subParameters:
     - name: SHIELD_SCALE
-    labels: []
-  - name: Trails
-    icon: {fileID: 2800000, guid: ab6dae33d7a158a44a4fff12d8567a91, type: 3}
-    type: 102
-    parameter:
-      name: Trails
-    value: 1
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
     labels: []
