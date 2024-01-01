@@ -1139,7 +1139,7 @@ Material:
     - _EmissionScrollingVertexColor2: 0
     - _EmissionScrollingVertexColor3: 0
     - _EmissionStrength: 1
-    - _EmissionStrength1: 2
+    - _EmissionStrength1: 0
     - _EmissionStrength2: 0
     - _EmissionStrength3: 0
     - _EmissiveBlink_Max: 1

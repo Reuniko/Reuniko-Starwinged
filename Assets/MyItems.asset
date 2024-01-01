@@ -53,26 +53,6 @@ MonoBehaviour:
     subMenu: {fileID: 0}
     subParameters: []
     labels: []
-  - name: Shirt
-    icon: {fileID: 0}
-    type: 102
-    parameter:
-      name: Shirt
-    value: 1
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: Shorts
-    icon: {fileID: 0}
-    type: 102
-    parameter:
-      name: Shorts
-    value: 1
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
   - name: Monstercat
     icon: {fileID: 2800000, guid: 29b4286f41c93f84f9ffc6ca7551f2d3, type: 3}
     type: 102
@@ -91,5 +71,25 @@ MonoBehaviour:
     value: 1
     style: 0
     subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Curse
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: Curse
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: MOAR
+    icon: {fileID: 0}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 7f072b7315e0c144aa2a143b058411df, type: 2}
     subParameters: []
     labels: []

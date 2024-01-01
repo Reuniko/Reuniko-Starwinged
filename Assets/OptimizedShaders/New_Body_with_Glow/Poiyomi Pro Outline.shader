@@ -611,6 +611,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Outline/60e00e56ae1cb764f
  #define _RIM2STYLE_POIYOMI 
  #define _RIMSTYLE_POIYOMI 
  #define _STOCHASTICMODE_DELIOT_HEITZ 
+ #define PROP_CLIPPINGMASK 
  #define PROP_EMISSIONMAP 
  #define PROP_EMISSIONMASK 
  #define OPTIMIZER_ENABLED 
@@ -3495,7 +3496,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Outline/60e00e56ae1cb764f
 				#endif
 				#endif
 				
-				if ((0.0 /*_AlphaPremultiply*/))
+				if (_AlphaPremultiply)
 				{
 					poiFragData.baseColor *= saturate(poiFragData.alpha);
 				}
@@ -3524,7 +3525,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Outline/60e00e56ae1cb764f
 				{
 					poiFragData.alpha = 1;
 				}
-				clip(poiFragData.alpha - (0.5 /*_Cutoff*/));
+				clip(poiFragData.alpha - (0.0 /*_Cutoff*/));
 				if ((0.0 /*_Mode*/) == POI_MODE_CUTOUT && !(0.0 /*_AlphaToCoverage*/))
 				{
 					poiFragData.alpha = 1;
@@ -3563,6 +3564,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Outline/60e00e56ae1cb764f
  #define _RIM2STYLE_POIYOMI 
  #define _RIMSTYLE_POIYOMI 
  #define _STOCHASTICMODE_DELIOT_HEITZ 
+ #define PROP_CLIPPINGMASK 
  #define PROP_EMISSIONMAP 
  #define PROP_EMISSIONMASK 
  #define OPTIMIZER_ENABLED 
@@ -5907,7 +5909,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Outline/60e00e56ae1cb764f
 				poiLight.rampedLightMap = poiEdgeNonLinear(poiLight.nDotL, 0.1, .1);
 				#endif
 				
-				if ((0.0 /*_AlphaPremultiply*/))
+				if (_AlphaPremultiply)
 				{
 					poiFragData.baseColor *= saturate(poiFragData.alpha);
 				}
@@ -5922,7 +5924,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Outline/60e00e56ae1cb764f
 				{
 					poiFragData.alpha = 1;
 				}
-				clip(poiFragData.alpha - (0.5 /*_Cutoff*/));
+				clip(poiFragData.alpha - (0.0 /*_Cutoff*/));
 				return float4(poiFragData.finalColor + poiFragData.emission * poiMods.globalEmission, poiFragData.alpha) + POI_SAFE_RGB0;
 			}
 			ENDCG
@@ -5960,6 +5962,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Outline/60e00e56ae1cb764f
  #define _RIM2STYLE_POIYOMI 
  #define _RIMSTYLE_POIYOMI 
  #define _STOCHASTICMODE_DELIOT_HEITZ 
+ #define PROP_CLIPPINGMASK 
  #define PROP_EMISSIONMAP 
  #define PROP_EMISSIONMASK 
  #define OPTIMIZER_ENABLED 
@@ -8641,7 +8644,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Outline/60e00e56ae1cb764f
 				ApplyPoiyomiRimLighting(poiFragData, poiMesh, poiCam, poiLight, poiMods, (1.0 /*_Is_NormalMapToRimLight*/), (0.0 /*_RimLightingInvert*/), (0.5 /*_RimPower*/), (0.1 /*_RimStrength*/), (0.0 /*_RimShadowWidth*/), (0.0 /*_RimShadowToggle*/), (0.8 /*_RimWidth*/), (1.0 /*_RimBlendStrength*/), rimMask, (0.0 /*_RimGlobalMask*/), (2.0 /*_RimGlobalMaskBlendType*/), rimColor, float4(0,1,0.5945537,1), (0.0 /*_RimLightColorThemeIndex*/), (1.0 /*_RimHueShiftEnabled*/), _RimHueShift, (0.0 /*_RimHueShiftSpeed*/), (0.0 /*_RimSharpness*/), (1.0 /*_RimShadowMaskRampType*/), (0.0 /*_RimShadowMaskInvert*/), (1.0 /*_RimShadowMaskStrength*/), float4(0,0,0,1), (0.0 /*_RimApplyGlobalMaskIndex*/), (2.0 /*_RimApplyGlobalMaskBlendType*/), (0.0 /*_RimBaseColorMix*/), (1.0 /*_RimBrightness*/), (0.0 /*_RimBlendMode*/), AudioLinkRimWidthBand, AudioLinkRimWidthAdd, AudioLinkRimEmissionBand, AudioLinkRimEmissionAdd, AudioLinkRimBrightnessBand, AudioLinkRimBrightnessAdd, (0.0 /*_RimClamp*/));
 				#endif
 				#endif
-				if ((0.0 /*_AlphaPremultiply*/))
+				if (_AlphaPremultiply)
 				{
 					poiFragData.baseColor *= saturate(poiFragData.alpha);
 				}
@@ -8657,7 +8660,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Outline/60e00e56ae1cb764f
 				{
 					poiFragData.alpha = 1;
 				}
-				clip(poiFragData.alpha - (0.5 /*_Cutoff*/));
+				clip(poiFragData.alpha - (0.0 /*_Cutoff*/));
 				if ((0.0 /*_Mode*/) == POI_MODE_CUTOUT && !(0.0 /*_AlphaToCoverage*/))
 				{
 					poiFragData.alpha = 1;
@@ -8707,6 +8710,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Outline/60e00e56ae1cb764f
  #define _RIM2STYLE_POIYOMI 
  #define _RIMSTYLE_POIYOMI 
  #define _STOCHASTICMODE_DELIOT_HEITZ 
+ #define PROP_CLIPPINGMASK 
  #define PROP_EMISSIONMAP 
  #define PROP_EMISSIONMASK 
  #define OPTIMIZER_ENABLED 
@@ -10396,7 +10400,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Outline/60e00e56ae1cb764f
 				{
 					poiFragData.alpha = 1;
 				}
-				clip(poiFragData.alpha - (0.5 /*_Cutoff*/));
+				clip(poiFragData.alpha - (0.0 /*_Cutoff*/));
 				return float4(poiFragData.finalColor, poiFragData.alpha) + POI_SAFE_RGB0;
 			}
 			ENDCG
