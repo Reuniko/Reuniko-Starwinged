@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controls:
   - name: GoGoGo
-    icon: {fileID: 2800000, guid: f3998131de85a12408698d86355c3aa4, type: 3}
+    icon: {fileID: 2800000, guid: 3ef485f382ce36b41b508aa940faf313, type: 3}
     type: 103
     parameter:
       name: 
@@ -30,7 +30,7 @@ MonoBehaviour:
       name: 
     value: 1
     style: 0
-    subMenu: {fileID: 11400000, guid: 8ed97fb259eee9e4d90bdacfdeed24b8, type: 2}
+    subMenu: {fileID: 11400000, guid: d5ae14c463b6b494494c2f5064089632, type: 2}
     subParameters: []
     labels: []
   - name: Fly
@@ -38,7 +38,7 @@ MonoBehaviour:
     type: 102
     parameter:
       name: VRCEmote
-    value: 210
+    value: 123
     style: 0
     subMenu: {fileID: 0}
     subParameters: []
@@ -90,7 +90,7 @@ MonoBehaviour:
       name: Trails
     value: 1
     style: 0
-    subMenu: {fileID: 11400000, guid: 09b31871da909304399bbff6d33b2298, type: 2}
+    subMenu: {fileID: 0}
     subParameters: []
     labels: []
   - name: Shield

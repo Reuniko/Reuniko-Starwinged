@@ -29,7 +29,7 @@ MonoBehaviour:
     valueType: 2
     saved: 1
     defaultValue: 0
-  - name: Go/JumpAndFall
+  - name: Go/Jump&Fall
     valueType: 2
     saved: 1
     defaultValue: 0
@@ -136,4 +136,36 @@ MonoBehaviour:
   - name: Curse
     valueType: 2
     saved: 1
+    defaultValue: 0
+  - name: Go/PoseRadial
+    valueType: 1
+    saved: 0
+    defaultValue: 0
+  - name: Go/StandIdle
+    valueType: 0
+    saved: 1
+    defaultValue: 0
+  - name: Go/CrouchIdle
+    valueType: 0
+    saved: 1
+    defaultValue: 12
+  - name: Go/ProneIdle
+    valueType: 0
+    saved: 1
+    defaultValue: 3
+  - name: Go/Swimming
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+  - name: Go/PuppetX
+    valueType: 1
+    saved: 0
+    defaultValue: 0
+  - name: Go/PuppetY
+    valueType: 1
+    saved: 0
+    defaultValue: 0
+  - name: Go/Height
+    valueType: 1
+    saved: 0
     defaultValue: 0
