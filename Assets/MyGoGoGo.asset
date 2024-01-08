@@ -24,7 +24,7 @@ MonoBehaviour:
     subParameters: []
     labels: []
   - name: Prone
-    icon: {fileID: 2800000, guid: d1b799f06cc121f468bef724f1a57a77, type: 3}
+    icon: {fileID: 2800000, guid: d481ae6f9a42a094a961f577e1c1a597, type: 3}
     type: 101
     parameter:
       name: VRCEmote
@@ -34,7 +34,7 @@ MonoBehaviour:
     subParameters: []
     labels: []
   - name: Lie Back 2
-    icon: {fileID: 2800000, guid: 6d18eca55992446409be5dfb7b4ff869, type: 3}
+    icon: {fileID: 2800000, guid: d1f7ec3111a098d40a6e7820b9d3ab23, type: 3}
     type: 101
     parameter:
       name: VRCEmote
@@ -44,7 +44,7 @@ MonoBehaviour:
     subParameters: []
     labels: []
   - name: Lie Side
-    icon: {fileID: 2800000, guid: 6e934d6337ba26b40b2fe5ca6ceef8b5, type: 3}
+    icon: {fileID: 2800000, guid: dd382363b44d48f4fb8a03263f7d3705, type: 3}
     type: 101
     parameter:
       name: VRCEmote
@@ -53,12 +53,12 @@ MonoBehaviour:
     subMenu: {fileID: 0}
     subParameters: []
     labels: []
-  - name: Female 3
-    icon: {fileID: 2800000, guid: aa5f4185612e804459263350195f8a4c, type: 3}
+  - name: Cross
+    icon: {fileID: 2800000, guid: 57839a06c8cafb8498b2e6fd529ae206, type: 3}
     type: 101
     parameter:
       name: VRCEmote
-    value: 249
+    value: 246
     style: 0
     subMenu: {fileID: 0}
     subParameters: []
@@ -68,7 +68,7 @@ MonoBehaviour:
     type: 101
     parameter:
       name: VRCEmote
-    value: 238
+    value: 226
     style: 0
     subMenu: {fileID: 0}
     subParameters: []

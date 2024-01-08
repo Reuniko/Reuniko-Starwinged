@@ -1092,6 +1092,11 @@ PrefabInstance:
       propertyPath: m_Sources.Array.data[0].sourceTransform
       value: 
       objectReference: {fileID: 747969232632470377}
+    - target: {fileID: 4660494482426688231, guid: 0331f36341a34cb49a05016f7d02ce86,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0331f36341a34cb49a05016f7d02ce86, type: 3}
 --- !u!4 &1128296713 stripped
@@ -2989,8 +2994,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   launchedFromSDKPipeline: 0
-  completedSDKPipeline: 0
-  blueprintId: avtr_63b61e99-9525-4bf3-b549-1ec8ae53602b
+  completedSDKPipeline: 1
+  blueprintId: avtr_3c766465-34b2-4e84-9dc1-0a70fe07187c
   contentType: 0
   assetBundleUnityVersion: 
   fallbackStatus: 1

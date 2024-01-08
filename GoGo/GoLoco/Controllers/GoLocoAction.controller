@@ -34819,7 +34819,7 @@ MonoBehaviour:
   - type: 0
     name: Go/Float
     source: 
-    value: 0.25
+    value: 0.05
     valueMin: 0
     valueMax: 0
     chance: 0
