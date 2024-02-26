@@ -46,7 +46,7 @@ MonoBehaviour:
     subParameters:
     - name: HAIR_HUE
     labels: []
-  - name: BASE
+  - name: BASE_HUE
     icon: {fileID: 2800000, guid: 30891e000b76dfc4db977fc2238911a0, type: 3}
     type: 203
     parameter:
@@ -55,7 +55,18 @@ MonoBehaviour:
     style: 0
     subMenu: {fileID: 0}
     subParameters:
-    - name: HUE_BASE
+    - name: BASE_HUE
+    labels: []
+  - name: BASE_SAT
+    icon: {fileID: 2800000, guid: 30891e000b76dfc4db977fc2238911a0, type: 3}
+    type: 203
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: BASE_SAT
     labels: []
   - name: RIM
     icon: {fileID: 2800000, guid: 30891e000b76dfc4db977fc2238911a0, type: 3}

@@ -22,6 +22,7 @@ Material:
     _EmissionStrengthAnimated: 1
     _MainHueShiftAnimated: 1
     _RimHueShiftAnimated: 1
+    _SaturationAnimated: 1
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3

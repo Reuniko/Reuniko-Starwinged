@@ -105,7 +105,11 @@ MonoBehaviour:
     valueType: 2
     saved: 1
     defaultValue: 1
-  - name: HUE_BASE
+  - name: BASE_HUE
+    valueType: 1
+    saved: 1
+    defaultValue: 0
+  - name: BASE_SAT
     valueType: 1
     saved: 1
     defaultValue: 0

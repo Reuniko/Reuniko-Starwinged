@@ -3617,7 +3617,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Outline/aebbd6215aec5c04a
 						poiFragData.baseColor = hueShift(poiFragData.baseColor, frac((shift - (1 - hueShiftAlpha.r) + (0.0 /*_MainHueShiftSpeed*/) * _Time.x)));
 					}
 				}
-				poiFragData.baseColor = lerp(poiFragData.baseColor, dot(poiFragData.baseColor, float3(0.3, 0.59, 0.11)), -((0.0 /*_Saturation*/)) * hueShiftAlpha.b);
+				poiFragData.baseColor = lerp(poiFragData.baseColor, dot(poiFragData.baseColor, float3(0.3, 0.59, 0.11)), -(_Saturation) * hueShiftAlpha.b);
 				poiFragData.baseColor = saturate(poiFragData.baseColor + (0.0 /*_MainBrightness*/) * hueShiftAlpha.g);
 				#endif
 				#if defined(PROP_CLIPPINGMASK) || !defined(OPTIMIZER_ENABLED)
@@ -6063,7 +6063,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Outline/aebbd6215aec5c04a
 						poiFragData.baseColor = hueShift(poiFragData.baseColor, frac((shift - (1 - hueShiftAlpha.r) + (0.0 /*_MainHueShiftSpeed*/) * _Time.x)));
 					}
 				}
-				poiFragData.baseColor = lerp(poiFragData.baseColor, dot(poiFragData.baseColor, float3(0.3, 0.59, 0.11)), -((0.0 /*_Saturation*/)) * hueShiftAlpha.b);
+				poiFragData.baseColor = lerp(poiFragData.baseColor, dot(poiFragData.baseColor, float3(0.3, 0.59, 0.11)), -(_Saturation) * hueShiftAlpha.b);
 				poiFragData.baseColor = saturate(poiFragData.baseColor + (0.0 /*_MainBrightness*/) * hueShiftAlpha.g);
 				#endif
 				#if defined(PROP_CLIPPINGMASK) || !defined(OPTIMIZER_ENABLED)
@@ -8771,7 +8771,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Outline/aebbd6215aec5c04a
 						poiFragData.baseColor = hueShift(poiFragData.baseColor, frac((shift - (1 - hueShiftAlpha.r) + (0.0 /*_MainHueShiftSpeed*/) * _Time.x)));
 					}
 				}
-				poiFragData.baseColor = lerp(poiFragData.baseColor, dot(poiFragData.baseColor, float3(0.3, 0.59, 0.11)), -((0.0 /*_Saturation*/)) * hueShiftAlpha.b);
+				poiFragData.baseColor = lerp(poiFragData.baseColor, dot(poiFragData.baseColor, float3(0.3, 0.59, 0.11)), -(_Saturation) * hueShiftAlpha.b);
 				poiFragData.baseColor = saturate(poiFragData.baseColor + (0.0 /*_MainBrightness*/) * hueShiftAlpha.g);
 				#endif
 				#if defined(PROP_CLIPPINGMASK) || !defined(OPTIMIZER_ENABLED)
@@ -10571,7 +10571,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Pro Outline/aebbd6215aec5c04a
 						poiFragData.baseColor = hueShift(poiFragData.baseColor, frac((shift - (1 - hueShiftAlpha.r) + (0.0 /*_MainHueShiftSpeed*/) * _Time.x)));
 					}
 				}
-				poiFragData.baseColor = lerp(poiFragData.baseColor, dot(poiFragData.baseColor, float3(0.3, 0.59, 0.11)), -((0.0 /*_Saturation*/)) * hueShiftAlpha.b);
+				poiFragData.baseColor = lerp(poiFragData.baseColor, dot(poiFragData.baseColor, float3(0.3, 0.59, 0.11)), -(_Saturation) * hueShiftAlpha.b);
 				poiFragData.baseColor = saturate(poiFragData.baseColor + (0.0 /*_MainBrightness*/) * hueShiftAlpha.g);
 				#endif
 				#if defined(PROP_CLIPPINGMASK) || !defined(OPTIMIZER_ENABLED)

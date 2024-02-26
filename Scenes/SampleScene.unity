@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.17555116, g: 0.2196604, b: 0.30198514, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1214,6 +1214,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3096774085627673444, guid: 90f3c204059541045aedc0fc2ce42139,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3096774085627673444, guid: 90f3c204059541045aedc0fc2ce42139,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.9999999
+      objectReference: {fileID: 0}
+    - target: {fileID: -3096774085627673444, guid: 90f3c204059541045aedc0fc2ce42139,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -444598690673819732, guid: 90f3c204059541045aedc0fc2ce42139,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.99999934
+      objectReference: {fileID: 0}
+    - target: {fileID: -444598690673819732, guid: 90f3c204059541045aedc0fc2ce42139,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -444598690673819732, guid: 90f3c204059541045aedc0fc2ce42139,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.9999999
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 90f3c204059541045aedc0fc2ce42139,
         type: 3}
@@ -4060,8 +4090,10 @@ MonoBehaviour:
     name: anim_HUE_EFFECTS
   - hash: 588199375
     name: LSD
-  - hash: -1740277307
+  - hash: -1277761450
     name: anim_HUE_BASE
+  - hash: -1936117438
+    name: anim_BASE_SAT
   - hash: -1966717758
     name: anim_HUE_RIM
   - hash: -334380510
